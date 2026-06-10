@@ -737,61 +737,63 @@ const LoginScreen: React.FC = () => {
 
   return (
     <div className="login-screen">
-      <div className="login-logo">🌿</div>
-      <h1 className="login-title">마음 치유의 방</h1>
-      <div className="login-subtitle">Cozy & Calm Mind Healing Room</div>
-      <p className="login-desc">
-        당신만을 위한 조용하고 평온한 치유 공간입니다.<br />
-        소셜 로그인을 통해 3초 만에 안전하게 입장하세요. 🌱
-      </p>
-      
-      <div className="login-buttons-container">
-        <button
-          onClick={() => triggerLogin('kakao')}
-          disabled={loggingIn !== null}
-          style={{
-            width: '100%',
-            height: '52px',
-            background: '#FEE500',
-            color: '#191919',
-            border: 'none',
-            borderRadius: 'var(--radius-md)',
-            fontSize: '15px',
-            fontWeight: 700,
-            cursor: 'pointer',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '10px',
-            boxShadow: '0 4px 12px rgba(254, 229, 0, 0.15)',
-            transition: 'all 0.2s ease'
-          }}
-        >
-          {loggingIn === 'kakao' ? '잠시만 기다려주세요... 🌿' : '💬 카카오로 3초 간편 로그인'}
-        </button>
-        <button
-          onClick={() => triggerLogin('google')}
-          disabled={loggingIn !== null}
-          style={{
-            width: '100%',
-            height: '52px',
-            background: '#FFFFFF',
-            color: 'var(--text-main)',
-            border: '1.5px solid #e2e8f0',
-            borderRadius: 'var(--radius-md)',
-            fontSize: '15px',
-            fontWeight: 700,
-            cursor: 'pointer',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            gap: '10px',
-            boxShadow: '0 4px 12px rgba(0, 0, 0, 0.02)',
-            transition: 'all 0.2s ease'
-          }}
-        >
-          {loggingIn === 'google' ? '잠시만 기다려주세요... 🌿' : '🌐 Google 계정으로 로그인'}
-        </button>
+      <div className="login-card">
+        <div className="login-logo">🌿</div>
+        <h1 className="login-title">마음 치유의 방</h1>
+        <div className="login-subtitle">Cozy & Calm Mind Healing Room</div>
+        <p className="login-desc">
+          당신만을 위한 조용하고 평온한 치유 공간입니다.<br />
+          소셜 로그인을 통해 3초 만에 안전하게 입장하세요. 🌱
+        </p>
+        
+        <div className="login-buttons-container">
+          <button
+            onClick={() => triggerLogin('kakao')}
+            disabled={loggingIn !== null}
+            style={{
+              width: '100%',
+              height: '52px',
+              background: '#FEE500',
+              color: '#191919',
+              border: 'none',
+              borderRadius: 'var(--radius-md)',
+              fontSize: '15px',
+              fontWeight: 700,
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '10px',
+              boxShadow: '0 4px 12px rgba(254, 229, 0, 0.15)',
+              transition: 'all 0.2s ease'
+            }}
+          >
+            {loggingIn === 'kakao' ? '잠시만 기다려주세요... 🌿' : '💬 카카오로 3초 간편 로그인'}
+          </button>
+          <button
+            onClick={() => triggerLogin('google')}
+            disabled={loggingIn !== null}
+            style={{
+              width: '100%',
+              height: '52px',
+              background: '#FFFFFF',
+              color: 'var(--text-main)',
+              border: '1.5px solid #e2e8f0',
+              borderRadius: 'var(--radius-md)',
+              fontSize: '15px',
+              fontWeight: 700,
+              cursor: 'pointer',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              gap: '10px',
+              boxShadow: '0 4px 12px rgba(0, 0, 0, 0.02)',
+              transition: 'all 0.2s ease'
+            }}
+          >
+            {loggingIn === 'google' ? '잠시만 기다려주세요... 🌿' : '🌐 Google 계정으로 로그인'}
+          </button>
+        </div>
       </div>
     </div>
   );
@@ -1018,11 +1020,7 @@ const HealingRoomApp: React.FC = () => {
 
   // 비로그인 사용자에게는 전용 로그인 화면 노출
   if (!user) {
-    return (
-      <div className="chat-container">
-        <LoginScreen />
-      </div>
-    );
+    return <LoginScreen />;
   }
 
   return (
