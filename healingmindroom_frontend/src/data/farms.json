@@ -1,0 +1,2603 @@
+[
+  {
+    "id": "farm-001",
+    "name": "별빛푸른 쉼터",
+    "location": "제주특별자치도 서귀포시 청정로 229",
+    "area": "제주",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "수제 맥주 양조",
+      "바비큐 파티"
+    ],
+    "contact": "064-2386-2679",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-002",
+    "name": "황금초록 치유농장",
+    "location": "경기도 포천시 퇴계로 96",
+    "area": "경기",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "수제 맥주 양조",
+      "바비큐 파티"
+    ],
+    "contact": "031-3682-4811",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-003",
+    "name": "푸른은빛 힐링센터",
+    "location": "경상남도 하동군 햇살로 430",
+    "area": "경상",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "수제 맥주 양조",
+      "바비큐 파티"
+    ],
+    "contact": "055-3711-8359",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-004",
+    "name": "소나무구름 치유농장",
+    "location": "충청남도 공주시 산림로 715",
+    "area": "충청",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "청년 리프레시 캠프"
+    ],
+    "contact": "041-7024-6574",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-005",
+    "name": "자연소나무 체험마을",
+    "location": "강원도 홍천군 평화로 95",
+    "area": "강원",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "청년 리프레시 캠프"
+    ],
+    "contact": "033-6324-2584",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-006",
+    "name": "황금햇살 치유농장",
+    "location": "전라남도 순천시 별빛로 550",
+    "area": "전라",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "스트레스 완화 명상",
+      "허브차 체험"
+    ],
+    "contact": "061-2145-7201",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-007",
+    "name": "햇살구름 산림치유원",
+    "location": "경상북도 영주시 힐링로 592",
+    "area": "경상",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "스트레스 완화 명상",
+      "허브차 체험"
+    ],
+    "contact": "054-3250-2139",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-008",
+    "name": "자연소나무 쉼터",
+    "location": "제주특별자치도 제주시 평화로 876",
+    "area": "제주",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "자연 속 크로스핏",
+      "요가"
+    ],
+    "contact": "064-3914-2654",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-009",
+    "name": "하늘청정 체험마을",
+    "location": "충청남도 공주시 산림로 380",
+    "area": "충청",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "청년 리프레시 캠프"
+    ],
+    "contact": "041-5920-4432",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-010",
+    "name": "청정별빛 산림치유원",
+    "location": "제주특별자치도 제주시 산림로 547",
+    "area": "제주",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "자연 속 크로스핏",
+      "요가"
+    ],
+    "contact": "064-4110-3677",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-011",
+    "name": "햇살이슬 에코팜",
+    "location": "전라남도 보성군 청정로 702",
+    "area": "전라",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "산악 트레킹",
+      "숲속 액티비티"
+    ],
+    "contact": "061-5413-1916",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-012",
+    "name": "소나무바람 수목원",
+    "location": "경기도 가평군 자연로 68",
+    "area": "경기",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "산악 트레킹",
+      "숲속 액티비티"
+    ],
+    "contact": "031-3556-6155",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-013",
+    "name": "하늘초록 스테이",
+    "location": "제주특별자치도 서귀포시 산림로 272",
+    "area": "제주",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "수제 맥주 양조",
+      "바비큐 파티"
+    ],
+    "contact": "064-2387-5040",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-014",
+    "name": "햇살달빛 산림치유원",
+    "location": "경상북도 영주시 수목원로 920",
+    "area": "경상",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "청년 리프레시 캠프"
+    ],
+    "contact": "054-9660-7543",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-015",
+    "name": "마음은빛 스테이",
+    "location": "충청남도 부여군 평화로 774",
+    "area": "충청",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "산악 트레킹",
+      "숲속 액티비티"
+    ],
+    "contact": "041-871-2796",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-016",
+    "name": "마음소나무 수목원",
+    "location": "제주특별자치도 서귀포시 구름로 66",
+    "area": "제주",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "수제 맥주 양조",
+      "바비큐 파티"
+    ],
+    "contact": "064-6404-7252",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-017",
+    "name": "은빛햇살 에코팜",
+    "location": "전라북도 완주군 퇴계로 697",
+    "area": "전라",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "청년 리프레시 캠프"
+    ],
+    "contact": "063-1976-9797",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-018",
+    "name": "바람별빛 쉼터",
+    "location": "제주특별자치도 서귀포시 수목원로 162",
+    "area": "제주",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "청년 리프레시 캠프"
+    ],
+    "contact": "064-7533-1053",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-019",
+    "name": "소나무마음 에코팜",
+    "location": "경상북도 문경시 평화로 892",
+    "area": "경상",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "수제 맥주 양조",
+      "바비큐 파티"
+    ],
+    "contact": "054-4989-9317",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-020",
+    "name": "마음바람 농원",
+    "location": "강원도 정선군 햇살로 977",
+    "area": "강원",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "수제 맥주 양조",
+      "바비큐 파티"
+    ],
+    "contact": "033-8789-1009",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-021",
+    "name": "하늘푸른 치유의숲",
+    "location": "전라남도 담양군 힐링로 900",
+    "area": "전라",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "스트레스 완화 명상",
+      "허브차 체험"
+    ],
+    "contact": "061-5138-4923",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-022",
+    "name": "이슬황금 치유의숲",
+    "location": "충청남도 부여군 평화로 750",
+    "area": "충청",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "수제 맥주 양조",
+      "바비큐 파티"
+    ],
+    "contact": "041-8062-2133",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-023",
+    "name": "마음청정 스테이",
+    "location": "강원도 홍천군 햇살로 170",
+    "area": "강원",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "수제 맥주 양조",
+      "바비큐 파티"
+    ],
+    "contact": "033-4442-9645",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-024",
+    "name": "자연이슬 에코팜",
+    "location": "전라북도 순창군 청정로 731",
+    "area": "전라",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "청년 리프레시 캠프"
+    ],
+    "contact": "063-5207-7537",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-025",
+    "name": "이슬은빛 스테이",
+    "location": "전라북도 완주군 평화로 254",
+    "area": "전라",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "청년 리프레시 캠프"
+    ],
+    "contact": "063-3781-2049",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-026",
+    "name": "황금은빛 힐링센터",
+    "location": "경기도 양평군 구름로 226",
+    "area": "경기",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "스트레스 완화 명상",
+      "허브차 체험"
+    ],
+    "contact": "031-217-2163",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-027",
+    "name": "별빛이슬 치유농장",
+    "location": "충청남도 부여군 힐링로 73",
+    "area": "충청",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "청년 리프레시 캠프"
+    ],
+    "contact": "041-8523-4899",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-028",
+    "name": "하늘자연 에코팜",
+    "location": "제주특별자치도 제주시 산림로 741",
+    "area": "제주",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "산악 트레킹",
+      "숲속 액티비티"
+    ],
+    "contact": "064-9455-8744",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-029",
+    "name": "소나무초록 힐링센터",
+    "location": "경상북도 안동시 평화로 100",
+    "area": "경상",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "자연 속 크로스핏",
+      "요가"
+    ],
+    "contact": "054-7162-6804",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-030",
+    "name": "하늘구름 치유농장",
+    "location": "전라북도 순창군 평화로 63",
+    "area": "전라",
+    "description": "[30대 맞춤] 치열한 경쟁과 직장 생활의 압박으로 지친 30대를 위한 공간입니다. 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "활동",
+      "자연"
+    ],
+    "targetAges": [
+      "30s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "스트레스 완화 명상",
+      "허브차 체험"
+    ],
+    "contact": "063-6696-6559",
+    "categoryId": 1
+  },
+  {
+    "id": "farm-031",
+    "name": "자연자연 에코팜",
+    "location": "충청남도 부여군 별빛로 144",
+    "area": "충청",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "가족 단위 주말 농장 체험"
+    ],
+    "contact": "041-7012-4006",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-032",
+    "name": "자연구름 치유의숲",
+    "location": "전라북도 완주군 별빛로 828",
+    "area": "전라",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "번아웃 극복 요가",
+      "감귤 수확"
+    ],
+    "contact": "063-9116-2604",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-033",
+    "name": "은빛구름 치유농장",
+    "location": "제주특별자치도 서귀포시 평화로 949",
+    "area": "제주",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "싱잉볼 명상",
+      "다도 체험"
+    ],
+    "contact": "064-3972-3724",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-034",
+    "name": "하늘자연 수목원",
+    "location": "경상북도 안동시 퇴계로 169",
+    "area": "경상",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "싱잉볼 명상",
+      "다도 체험"
+    ],
+    "contact": "054-6309-1035",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-035",
+    "name": "이슬소나무 스테이",
+    "location": "충청남도 공주시 자연로 434",
+    "area": "충청",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "디지털 디톡스",
+      "숲속 멍때리기"
+    ],
+    "contact": "041-9205-8973",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-036",
+    "name": "햇살자연 치유농장",
+    "location": "강원도 정선군 구름로 754",
+    "area": "강원",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "가족 단위 주말 농장 체험"
+    ],
+    "contact": "033-8983-1998",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-037",
+    "name": "푸른황금 스테이",
+    "location": "경기도 가평군 햇살로 942",
+    "area": "경기",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "번아웃 극복 요가",
+      "감귤 수확"
+    ],
+    "contact": "031-8801-3579",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-038",
+    "name": "별빛구름 농원",
+    "location": "경상북도 문경시 평화로 610",
+    "area": "경상",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "싱잉볼 명상",
+      "다도 체험"
+    ],
+    "contact": "054-1213-4853",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-039",
+    "name": "이슬황금 힐링센터",
+    "location": "강원도 평창군 구름로 609",
+    "area": "강원",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "싱잉볼 명상",
+      "다도 체험"
+    ],
+    "contact": "033-751-2343",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-040",
+    "name": "황금황금 에코팜",
+    "location": "제주특별자치도 제주시 힐링로 958",
+    "area": "제주",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "가족 단위 주말 농장 체험"
+    ],
+    "contact": "064-4372-4346",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-041",
+    "name": "햇살초록 농원",
+    "location": "충청남도 부여군 자연로 469",
+    "area": "충청",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "번아웃 극복 요가",
+      "감귤 수확"
+    ],
+    "contact": "041-5280-2188",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-042",
+    "name": "황금황금 치유의숲",
+    "location": "전라북도 완주군 평화로 551",
+    "area": "전라",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "가족 단위 주말 농장 체험"
+    ],
+    "contact": "063-3592-9288",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-043",
+    "name": "이슬바람 치유의숲",
+    "location": "강원도 홍천군 청정로 379",
+    "area": "강원",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "싱잉볼 명상",
+      "다도 체험"
+    ],
+    "contact": "033-4769-3584",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-044",
+    "name": "달빛햇살 산림치유원",
+    "location": "경상북도 영주시 햇살로 9",
+    "area": "경상",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "번아웃 극복 요가",
+      "감귤 수확"
+    ],
+    "contact": "054-9186-5905",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-045",
+    "name": "햇살별빛 치유의숲",
+    "location": "강원도 홍천군 햇살로 160",
+    "area": "강원",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "심신 안정 아로마 테라피"
+    ],
+    "contact": "033-4562-5616",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-046",
+    "name": "달빛바람 힐링센터",
+    "location": "강원도 정선군 자연로 518",
+    "area": "강원",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "번아웃 극복 요가",
+      "감귤 수확"
+    ],
+    "contact": "033-8104-5114",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-047",
+    "name": "청정초록 쉼터",
+    "location": "경기도 포천시 퇴계로 4",
+    "area": "경기",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "가족 단위 주말 농장 체험"
+    ],
+    "contact": "031-5564-3143",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-048",
+    "name": "달빛하늘 에코팜",
+    "location": "강원도 춘천시 수목원로 575",
+    "area": "강원",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "번아웃 극복 요가",
+      "감귤 수확"
+    ],
+    "contact": "033-258-2832",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-049",
+    "name": "은빛푸른 체험마을",
+    "location": "강원도 홍천군 구름로 566",
+    "area": "강원",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "디지털 디톡스",
+      "숲속 멍때리기"
+    ],
+    "contact": "033-2526-8041",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-050",
+    "name": "햇살바람 치유농장",
+    "location": "경기도 가평군 힐링로 216",
+    "area": "경기",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "가족 단위 주말 농장 체험"
+    ],
+    "contact": "031-4188-2684",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-051",
+    "name": "이슬구름 수목원",
+    "location": "경상북도 영주시 구름로 768",
+    "area": "경상",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "디지털 디톡스",
+      "숲속 멍때리기"
+    ],
+    "contact": "054-2632-4878",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-052",
+    "name": "이슬초록 치유농장",
+    "location": "강원도 춘천시 산림로 755",
+    "area": "강원",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "디지털 디톡스",
+      "숲속 멍때리기"
+    ],
+    "contact": "033-5542-7745",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-053",
+    "name": "마음소나무 치유의숲",
+    "location": "충청남도 공주시 수목원로 894",
+    "area": "충청",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "디지털 디톡스",
+      "숲속 멍때리기"
+    ],
+    "contact": "041-734-8711",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-054",
+    "name": "구름이슬 스테이",
+    "location": "강원도 정선군 힐링로 313",
+    "area": "강원",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "번아웃 극복 요가",
+      "감귤 수확"
+    ],
+    "contact": "033-3828-4652",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-055",
+    "name": "자연초록 체험마을",
+    "location": "제주특별자치도 제주시 자연로 886",
+    "area": "제주",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "가족 단위 주말 농장 체험"
+    ],
+    "contact": "064-1237-5573",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-056",
+    "name": "은빛초록 에코팜",
+    "location": "제주특별자치도 서귀포시 힐링로 962",
+    "area": "제주",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "가족 단위 주말 농장 체험"
+    ],
+    "contact": "064-552-2889",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-057",
+    "name": "황금햇살 치유농장",
+    "location": "강원도 춘천시 평화로 611",
+    "area": "강원",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "가족 단위 주말 농장 체험"
+    ],
+    "contact": "033-7219-6663",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-058",
+    "name": "황금은빛 치유의숲",
+    "location": "전라북도 순창군 수목원로 922",
+    "area": "전라",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "가족 단위 주말 농장 체험"
+    ],
+    "contact": "063-9546-4114",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-059",
+    "name": "달빛초록 치유농장",
+    "location": "경기도 가평군 햇살로 948",
+    "area": "경기",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "가족 단위 주말 농장 체험"
+    ],
+    "contact": "031-8921-4228",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-060",
+    "name": "별빛청정 체험마을",
+    "location": "전라북도 순창군 구름로 322",
+    "area": "전라",
+    "description": "[40대 맞춤] 끊임없는 업무와 복잡한 인간관계로 번아웃에 빠진 40대를 위해 준비되었습니다. 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "40s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "심신 안정 아로마 테라피"
+    ],
+    "contact": "063-2141-5920",
+    "categoryId": 2
+  },
+  {
+    "id": "farm-061",
+    "name": "청정초록 체험마을",
+    "location": "충청북도 제천시 수목원로 714",
+    "area": "충청",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "자연 밥상 요리 교실",
+      "산책"
+    ],
+    "contact": "043-4944-3085",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-062",
+    "name": "청정초록 농원",
+    "location": "전라북도 순창군 구름로 583",
+    "area": "전라",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "숲 해설가 동반 심층 트레킹"
+    ],
+    "contact": "063-5030-7653",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-063",
+    "name": "햇살햇살 힐링센터",
+    "location": "경기도 양평군 수목원로 805",
+    "area": "경기",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "목공예 체험",
+      "전원생활 실습"
+    ],
+    "contact": "031-9602-6279",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-064",
+    "name": "하늘청정 힐링센터",
+    "location": "전라북도 완주군 햇살로 485",
+    "area": "전라",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "제2의 인생 설계 멘토링 캠프"
+    ],
+    "contact": "063-2880-2389",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-065",
+    "name": "청정청정 산림치유원",
+    "location": "경상북도 문경시 힐링로 96",
+    "area": "경상",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "자연 밥상 요리 교실",
+      "산책"
+    ],
+    "contact": "054-3948-6085",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-066",
+    "name": "마음푸른 치유농장",
+    "location": "강원도 정선군 청정로 487",
+    "area": "강원",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "목공예 체험",
+      "전원생활 실습"
+    ],
+    "contact": "033-1293-8461",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-067",
+    "name": "황금자연 수목원",
+    "location": "제주특별자치도 서귀포시 별빛로 410",
+    "area": "제주",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "귀농귀촌 기초 교육",
+      "텃밭 가꾸기"
+    ],
+    "contact": "064-4097-3417",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-068",
+    "name": "소나무초록 힐링센터",
+    "location": "강원도 평창군 산림로 824",
+    "area": "강원",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "귀농귀촌 기초 교육",
+      "텃밭 가꾸기"
+    ],
+    "contact": "033-8586-8611",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-069",
+    "name": "자연이슬 치유의숲",
+    "location": "경상북도 영주시 별빛로 137",
+    "area": "경상",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "숲 해설가 동반 심층 트레킹"
+    ],
+    "contact": "054-7712-9702",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-070",
+    "name": "바람소나무 스테이",
+    "location": "경상남도 하동군 구름로 835",
+    "area": "경상",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "숲 해설가 동반 심층 트레킹"
+    ],
+    "contact": "055-8370-7991",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-071",
+    "name": "이슬마음 스테이",
+    "location": "전라북도 완주군 별빛로 266",
+    "area": "전라",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "숲 해설가 동반 심층 트레킹"
+    ],
+    "contact": "063-4150-5543",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-072",
+    "name": "청정자연 쉼터",
+    "location": "경상북도 안동시 별빛로 80",
+    "area": "경상",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "제2의 인생 설계 멘토링 캠프"
+    ],
+    "contact": "054-4781-4841",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-073",
+    "name": "바람이슬 에코팜",
+    "location": "전라남도 담양군 평화로 142",
+    "area": "전라",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "목공예 체험",
+      "전원생활 실습"
+    ],
+    "contact": "061-2571-4788",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-074",
+    "name": "달빛자연 치유의숲",
+    "location": "강원도 홍천군 수목원로 418",
+    "area": "강원",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "목공예 체험",
+      "전원생활 실습"
+    ],
+    "contact": "033-5521-9890",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-075",
+    "name": "푸른자연 수목원",
+    "location": "전라북도 순창군 수목원로 927",
+    "area": "전라",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "숲 해설가 동반 심층 트레킹"
+    ],
+    "contact": "063-9669-1320",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-076",
+    "name": "하늘푸른 체험마을",
+    "location": "전라남도 보성군 자연로 772",
+    "area": "전라",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "숲 해설가 동반 심층 트레킹"
+    ],
+    "contact": "061-6489-7865",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-077",
+    "name": "소나무황금 힐링센터",
+    "location": "경상북도 영주시 별빛로 225",
+    "area": "경상",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "목공예 체험",
+      "전원생활 실습"
+    ],
+    "contact": "054-4571-8140",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-078",
+    "name": "초록바람 수목원",
+    "location": "경기도 양평군 산림로 861",
+    "area": "경기",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "숲 해설가 동반 심층 트레킹"
+    ],
+    "contact": "031-7757-3091",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-079",
+    "name": "푸른이슬 수목원",
+    "location": "경상북도 영주시 구름로 578",
+    "area": "경상",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "목공예 체험",
+      "전원생활 실습"
+    ],
+    "contact": "054-544-2375",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-080",
+    "name": "구름하늘 농원",
+    "location": "강원도 홍천군 퇴계로 267",
+    "area": "강원",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "자연 밥상 요리 교실",
+      "산책"
+    ],
+    "contact": "033-6311-6363",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-081",
+    "name": "바람바람 수목원",
+    "location": "전라북도 완주군 자연로 771",
+    "area": "전라",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "귀농귀촌 기초 교육",
+      "텃밭 가꾸기"
+    ],
+    "contact": "063-7006-5133",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-082",
+    "name": "푸른달빛 에코팜",
+    "location": "경상북도 안동시 퇴계로 975",
+    "area": "경상",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "귀농귀촌 기초 교육",
+      "텃밭 가꾸기"
+    ],
+    "contact": "054-5833-4673",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-083",
+    "name": "푸른소나무 치유농장",
+    "location": "제주특별자치도 서귀포시 청정로 205",
+    "area": "제주",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "자연 밥상 요리 교실",
+      "산책"
+    ],
+    "contact": "064-433-3496",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-084",
+    "name": "하늘청정 치유의숲",
+    "location": "강원도 홍천군 구름로 971",
+    "area": "강원",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "제2의 인생 설계 멘토링 캠프"
+    ],
+    "contact": "033-3671-8619",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-085",
+    "name": "마음황금 산림치유원",
+    "location": "전라남도 순천시 평화로 797",
+    "area": "전라",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "귀농귀촌 기초 교육",
+      "텃밭 가꾸기"
+    ],
+    "contact": "061-2783-6096",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-086",
+    "name": "푸른이슬 쉼터",
+    "location": "경상남도 남해군 구름로 694",
+    "area": "경상",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "자연 밥상 요리 교실",
+      "산책"
+    ],
+    "contact": "055-6249-7498",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-087",
+    "name": "황금달빛 힐링센터",
+    "location": "경기도 포천시 평화로 714",
+    "area": "경기",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "숲 해설가 동반 심층 트레킹"
+    ],
+    "contact": "031-5041-2983",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-088",
+    "name": "바람은빛 수목원",
+    "location": "경기도 가평군 힐링로 71",
+    "area": "경기",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "귀농귀촌 기초 교육",
+      "텃밭 가꾸기"
+    ],
+    "contact": "031-8389-6590",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-089",
+    "name": "구름하늘 치유의숲",
+    "location": "전라북도 순창군 수목원로 984",
+    "area": "전라",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "자연 밥상 요리 교실",
+      "산책"
+    ],
+    "contact": "063-6034-8532",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-090",
+    "name": "마음달빛 에코팜",
+    "location": "전라북도 순창군 자연로 631",
+    "area": "전라",
+    "description": "[50대 맞춤] 은퇴를 앞두고 제2의 인생을 고민하는 50대에게 최적화된 곳입니다. 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "자연",
+      "활동"
+    ],
+    "targetAges": [
+      "50s"
+    ],
+    "waveType": "theta",
+    "programs": [
+      "목공예 체험",
+      "전원생활 실습"
+    ],
+    "contact": "063-8917-8921",
+    "categoryId": 3
+  },
+  {
+    "id": "farm-091",
+    "name": "구름달빛 산림치유원",
+    "location": "전라북도 순창군 자연로 331",
+    "area": "전라",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "반려식물 키우기",
+      "미술 치료"
+    ],
+    "contact": "063-4122-2419",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-092",
+    "name": "자연소나무 스테이",
+    "location": "전라북도 완주군 구름로 625",
+    "area": "전라",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "시니어 건강 증진 산책",
+      "원예 치료"
+    ],
+    "contact": "063-6309-6511",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-093",
+    "name": "구름바람 농원",
+    "location": "경상북도 안동시 별빛로 218",
+    "area": "경상",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "반려식물 키우기",
+      "미술 치료"
+    ],
+    "contact": "054-5913-5232",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-094",
+    "name": "이슬황금 쉼터",
+    "location": "충청남도 공주시 햇살로 11",
+    "area": "충청",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "시니어 건강 증진 산책",
+      "원예 치료"
+    ],
+    "contact": "041-8564-4130",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-095",
+    "name": "달빛초록 스테이",
+    "location": "충청남도 부여군 햇살로 777",
+    "area": "충청",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "어르신 맞춤형 온천 테라피"
+    ],
+    "contact": "041-4037-8800",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-096",
+    "name": "소나무푸른 치유의숲",
+    "location": "전라북도 완주군 자연로 227",
+    "area": "전라",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "반려식물 키우기",
+      "미술 치료"
+    ],
+    "contact": "063-6725-4986",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-097",
+    "name": "황금바람 스테이",
+    "location": "제주특별자치도 제주시 햇살로 544",
+    "area": "제주",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "추억 회상",
+      "힐링 음악회"
+    ],
+    "contact": "064-5732-7971",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-098",
+    "name": "바람달빛 스테이",
+    "location": "전라남도 담양군 자연로 314",
+    "area": "전라",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "시니어 건강 증진 산책",
+      "원예 치료"
+    ],
+    "contact": "061-4218-4777",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-099",
+    "name": "바람별빛 에코팜",
+    "location": "강원도 정선군 산림로 197",
+    "area": "강원",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "반려식물 키우기",
+      "미술 치료"
+    ],
+    "contact": "033-3645-8933",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-100",
+    "name": "소나무은빛 산림치유원",
+    "location": "경상남도 남해군 자연로 103",
+    "area": "경상",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "전통 장 담그기",
+      "한방 족욕"
+    ],
+    "contact": "055-3280-5853",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-101",
+    "name": "마음햇살 치유농장",
+    "location": "전라남도 순천시 햇살로 130",
+    "area": "전라",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "시니어 건강 증진 산책",
+      "원예 치료"
+    ],
+    "contact": "061-4594-1745",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-102",
+    "name": "햇살달빛 농원",
+    "location": "경상북도 영주시 별빛로 106",
+    "area": "경상",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "어르신 맞춤형 온천 테라피"
+    ],
+    "contact": "054-300-5658",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-103",
+    "name": "하늘바람 농원",
+    "location": "경상북도 안동시 퇴계로 259",
+    "area": "경상",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "시니어 건강 증진 산책",
+      "원예 치료"
+    ],
+    "contact": "054-7927-2869",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-104",
+    "name": "하늘별빛 산림치유원",
+    "location": "전라남도 보성군 퇴계로 156",
+    "area": "전라",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "시니어 건강 증진 산책",
+      "원예 치료"
+    ],
+    "contact": "061-2544-5978",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-105",
+    "name": "별빛은빛 수목원",
+    "location": "충청남도 부여군 구름로 611",
+    "area": "충청",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "어르신 맞춤형 온천 테라피"
+    ],
+    "contact": "041-3797-9561",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-106",
+    "name": "이슬하늘 쉼터",
+    "location": "전라북도 완주군 구름로 440",
+    "area": "전라",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "추억 회상",
+      "힐링 음악회"
+    ],
+    "contact": "063-5103-1986",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-107",
+    "name": "소나무자연 힐링센터",
+    "location": "강원도 평창군 자연로 677",
+    "area": "강원",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "전통 장 담그기",
+      "한방 족욕"
+    ],
+    "contact": "033-1430-3573",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-108",
+    "name": "은빛별빛 농원",
+    "location": "강원도 춘천시 퇴계로 419",
+    "area": "강원",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "반려식물 키우기",
+      "미술 치료"
+    ],
+    "contact": "033-7481-8699",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-109",
+    "name": "자연햇살 쉼터",
+    "location": "경기도 가평군 별빛로 73",
+    "area": "경기",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "추억 회상",
+      "힐링 음악회"
+    ],
+    "contact": "031-3924-5334",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-110",
+    "name": "소나무이슬 힐링센터",
+    "location": "제주특별자치도 제주시 수목원로 118",
+    "area": "제주",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "전통 장 담그기",
+      "한방 족욕"
+    ],
+    "contact": "064-9022-4683",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-111",
+    "name": "구름마음 치유의숲",
+    "location": "충청남도 공주시 퇴계로 170",
+    "area": "충청",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1500937386664-56d1dfef3854?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "어르신 맞춤형 온천 테라피"
+    ],
+    "contact": "041-5139-5728",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-112",
+    "name": "하늘달빛 쉼터",
+    "location": "강원도 평창군 수목원로 966",
+    "area": "강원",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1545231027-637d2f6210f8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "추억 회상",
+      "힐링 음악회"
+    ],
+    "contact": "033-4560-9199",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-113",
+    "name": "하늘별빛 산림치유원",
+    "location": "경상북도 안동시 퇴계로 911",
+    "area": "경상",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1448375240586-882707db888b?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "추억 회상",
+      "힐링 음악회"
+    ],
+    "contact": "054-7178-6280",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-114",
+    "name": "푸른별빛 힐링센터",
+    "location": "충청남도 공주시 구름로 602",
+    "area": "충청",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "추억 회상",
+      "힐링 음악회"
+    ],
+    "contact": "041-439-5415",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-115",
+    "name": "소나무소나무 농원",
+    "location": "경기도 가평군 별빛로 532",
+    "area": "경기",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1592417817098-8f3d6eb19675?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "전통 장 담그기",
+      "한방 족욕"
+    ],
+    "contact": "031-7345-5557",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-116",
+    "name": "초록청정 스테이",
+    "location": "경상남도 남해군 평화로 482",
+    "area": "경상",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "반려식물 키우기",
+      "미술 치료"
+    ],
+    "contact": "055-5800-7690",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-117",
+    "name": "청정별빛 농원",
+    "location": "전라남도 담양군 힐링로 422",
+    "area": "전라",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1515150144380-bca9f1650ed9?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "어르신 맞춤형 온천 테라피"
+    ],
+    "contact": "061-8217-5722",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-118",
+    "name": "푸른하늘 치유의숲",
+    "location": "경상북도 영주시 힐링로 259",
+    "area": "경상",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1484557052118-f32bd25b45b5?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "어르신 맞춤형 온천 테라피"
+    ],
+    "contact": "054-5396-2899",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-119",
+    "name": "구름푸른 에코팜",
+    "location": "경상북도 문경시 별빛로 424",
+    "area": "경상",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1578749556568-bc2c40e68b61?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "추억 회상",
+      "힐링 음악회"
+    ],
+    "contact": "054-988-4073",
+    "categoryId": 4
+  },
+  {
+    "id": "farm-120",
+    "name": "황금소나무 스테이",
+    "location": "전라남도 순천시 별빛로 779",
+    "area": "전라",
+    "description": "[60대 맞춤] 은퇴 후 찾아오는 외로움과 신체적 변화로 힘들어하시는 60대 어르신들을 위한 힐링 공간입니다. 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
+    "imageUrl": "https://images.unsplash.com/photo-1546842931-886c185b4c8c?q=80&w=600&auto=format&fit=crop",
+    "themes": [
+      "안정",
+      "자연"
+    ],
+    "targetAges": [
+      "60s"
+    ],
+    "waveType": "alpha",
+    "programs": [
+      "반려식물 키우기",
+      "미술 치료"
+    ],
+    "contact": "061-945-4335",
+    "categoryId": 4
+  }
+]

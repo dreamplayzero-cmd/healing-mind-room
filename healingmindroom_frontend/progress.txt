@@ -1,0 +1,10 @@
+# Healing Mind Room Frontend MVP — Progress & Lessons Learned
+
+## 💡 Gotcha & Tips
+- **Vite 환경변수 접두사 주의**: Vite 프로젝트에서 브라우저 단에 환경변수를 바인딩하려면 무조건 `VITE_` 접두사를 붙여야 합니다. (예: `VITE_NLP_API_KEY`)
+- **로컬 파일 매칭 데이터셋**: 120개 농장 데이터를 브라우저에서 직접 파싱하므로, 용량을 가볍게 유지하고 `farm-001`, `farm-002` 등의 일정한 ID 스키마를 고수해야 합니다.
+- **30~60대 UI 접근성**: 폰트 사이즈(최소 16px)와 버튼 최소 터치 영역(48px)은 기본 레이아웃 설계 단계에서 유틸리티 클래스로 강제 지정해야 스타일 혼선이 없습니다.
+- **아티팩트 경로 주의**: Antigravity 아티팩트는 반드시 `C:\Users\User\.gemini\antigravity\brain\<conversation-id>/` 하위에 생성되어야 하며, 로컬 프로젝트 코드는 `d:\Intel_AI\healingmindroom\frontend\`에 유지합니다.
+
+## ⚠️ 실패 패턴 & 우회 기록
+- *이후 개발 중 마주하는 실패 상황 및 방지 대책을 여기에 추가 기입합니다.*

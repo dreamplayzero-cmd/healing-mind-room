@@ -1,0 +1,18 @@
+{
+  "_description": "프론트엔드 - 백엔드(AI) 간 데이터 송수신 규격 (API Mock Data)",
+  
+  "request_payload": {
+    "_comment": "프론트엔드 위젯에서 백엔드로 보내는 사용자 입력값 (1~5 정수)",
+    "fatigue": 4,
+    "sleep_quality": 2,
+    "tension": 5
+  },
+
+  "response_payload": {
+    "_comment": "백엔드 연산 후 프론트엔드로 리턴되는 JSON 결과값",
+    "estimated_alpha": 25,
+    "estimated_theta": 92,
+    "diagnostic_result": "뇌 피로도가 높은 심층 치유 필요 상태",
+    "category_id": 2
+  }
+}
