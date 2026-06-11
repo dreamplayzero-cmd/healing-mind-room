@@ -302,61 +302,69 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
       <div className="chat-card-panel fade-in" style={{ width: '100%', maxWidth: '420px', background: '#f8fafc' }}>
         <div style={{ marginBottom: '16px' }}>
           <div style={{ fontSize: '13px', fontWeight: 800, color: 'var(--green-dark)', marginBottom: '8px', textAlign: 'left' }}>
-            🏕️ 맞춤 추천 치유농장 (클릭 시 원화 시각화)
+            🏕️ 맞춤 추천 치유농장 (클릭 시 농장 상세 정보 확인)
           </div>
           
-          {farms.map((farm: Farm) => (
-            <div
-              key={farm.id}
-              onClick={() => setSelectedFarm(farm)}
-              style={{
-                background: 'white',
-                border: '1.5px solid var(--glass-border)',
-                borderRadius: 'var(--radius-sm)',
-                padding: '12px',
-                marginBottom: '8px',
-                cursor: 'pointer',
-                transition: 'var(--transition-smooth)',
-                display: 'flex',
-                gap: '10px',
-                alignItems: 'center'
-              }}
-              onMouseEnter={(e) => {
-                e.currentTarget.style.transform = 'translateY(-2px)';
-                e.currentTarget.style.borderColor = 'var(--green-mid)';
-              }}
-              onMouseLeave={(e) => {
-                e.currentTarget.style.transform = 'translateY(0)';
-                e.currentTarget.style.borderColor = 'var(--glass-border)';
-              }}
-            >
-              <div style={{
-                width: '44px',
-                height: '44px',
-                borderRadius: 'var(--radius-sm)',
-                backgroundImage: `url(${farm.imageUrl})`,
-                backgroundSize: 'cover',
-                backgroundPosition: 'center',
-                display: 'flex',
-                alignItems: 'center',
-                justifyContent: 'center',
-                fontSize: '18px',
-                color: 'white',
-                flexShrink: 0
-              }}>
-                {farm.waveType === 'alpha' ? '🏡' : '🚜'}
-              </div>
-              <div style={{ flexGrow: 1, textAlign: 'left' }}>
-                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span style={{ fontSize: '13px', fontWeight: 800, color: 'var(--text-main)' }}>{farm.name}</span>
-                  <span style={{ fontSize: '10px', background: 'var(--green-pale)', color: 'var(--green-dark)', padding: '1px 6px', borderRadius: '8px', fontWeight: 700 }}>
-                    {farm.area}
-                  </span>
+          {farms.map((farm: Farm) => {
+            // 개별 카드 내에서 상태 관리를 위해 단순화된 스켈레톤 상태 적용을 위해 
+            // 별도의 로컬 상태 대신 img의 onLoad 속성을 활용하여 컨테이너 스타일 제어
+            return (
+              <div
+                key={farm.id}
+                onClick={() => setSelectedFarm(farm)}
+                style={{
+                  background: 'white',
+                  border: '1.5px solid var(--glass-border)',
+                  borderRadius: 'var(--radius-sm)',
+                  marginBottom: '16px',
+                  cursor: 'pointer',
+                  transition: 'var(--transition-smooth)',
+                  overflow: 'hidden',
+                  display: 'flex',
+                  flexDirection: 'column'
+                }}
+                onMouseEnter={(e) => {
+                  e.currentTarget.style.transform = 'translateY(-2px)';
+                  e.currentTarget.style.borderColor = 'var(--green-mid)';
+                  e.currentTarget.style.boxShadow = '0 6px 16px rgba(45, 106, 79, 0.08)';
+                }}
+                onMouseLeave={(e) => {
+                  e.currentTarget.style.transform = 'translateY(0)';
+                  e.currentTarget.style.borderColor = 'var(--glass-border)';
+                  e.currentTarget.style.boxShadow = 'none';
+                }}
+              >
+                {/* 16:9 이미지 영역 */}
+                <div style={{ position: 'relative', width: '100%', aspectRatio: '16/9', backgroundColor: '#e2e8f0', overflow: 'hidden' }}>
+                  {/* 스켈레톤 애니메이션 CSS가 전역에 없으므로 인라인 애니메이션(펄스 효과) 모방 */}
+                  <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%)', backgroundSize: '200% 100%', animation: 'pulse 1.5s infinite' }} />
+                  <img 
+                    src={farm.imageUrl || '/assets/placeholder-image.png'} 
+                    alt={farm.name} 
+                    style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0, transition: 'opacity 0.3s' }}
+                    onLoad={(e) => { e.currentTarget.style.opacity = '1'; }}
+                    onError={(e) => { e.currentTarget.src = '/assets/placeholder-image.png'; e.currentTarget.style.opacity = '1'; }}
+                  />
+                  <div style={{ position: 'absolute', top: '10px', left: '10px', fontSize: '18px', background: 'rgba(0,0,0,0.4)', borderRadius: '50%', width: '32px', height: '32px', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                    {farm.waveType === 'alpha' ? '🏡' : '🚜'}
+                  </div>
                 </div>
-                <div style={{ fontSize: '11px', color: 'var(--green-mid)', fontWeight: 600, marginTop: '2px' }}>📍 {farm.location}</div>
+
+                <div style={{ padding: '14px', textAlign: 'left' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start' }}>
+                    <span style={{ fontSize: '15px', fontWeight: 800, color: 'var(--text-main)', lineHeight: '1.2' }}>{farm.name}</span>
+                    <span style={{ fontSize: '11px', background: 'var(--green-pale)', color: 'var(--green-dark)', padding: '2px 8px', borderRadius: '12px', fontWeight: 700 }}>
+                      {farm.area}
+                    </span>
+                  </div>
+                  <div style={{ fontSize: '12px', color: 'var(--green-mid)', fontWeight: 600, marginTop: '6px' }}>📍 {farm.location}</div>
+                  <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '8px', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
+                    {farm.description}
+                  </div>
+                </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
 
           <button
             onClick={resetFlow}
@@ -457,7 +465,7 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
                   textAlign: 'left'
                 }}>
                   <span style={{ fontSize: '10px', background: 'rgba(0,0,0,0.5)', padding: '2px 6px', borderRadius: '8px', fontWeight: 700 }}>
-                    Flow AI 공간 원화 시각화
+                    AI 맞춤 치유농장 추천
                   </span>
                   <h3 style={{ fontSize: '18px', fontWeight: 900, marginTop: '2px' }}>{selectedFarm.name}</h3>
                 </div>
@@ -496,13 +504,25 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
                   <div>📞 <b>전화문의</b>: {selectedFarm.contact}</div>
                 </div>
 
-                <button
-                  className="btn-healing"
-                  onClick={() => setSelectedFarm(null)}
-                  style={{ marginTop: '20px', height: '40px', fontSize: '13px' }}
-                >
-                  닫고 돌아가기
-                </button>
+                <div style={{ display: 'flex', gap: '8px', marginTop: '20px' }}>
+                  <button
+                    className="btn-healing"
+                    onClick={() => {
+                      setSelectedFarm(null);
+                      window.location.hash = 'farms';
+                    }}
+                    style={{ flex: 1, height: '40px', fontSize: '13px' }}
+                  >
+                    더 많은 농장 찾아보기
+                  </button>
+                  <button
+                    className="btn-healing"
+                    onClick={() => setSelectedFarm(null)}
+                    style={{ flex: 1, height: '40px', fontSize: '13px', background: 'white', color: 'var(--green-dark)', border: '1.5px solid var(--green-mid)' }}
+                  >
+                    닫고 돌아가기
+                  </button>
+                </div>
               </div>
             </div>
           </div>

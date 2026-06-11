@@ -749,58 +749,58 @@ button, input, textarea {
 }
 
 .home-section-title {
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 800;
   color: var(--green-dark);
-  margin-bottom: 12px;
+  margin-bottom: 20px;
 }
 
 .spaces-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 12px;
+  gap: 20px;
 }
 .space-card {
   background: white;
   border: 1.5px solid var(--glass-border);
-  border-radius: var(--radius-md);
-  padding: 16px;
+  border-radius: 20px;
+  padding: 32px 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 8px;
+  gap: 16px;
   cursor: pointer;
   transition: var(--transition-smooth);
-  box-shadow: 0 2px 8px rgba(0,0,0,0.01);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.02);
 }
 .space-card:hover {
-  transform: translateY(-2px);
+  transform: translateY(-4px);
   border-color: var(--green-mid);
-  box-shadow: 0 6px 16px rgba(45, 106, 79, 0.05);
+  box-shadow: 0 12px 24px rgba(45, 106, 79, 0.08);
 }
 .space-icon-wrapper {
-  width: 44px;
-  height: 44px;
+  width: 64px;
+  height: 64px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 20px;
+  font-size: 28px;
 }
 .space-info {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 2px;
+  gap: 4px;
 }
 .space-name {
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 800;
   color: var(--text-main);
 }
 .space-sub {
-  font-size: 9px;
+  font-size: 13px;
   color: var(--text-muted);
 }
 

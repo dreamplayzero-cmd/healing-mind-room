@@ -5,7 +5,7 @@
     "location": "경기도 양평군 퇴계로 275",
     "area": "경기",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=1",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FYoung_adults_hiking_Korean_forest_202606111710.jpeg?alt=media&token=b1db42d2-a8f0-4c02-aeb1-d7de28dae37e",
     "themes": [
       "활동",
       "자연"
@@ -15,8 +15,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "031-1528-7672",
     "categoryId": 1
@@ -27,7 +26,7 @@
     "location": "경기도 가평군 평화로 859",
     "area": "경기",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=2",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPerson_doing_yoga_wooden_deck_202606120024.jpeg?alt=media&token=df68efdf-39d7-45b5-9eed-368ff93f9106",
     "themes": [
       "활동",
       "자연"
@@ -37,8 +36,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 속 크로스핏",
-      "요가"
+      "자연 속 크로스핏 및 요가"
     ],
     "contact": "031-725-7211",
     "categoryId": 1
@@ -49,7 +47,7 @@
     "location": "경기도 포천시 힐링로 349",
     "area": "경기",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=3",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FPerson_sitting_in_tea_room_202606101707.jpeg?alt=media&token=c4e3d33e-d469-4c58-b191-890bd50d596a",
     "themes": [
       "안정",
       "자연"
@@ -59,8 +57,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "031-950-3615",
     "categoryId": 2
@@ -71,7 +68,7 @@
     "location": "경기도 남양주시 힐링로 575",
     "area": "경기",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=4",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FCalm_lake_surrounded_by_mountains_202606101707.jpeg?alt=media&token=bb495b08-1ec8-4a0b-b73c-6b3d5c209ab2",
     "themes": [
       "안정",
       "자연"
@@ -81,8 +78,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "031-5568-5016",
     "categoryId": 2
@@ -93,7 +89,7 @@
     "location": "경기도 여주시 퇴계로 928",
     "area": "경기",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=5",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FKorean_country_house_blooming_ga%E2%80%A6_202606101708.jpeg?alt=media&token=6eda870e-e9f9-4e24-8df6-12b0a33809f3",
     "themes": [
       "자연",
       "활동"
@@ -103,8 +99,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "031-7247-2435",
     "categoryId": 3
@@ -115,7 +110,7 @@
     "location": "경기도 연천군 수목원로 72",
     "area": "경기",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=6",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FSunny_backyard_Hanok_house_Jangd%E2%80%A6_202606101708.jpeg?alt=media&token=54f1b3f6-46e5-4f3b-a3f1-a6d9599bfa26",
     "themes": [
       "안정",
       "자연"
@@ -125,8 +120,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "031-208-6168",
     "categoryId": 4
@@ -137,7 +131,7 @@
     "location": "강원도 평창군 별빛로 105",
     "area": "강원",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=7",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FCampfire_in_Korean_forest_202606101707.jpeg?alt=media&token=b3fb9681-8c9b-4770-acec-345cd6b8b5b4",
     "themes": [
       "활동",
       "자연"
@@ -147,8 +141,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 속 크로스핏",
-      "요가"
+      "자연 속 크로스핏 및 요가"
     ],
     "contact": "033-819-2519",
     "categoryId": 1
@@ -159,7 +152,7 @@
     "location": "강원도 정선군 산림로 130",
     "area": "강원",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=8",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FCampfire_in_Korean_forest_202606101707.jpeg?alt=media&token=b3fb9681-8c9b-4770-acec-345cd6b8b5b4",
     "themes": [
       "활동",
       "자연"
@@ -169,8 +162,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "033-447-5780",
     "categoryId": 1
@@ -181,7 +173,7 @@
     "location": "강원도 홍천군 별빛로 272",
     "area": "강원",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=9",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FCalm_lake_surrounded_by_mountains_202606101707.jpeg?alt=media&token=bb495b08-1ec8-4a0b-b73c-6b3d5c209ab2",
     "themes": [
       "안정",
       "자연"
@@ -191,8 +183,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "033-7788-1602",
     "categoryId": 2
@@ -203,7 +194,7 @@
     "location": "강원도 춘천시 힐링로 535",
     "area": "강원",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=10",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -213,8 +204,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "033-8012-4389",
     "categoryId": 3
@@ -225,7 +215,7 @@
     "location": "강원도 원주시 힐링로 13",
     "area": "강원",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=11",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FRustic_woodworking_studio_rural_%E2%80%A6_202606101708.jpeg?alt=media&token=847fa6e0-241b-42b7-ab50-c0a5a87e9a6b",
     "themes": [
       "자연",
       "활동"
@@ -235,8 +225,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "033-6624-9400",
     "categoryId": 3
@@ -247,7 +236,7 @@
     "location": "강원도 영월군 별빛로 534",
     "area": "강원",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=12",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FSunny_backyard_Hanok_house_Jangd%E2%80%A6_202606101708.jpeg?alt=media&token=54f1b3f6-46e5-4f3b-a3f1-a6d9599bfa26",
     "themes": [
       "안정",
       "자연"
@@ -257,8 +246,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "033-6973-7136",
     "categoryId": 4
@@ -269,7 +257,7 @@
     "location": "충청남도 부여군 퇴계로 868",
     "area": "충청",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=13",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPeople_picking_herbs_garden_202606120024.jpeg?alt=media&token=18b98faa-f806-433a-b7bc-021c008528c9",
     "themes": [
       "활동",
       "자연"
@@ -279,8 +267,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "041-3073-2353",
     "categoryId": 1
@@ -291,7 +278,7 @@
     "location": "충청남도 공주시 자연로 175",
     "area": "충청",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=14",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FPerson_sitting_in_tea_room_202606101707.jpeg?alt=media&token=c4e3d33e-d469-4c58-b191-890bd50d596a",
     "themes": [
       "안정",
       "자연"
@@ -301,8 +288,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "싱잉볼 명상",
-      "다도 체험"
+      "싱잉볼 명상 및 다도 체험"
     ],
     "contact": "041-5587-6520",
     "categoryId": 2
@@ -313,7 +299,7 @@
     "location": "충청남도 보령시 수목원로 906",
     "area": "충청",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=15",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FKorean_country_house_blooming_ga%E2%80%A6_202606101708.jpeg?alt=media&token=6eda870e-e9f9-4e24-8df6-12b0a33809f3",
     "themes": [
       "자연",
       "활동"
@@ -323,8 +309,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "041-1300-8483",
     "categoryId": 3
@@ -335,7 +320,7 @@
     "location": "충청남도 서천군 힐링로 17",
     "area": "충청",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=16",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -345,8 +330,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "041-3197-2444",
     "categoryId": 4
@@ -357,7 +341,7 @@
     "location": "충청북도 제천시 힐링로 14",
     "area": "충청",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=17",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPerson_doing_yoga_wooden_deck_202606120024.jpeg?alt=media&token=df68efdf-39d7-45b5-9eed-368ff93f9106",
     "themes": [
       "활동",
       "자연"
@@ -367,8 +351,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "043-5865-4754",
     "categoryId": 1
@@ -379,7 +362,7 @@
     "location": "충청북도 충주시 퇴계로 655",
     "area": "충청",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=18",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FCalm_lake_surrounded_by_mountains_202606101707.jpeg?alt=media&token=bb495b08-1ec8-4a0b-b73c-6b3d5c209ab2",
     "themes": [
       "안정",
       "자연"
@@ -389,8 +372,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "싱잉볼 명상",
-      "다도 체험"
+      "싱잉볼 명상 및 다도 체험"
     ],
     "contact": "043-4813-9106",
     "categoryId": 2
@@ -401,7 +383,7 @@
     "location": "충청북도 단양군 청정로 558",
     "area": "충청",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=19",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FPerson_tending_vegetable_garden_202606101707.jpeg?alt=media&token=f04cfc54-3fb0-48d1-904c-8b277338d4c6",
     "themes": [
       "자연",
       "활동"
@@ -411,8 +393,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "귀농귀촌 기초 교육",
-      "텃밭 가꾸기"
+      "귀농귀촌 기초 교육 및 텃밭 가꾸기"
     ],
     "contact": "043-8026-3909",
     "categoryId": 3
@@ -423,7 +404,7 @@
     "location": "충청북도 보은군 별빛로 388",
     "area": "충청",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=20",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FSunny_backyard_Hanok_house_Jangd%E2%80%A6_202606101708.jpeg?alt=media&token=54f1b3f6-46e5-4f3b-a3f1-a6d9599bfa26",
     "themes": [
       "안정",
       "자연"
@@ -433,8 +414,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "시니어 건강 증진 산책",
-      "원예 치료"
+      "시니어 건강 증진 산책 및 원예 치료"
     ],
     "contact": "043-7657-1723",
     "categoryId": 4
@@ -445,7 +425,7 @@
     "location": "전라남도 순천시 산림로 468",
     "area": "전라",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=21",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FYoung_adults_hiking_Korean_forest_202606111710.jpeg?alt=media&token=b1db42d2-a8f0-4c02-aeb1-d7de28dae37e",
     "themes": [
       "활동",
       "자연"
@@ -455,8 +435,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "061-3265-1344",
     "categoryId": 1
@@ -467,7 +446,7 @@
     "location": "전라남도 담양군 힐링로 702",
     "area": "전라",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=22",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FCalm_lake_surrounded_by_mountains_202606101707.jpeg?alt=media&token=bb495b08-1ec8-4a0b-b73c-6b3d5c209ab2",
     "themes": [
       "안정",
       "자연"
@@ -477,8 +456,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "싱잉볼 명상",
-      "다도 체험"
+      "싱잉볼 명상 및 다도 체험"
     ],
     "contact": "061-4555-8115",
     "categoryId": 2
@@ -489,7 +467,7 @@
     "location": "전라남도 보성군 수목원로 1",
     "area": "전라",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=23",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FPerson_tending_vegetable_garden_202606101707.jpeg?alt=media&token=f04cfc54-3fb0-48d1-904c-8b277338d4c6",
     "themes": [
       "자연",
       "활동"
@@ -499,8 +477,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "061-1879-2025",
     "categoryId": 3
@@ -511,7 +488,7 @@
     "location": "전라남도 장흥군 힐링로 725",
     "area": "전라",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=24",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FOutdoor_foot_spa_healing_garden_202606101708.jpeg?alt=media&token=e28fc6a7-e349-459c-80f2-8be6ce66b013",
     "themes": [
       "안정",
       "자연"
@@ -521,8 +498,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "전통 장 담그기",
-      "한방 족욕"
+      "전통 장 담그기 및 한방 족욕"
     ],
     "contact": "061-1554-2358",
     "categoryId": 4
@@ -533,7 +509,7 @@
     "location": "전라북도 완주군 퇴계로 815",
     "area": "전라",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=25",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FCalm_lake_surrounded_by_mountains_202606101707.jpeg?alt=media&token=bb495b08-1ec8-4a0b-b73c-6b3d5c209ab2",
     "themes": [
       "안정",
       "자연"
@@ -543,8 +519,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "063-8878-7184",
     "categoryId": 2
@@ -555,7 +530,7 @@
     "location": "전라북도 순창군 수목원로 30",
     "area": "전라",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=26",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FPerson_tending_vegetable_garden_202606101707.jpeg?alt=media&token=f04cfc54-3fb0-48d1-904c-8b277338d4c6",
     "themes": [
       "자연",
       "활동"
@@ -565,8 +540,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "063-5383-5301",
     "categoryId": 3
@@ -577,7 +551,7 @@
     "location": "전라북도 남원시 퇴계로 769",
     "area": "전라",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=27",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FSunny_backyard_Hanok_house_Jangd%E2%80%A6_202606101708.jpeg?alt=media&token=54f1b3f6-46e5-4f3b-a3f1-a6d9599bfa26",
     "themes": [
       "안정",
       "자연"
@@ -587,8 +561,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "전통 장 담그기",
-      "한방 족욕"
+      "전통 장 담그기 및 한방 족욕"
     ],
     "contact": "063-9301-6485",
     "categoryId": 4
@@ -599,7 +572,7 @@
     "location": "경상남도 남해군 힐링로 25",
     "area": "경상",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=28",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPerson_doing_yoga_wooden_deck_202606120024.jpeg?alt=media&token=df68efdf-39d7-45b5-9eed-368ff93f9106",
     "themes": [
       "활동",
       "자연"
@@ -609,8 +582,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "스트레스 완화 명상",
-      "허브차 체험"
+      "스트레스 완화 명상 및 허브차 체험"
     ],
     "contact": "055-2784-7865",
     "categoryId": 1
@@ -621,7 +593,7 @@
     "location": "경상남도 하동군 산림로 382",
     "area": "경상",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=29",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FPerson_sitting_in_tea_room_202606101707.jpeg?alt=media&token=c4e3d33e-d469-4c58-b191-890bd50d596a",
     "themes": [
       "안정",
       "자연"
@@ -631,8 +603,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "싱잉볼 명상",
-      "다도 체험"
+      "싱잉볼 명상 및 다도 체험"
     ],
     "contact": "055-3949-2284",
     "categoryId": 2
@@ -643,7 +614,7 @@
     "location": "경상남도 산청군 퇴계로 777",
     "area": "경상",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/farm,nature/all?lock=30",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FWalking_path_through_autumn_forest_202606101708.jpeg?alt=media&token=850af6f3-0c87-4047-aada-07c41037ef7a",
     "themes": [
       "안정",
       "자연"
@@ -653,8 +624,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "055-8598-7344",
     "categoryId": 4
@@ -665,7 +635,7 @@
     "location": "충청북도 청주시 자연로 795",
     "area": "충청",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=31",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPeople_picking_herbs_garden_202606120024.jpeg?alt=media&token=18b98faa-f806-433a-b7bc-021c008528c9",
     "themes": [
       "활동",
       "자연"
@@ -675,8 +645,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "스트레스 완화 명상",
-      "허브차 체험"
+      "스트레스 완화 명상 및 허브차 체험"
     ],
     "contact": "043-6477-7037",
     "categoryId": 1
@@ -687,7 +656,7 @@
     "location": "경상북도 영주시 산림로 822",
     "area": "경상",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=32",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FCampfire_in_Korean_forest_202606101707.jpeg?alt=media&token=b3fb9681-8c9b-4770-acec-345cd6b8b5b4",
     "themes": [
       "활동",
       "자연"
@@ -697,8 +666,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "054-9755-7328",
     "categoryId": 1
@@ -709,7 +677,7 @@
     "location": "경기도 이천시 퇴계로 358",
     "area": "경기",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=33",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FYoung_adults_hiking_Korean_forest_202606111710.jpeg?alt=media&token=b1db42d2-a8f0-4c02-aeb1-d7de28dae37e",
     "themes": [
       "활동",
       "자연"
@@ -719,8 +687,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "031-7468-8391",
     "categoryId": 1
@@ -731,7 +698,7 @@
     "location": "전라북도 전주시 힐링로 893",
     "area": "전라",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=34",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FCampfire_in_Korean_forest_202606101707.jpeg?alt=media&token=b3fb9681-8c9b-4770-acec-345cd6b8b5b4",
     "themes": [
       "활동",
       "자연"
@@ -741,8 +708,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 속 크로스핏",
-      "요가"
+      "자연 속 크로스핏 및 요가"
     ],
     "contact": "063-8567-9433",
     "categoryId": 1
@@ -753,7 +719,7 @@
     "location": "강원도 강릉시 힐링로 231",
     "area": "강원",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=35",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FCampfire_in_Korean_forest_202606101707.jpeg?alt=media&token=b3fb9681-8c9b-4770-acec-345cd6b8b5b4",
     "themes": [
       "활동",
       "자연"
@@ -763,8 +729,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "스트레스 완화 명상",
-      "허브차 체험"
+      "스트레스 완화 명상 및 허브차 체험"
     ],
     "contact": "033-9441-6571",
     "categoryId": 1
@@ -775,7 +740,7 @@
     "location": "충청북도 청주시 힐링로 271",
     "area": "충청",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=36",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FCampfire_in_Korean_forest_202606101707.jpeg?alt=media&token=b3fb9681-8c9b-4770-acec-345cd6b8b5b4",
     "themes": [
       "활동",
       "자연"
@@ -785,8 +750,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 속 크로스핏",
-      "요가"
+      "자연 속 크로스핏 및 요가"
     ],
     "contact": "043-6623-1704",
     "categoryId": 1
@@ -797,7 +761,7 @@
     "location": "경기도 안성시 퇴계로 199",
     "area": "경기",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=37",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPeople_picking_herbs_garden_202606120024.jpeg?alt=media&token=18b98faa-f806-433a-b7bc-021c008528c9",
     "themes": [
       "활동",
       "자연"
@@ -807,8 +771,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "스트레스 완화 명상",
-      "허브차 체험"
+      "스트레스 완화 명상 및 허브차 체험"
     ],
     "contact": "031-4495-4783",
     "categoryId": 1
@@ -819,7 +782,7 @@
     "location": "제주특별자치도 서귀포시 산림로 952",
     "area": "제주",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=38",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPeople_picking_herbs_garden_202606120024.jpeg?alt=media&token=18b98faa-f806-433a-b7bc-021c008528c9",
     "themes": [
       "활동",
       "자연"
@@ -829,8 +792,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "064-8852-3219",
     "categoryId": 1
@@ -841,7 +803,7 @@
     "location": "경상북도 안동시 별빛로 349",
     "area": "경상",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=39",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPerson_doing_yoga_wooden_deck_202606120024.jpeg?alt=media&token=df68efdf-39d7-45b5-9eed-368ff93f9106",
     "themes": [
       "활동",
       "자연"
@@ -851,8 +813,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 속 크로스핏",
-      "요가"
+      "자연 속 크로스핏 및 요가"
     ],
     "contact": "054-6585-4672",
     "categoryId": 1
@@ -863,7 +824,7 @@
     "location": "강원도 강릉시 별빛로 352",
     "area": "강원",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=40",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPeople_picking_herbs_garden_202606120024.jpeg?alt=media&token=18b98faa-f806-433a-b7bc-021c008528c9",
     "themes": [
       "활동",
       "자연"
@@ -873,8 +834,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 속 크로스핏",
-      "요가"
+      "자연 속 크로스핏 및 요가"
     ],
     "contact": "033-9678-3004",
     "categoryId": 1
@@ -885,7 +845,7 @@
     "location": "경기도 이천시 수목원로 324",
     "area": "경기",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=41",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPerson_doing_yoga_wooden_deck_202606120024.jpeg?alt=media&token=df68efdf-39d7-45b5-9eed-368ff93f9106",
     "themes": [
       "활동",
       "자연"
@@ -895,8 +855,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "031-5976-4548",
     "categoryId": 1
@@ -907,7 +866,7 @@
     "location": "전라남도 나주시 퇴계로 862",
     "area": "전라",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=42",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPerson_doing_yoga_wooden_deck_202606120024.jpeg?alt=media&token=df68efdf-39d7-45b5-9eed-368ff93f9106",
     "themes": [
       "활동",
       "자연"
@@ -917,8 +876,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 속 크로스핏",
-      "요가"
+      "자연 속 크로스핏 및 요가"
     ],
     "contact": "061-6894-7149",
     "categoryId": 1
@@ -929,7 +887,7 @@
     "location": "충청북도 청주시 힐링로 71",
     "area": "충청",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=43",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPeople_picking_herbs_garden_202606120024.jpeg?alt=media&token=18b98faa-f806-433a-b7bc-021c008528c9",
     "themes": [
       "활동",
       "자연"
@@ -939,8 +897,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "043-4948-3004",
     "categoryId": 1
@@ -951,7 +908,7 @@
     "location": "경상북도 영주시 수목원로 53",
     "area": "경상",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=44",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FYoung_adults_hiking_Korean_forest_202606111710.jpeg?alt=media&token=b1db42d2-a8f0-4c02-aeb1-d7de28dae37e",
     "themes": [
       "활동",
       "자연"
@@ -961,8 +918,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "054-9700-7363",
     "categoryId": 1
@@ -973,7 +929,7 @@
     "location": "경기도 안성시 힐링로 249",
     "area": "경기",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=45",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPerson_doing_yoga_wooden_deck_202606120024.jpeg?alt=media&token=df68efdf-39d7-45b5-9eed-368ff93f9106",
     "themes": [
       "활동",
       "자연"
@@ -983,8 +939,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "031-7397-5356",
     "categoryId": 1
@@ -995,7 +950,7 @@
     "location": "제주특별자치도 서귀포시 별빛로 514",
     "area": "제주",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=46",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FYoung_adults_hiking_Korean_forest_202606111710.jpeg?alt=media&token=b1db42d2-a8f0-4c02-aeb1-d7de28dae37e",
     "themes": [
       "활동",
       "자연"
@@ -1005,8 +960,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "064-9520-5505",
     "categoryId": 1
@@ -1017,7 +971,7 @@
     "location": "경기도 이천시 수목원로 677",
     "area": "경기",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=47",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FYoung_adults_hiking_Korean_forest_202606111710.jpeg?alt=media&token=b1db42d2-a8f0-4c02-aeb1-d7de28dae37e",
     "themes": [
       "활동",
       "자연"
@@ -1027,8 +981,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "031-8233-3160",
     "categoryId": 1
@@ -1039,7 +992,7 @@
     "location": "경상북도 영주시 산림로 334",
     "area": "경상",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=48",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPerson_doing_yoga_wooden_deck_202606120024.jpeg?alt=media&token=df68efdf-39d7-45b5-9eed-368ff93f9106",
     "themes": [
       "활동",
       "자연"
@@ -1049,8 +1002,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 속 크로스핏",
-      "요가"
+      "자연 속 크로스핏 및 요가"
     ],
     "contact": "054-6158-4618",
     "categoryId": 1
@@ -1061,7 +1013,7 @@
     "location": "경기도 이천시 자연로 723",
     "area": "경기",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=49",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FCampfire_in_Korean_forest_202606101707.jpeg?alt=media&token=b3fb9681-8c9b-4770-acec-345cd6b8b5b4",
     "themes": [
       "활동",
       "자연"
@@ -1071,8 +1023,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "031-9604-1228",
     "categoryId": 1
@@ -1083,7 +1034,7 @@
     "location": "전라북도 전주시 자연로 292",
     "area": "전라",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=50",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPerson_doing_yoga_wooden_deck_202606120024.jpeg?alt=media&token=df68efdf-39d7-45b5-9eed-368ff93f9106",
     "themes": [
       "활동",
       "자연"
@@ -1093,8 +1044,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "063-2852-7816",
     "categoryId": 1
@@ -1105,7 +1055,7 @@
     "location": "전라북도 전주시 별빛로 690",
     "area": "전라",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=51",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPerson_doing_yoga_wooden_deck_202606120024.jpeg?alt=media&token=df68efdf-39d7-45b5-9eed-368ff93f9106",
     "themes": [
       "활동",
       "자연"
@@ -1115,8 +1065,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "스트레스 완화 명상",
-      "허브차 체험"
+      "스트레스 완화 명상 및 허브차 체험"
     ],
     "contact": "063-2799-4247",
     "categoryId": 1
@@ -1127,7 +1076,7 @@
     "location": "충청북도 청주시 청정로 311",
     "area": "충청",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=52",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPeople_picking_herbs_garden_202606120024.jpeg?alt=media&token=18b98faa-f806-433a-b7bc-021c008528c9",
     "themes": [
       "활동",
       "자연"
@@ -1137,8 +1086,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "스트레스 완화 명상",
-      "허브차 체험"
+      "스트레스 완화 명상 및 허브차 체험"
     ],
     "contact": "043-8289-8657",
     "categoryId": 1
@@ -1149,7 +1097,7 @@
     "location": "충청북도 청주시 별빛로 628",
     "area": "충청",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=53",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FCampfire_in_Korean_forest_202606101707.jpeg?alt=media&token=b3fb9681-8c9b-4770-acec-345cd6b8b5b4",
     "themes": [
       "활동",
       "자연"
@@ -1159,8 +1107,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "스트레스 완화 명상",
-      "허브차 체험"
+      "스트레스 완화 명상 및 허브차 체험"
     ],
     "contact": "043-9028-5576",
     "categoryId": 1
@@ -1171,7 +1118,7 @@
     "location": "경상북도 영주시 수목원로 817",
     "area": "경상",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=54",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FCampfire_in_Korean_forest_202606101707.jpeg?alt=media&token=b3fb9681-8c9b-4770-acec-345cd6b8b5b4",
     "themes": [
       "활동",
       "자연"
@@ -1181,8 +1128,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "스트레스 완화 명상",
-      "허브차 체험"
+      "스트레스 완화 명상 및 허브차 체험"
     ],
     "contact": "054-7449-2817",
     "categoryId": 1
@@ -1193,7 +1139,7 @@
     "location": "제주특별자치도 서귀포시 힐링로 158",
     "area": "제주",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=55",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FCampfire_in_Korean_forest_202606101707.jpeg?alt=media&token=b3fb9681-8c9b-4770-acec-345cd6b8b5b4",
     "themes": [
       "활동",
       "자연"
@@ -1203,8 +1149,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "스트레스 완화 명상",
-      "허브차 체험"
+      "스트레스 완화 명상 및 허브차 체험"
     ],
     "contact": "064-8180-3204",
     "categoryId": 1
@@ -1215,7 +1160,7 @@
     "location": "충청남도 아산시 청정로 76",
     "area": "충청",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=56",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPerson_doing_yoga_wooden_deck_202606120024.jpeg?alt=media&token=df68efdf-39d7-45b5-9eed-368ff93f9106",
     "themes": [
       "활동",
       "자연"
@@ -1225,8 +1170,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "스트레스 완화 명상",
-      "허브차 체험"
+      "스트레스 완화 명상 및 허브차 체험"
     ],
     "contact": "041-6713-1423",
     "categoryId": 1
@@ -1237,7 +1181,7 @@
     "location": "전라북도 전주시 퇴계로 43",
     "area": "전라",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=57",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPeople_picking_herbs_garden_202606120024.jpeg?alt=media&token=18b98faa-f806-433a-b7bc-021c008528c9",
     "themes": [
       "활동",
       "자연"
@@ -1247,8 +1191,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 속 크로스핏",
-      "요가"
+      "자연 속 크로스핏 및 요가"
     ],
     "contact": "063-4139-8137",
     "categoryId": 1
@@ -1259,7 +1202,7 @@
     "location": "충청북도 청주시 자연로 688",
     "area": "충청",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=58",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPerson_doing_yoga_wooden_deck_202606120024.jpeg?alt=media&token=df68efdf-39d7-45b5-9eed-368ff93f9106",
     "themes": [
       "활동",
       "자연"
@@ -1269,8 +1212,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 속 크로스핏",
-      "요가"
+      "자연 속 크로스핏 및 요가"
     ],
     "contact": "043-5421-4473",
     "categoryId": 1
@@ -1281,7 +1223,7 @@
     "location": "경기도 이천시 청정로 425",
     "area": "경기",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=59",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPeople_picking_herbs_garden_202606120024.jpeg?alt=media&token=18b98faa-f806-433a-b7bc-021c008528c9",
     "themes": [
       "활동",
       "자연"
@@ -1291,8 +1233,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 속 크로스핏",
-      "요가"
+      "자연 속 크로스핏 및 요가"
     ],
     "contact": "031-3738-9364",
     "categoryId": 1
@@ -1303,7 +1244,7 @@
     "location": "전라북도 전주시 수목원로 79",
     "area": "전라",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=60",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FCampfire_in_Korean_forest_202606101707.jpeg?alt=media&token=b3fb9681-8c9b-4770-acec-345cd6b8b5b4",
     "themes": [
       "활동",
       "자연"
@@ -1313,8 +1254,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "063-8241-1697",
     "categoryId": 1
@@ -1325,7 +1265,7 @@
     "location": "강원도 강릉시 평화로 472",
     "area": "강원",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=61",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FPeople_picking_herbs_garden_202606120024.jpeg?alt=media&token=18b98faa-f806-433a-b7bc-021c008528c9",
     "themes": [
       "활동",
       "자연"
@@ -1335,8 +1275,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "산악 트레킹",
-      "숲속 액티비티"
+      "산악 트레킹 및 숲속 액티비티"
     ],
     "contact": "033-5881-1285",
     "categoryId": 1
@@ -1347,7 +1286,7 @@
     "location": "경상북도 영주시 청정로 400",
     "area": "경상",
     "description": "[30대 맞춤] 다이나믹한 액티비티와 몰입형 명상 프로그램을 통해 스트레스를 해소하고 새로운 활력을 충전할 수 있습니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=62",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F30s%2FCampfire_in_Korean_forest_202606101707.jpeg?alt=media&token=b3fb9681-8c9b-4770-acec-345cd6b8b5b4",
     "themes": [
       "활동",
       "자연"
@@ -1357,8 +1296,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 속 크로스핏",
-      "요가"
+      "자연 속 크로스핏 및 요가"
     ],
     "contact": "054-873-2732",
     "categoryId": 1
@@ -1369,7 +1307,7 @@
     "location": "경기도 안성시 평화로 800",
     "area": "경기",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=63",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FCalm_lake_surrounded_by_mountains_202606101707.jpeg?alt=media&token=bb495b08-1ec8-4a0b-b73c-6b3d5c209ab2",
     "themes": [
       "안정",
       "자연"
@@ -1379,8 +1317,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "031-3474-7296",
     "categoryId": 2
@@ -1391,7 +1328,7 @@
     "location": "전라북도 전주시 퇴계로 167",
     "area": "전라",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=64",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FWooden_cabin_in_Korean_forest_202606101707.jpeg?alt=media&token=b82dd082-1554-4470-aa20-9146f19da410",
     "themes": [
       "안정",
       "자연"
@@ -1401,8 +1338,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "063-1514-6423",
     "categoryId": 2
@@ -1413,7 +1349,7 @@
     "location": "경기도 안성시 수목원로 960",
     "area": "경기",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=65",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FWooden_cabin_in_Korean_forest_202606101707.jpeg?alt=media&token=b82dd082-1554-4470-aa20-9146f19da410",
     "themes": [
       "안정",
       "자연"
@@ -1423,8 +1359,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "031-3390-7630",
     "categoryId": 2
@@ -1435,7 +1370,7 @@
     "location": "경기도 이천시 평화로 138",
     "area": "경기",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=66",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FPerson_sitting_in_tea_room_202606101707.jpeg?alt=media&token=c4e3d33e-d469-4c58-b191-890bd50d596a",
     "themes": [
       "안정",
       "자연"
@@ -1445,8 +1380,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "031-774-6880",
     "categoryId": 2
@@ -1457,7 +1391,7 @@
     "location": "충청남도 아산시 수목원로 350",
     "area": "충청",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=67",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FPerson_sitting_in_tea_room_202606101707.jpeg?alt=media&token=c4e3d33e-d469-4c58-b191-890bd50d596a",
     "themes": [
       "안정",
       "자연"
@@ -1467,8 +1401,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "싱잉볼 명상",
-      "다도 체험"
+      "싱잉볼 명상 및 다도 체험"
     ],
     "contact": "041-2443-2464",
     "categoryId": 2
@@ -1479,7 +1412,7 @@
     "location": "경기도 이천시 수목원로 354",
     "area": "경기",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=68",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FTangerine_orchard_in_sunlight_202606101707.jpeg?alt=media&token=25d291e1-958b-4cd7-907f-157d8bce50d9",
     "themes": [
       "안정",
       "자연"
@@ -1489,8 +1422,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "031-3850-1997",
     "categoryId": 2
@@ -1501,7 +1433,7 @@
     "location": "경상북도 영주시 자연로 241",
     "area": "경상",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=69",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FWooden_cabin_in_Korean_forest_202606101707.jpeg?alt=media&token=b82dd082-1554-4470-aa20-9146f19da410",
     "themes": [
       "안정",
       "자연"
@@ -1511,8 +1443,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "싱잉볼 명상",
-      "다도 체험"
+      "싱잉볼 명상 및 다도 체험"
     ],
     "contact": "054-2149-1013",
     "categoryId": 2
@@ -1523,7 +1454,7 @@
     "location": "경상북도 영주시 힐링로 380",
     "area": "경상",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=70",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FWooden_cabin_in_Korean_forest_202606101707.jpeg?alt=media&token=b82dd082-1554-4470-aa20-9146f19da410",
     "themes": [
       "안정",
       "자연"
@@ -1533,8 +1464,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "054-2234-7829",
     "categoryId": 2
@@ -1545,7 +1475,7 @@
     "location": "제주특별자치도 서귀포시 퇴계로 820",
     "area": "제주",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=71",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FWooden_cabin_in_Korean_forest_202606101707.jpeg?alt=media&token=b82dd082-1554-4470-aa20-9146f19da410",
     "themes": [
       "안정",
       "자연"
@@ -1555,8 +1485,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "064-5843-9296",
     "categoryId": 2
@@ -1567,7 +1496,7 @@
     "location": "충청북도 청주시 산림로 625",
     "area": "충청",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=72",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FTangerine_orchard_in_sunlight_202606101707.jpeg?alt=media&token=25d291e1-958b-4cd7-907f-157d8bce50d9",
     "themes": [
       "안정",
       "자연"
@@ -1577,8 +1506,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "043-5435-8286",
     "categoryId": 2
@@ -1589,7 +1517,7 @@
     "location": "제주특별자치도 서귀포시 평화로 197",
     "area": "제주",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=73",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FWooden_cabin_in_Korean_forest_202606101707.jpeg?alt=media&token=b82dd082-1554-4470-aa20-9146f19da410",
     "themes": [
       "안정",
       "자연"
@@ -1599,8 +1527,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "064-3464-6869",
     "categoryId": 2
@@ -1611,7 +1538,7 @@
     "location": "경상북도 안동시 산림로 397",
     "area": "경상",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=74",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FWooden_cabin_in_Korean_forest_202606101707.jpeg?alt=media&token=b82dd082-1554-4470-aa20-9146f19da410",
     "themes": [
       "안정",
       "자연"
@@ -1621,8 +1548,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "싱잉볼 명상",
-      "다도 체험"
+      "싱잉볼 명상 및 다도 체험"
     ],
     "contact": "054-537-5265",
     "categoryId": 2
@@ -1633,7 +1559,7 @@
     "location": "경기도 이천시 청정로 375",
     "area": "경기",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=75",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FCalm_lake_surrounded_by_mountains_202606101707.jpeg?alt=media&token=bb495b08-1ec8-4a0b-b73c-6b3d5c209ab2",
     "themes": [
       "안정",
       "자연"
@@ -1643,8 +1569,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "031-3114-2651",
     "categoryId": 2
@@ -1655,7 +1580,7 @@
     "location": "제주특별자치도 서귀포시 평화로 370",
     "area": "제주",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=76",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FCalm_lake_surrounded_by_mountains_202606101707.jpeg?alt=media&token=bb495b08-1ec8-4a0b-b73c-6b3d5c209ab2",
     "themes": [
       "안정",
       "자연"
@@ -1665,8 +1590,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "064-1030-5175",
     "categoryId": 2
@@ -1677,7 +1601,7 @@
     "location": "강원도 강릉시 자연로 532",
     "area": "강원",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=77",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FWooden_cabin_in_Korean_forest_202606101707.jpeg?alt=media&token=b82dd082-1554-4470-aa20-9146f19da410",
     "themes": [
       "안정",
       "자연"
@@ -1687,8 +1611,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "싱잉볼 명상",
-      "다도 체험"
+      "싱잉볼 명상 및 다도 체험"
     ],
     "contact": "033-9172-2955",
     "categoryId": 2
@@ -1699,7 +1622,7 @@
     "location": "경상북도 영주시 자연로 451",
     "area": "경상",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=78",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FPerson_sitting_in_tea_room_202606101707.jpeg?alt=media&token=c4e3d33e-d469-4c58-b191-890bd50d596a",
     "themes": [
       "안정",
       "자연"
@@ -1709,8 +1632,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "054-3949-1087",
     "categoryId": 2
@@ -1721,7 +1643,7 @@
     "location": "경기도 안성시 별빛로 858",
     "area": "경기",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=79",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FCalm_lake_surrounded_by_mountains_202606101707.jpeg?alt=media&token=bb495b08-1ec8-4a0b-b73c-6b3d5c209ab2",
     "themes": [
       "안정",
       "자연"
@@ -1731,8 +1653,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "싱잉볼 명상",
-      "다도 체험"
+      "싱잉볼 명상 및 다도 체험"
     ],
     "contact": "031-6461-6878",
     "categoryId": 2
@@ -1743,7 +1664,7 @@
     "location": "강원도 강릉시 수목원로 215",
     "area": "강원",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=80",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FCalm_lake_surrounded_by_mountains_202606101707.jpeg?alt=media&token=bb495b08-1ec8-4a0b-b73c-6b3d5c209ab2",
     "themes": [
       "안정",
       "자연"
@@ -1753,8 +1674,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "033-4031-1070",
     "categoryId": 2
@@ -1765,7 +1685,7 @@
     "location": "강원도 강릉시 자연로 432",
     "area": "강원",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=81",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FWooden_cabin_in_Korean_forest_202606101707.jpeg?alt=media&token=b82dd082-1554-4470-aa20-9146f19da410",
     "themes": [
       "안정",
       "자연"
@@ -1775,8 +1695,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "033-2854-7391",
     "categoryId": 2
@@ -1787,7 +1706,7 @@
     "location": "경기도 안성시 수목원로 273",
     "area": "경기",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=82",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FPerson_sitting_in_tea_room_202606101707.jpeg?alt=media&token=c4e3d33e-d469-4c58-b191-890bd50d596a",
     "themes": [
       "안정",
       "자연"
@@ -1797,8 +1716,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "싱잉볼 명상",
-      "다도 체험"
+      "싱잉볼 명상 및 다도 체험"
     ],
     "contact": "031-9413-1877",
     "categoryId": 2
@@ -1809,7 +1727,7 @@
     "location": "경상북도 영주시 힐링로 24",
     "area": "경상",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=83",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FWooden_cabin_in_Korean_forest_202606101707.jpeg?alt=media&token=b82dd082-1554-4470-aa20-9146f19da410",
     "themes": [
       "안정",
       "자연"
@@ -1819,8 +1737,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "054-2480-6048",
     "categoryId": 2
@@ -1831,7 +1748,7 @@
     "location": "충청남도 아산시 퇴계로 433",
     "area": "충청",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=84",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FTangerine_orchard_in_sunlight_202606101707.jpeg?alt=media&token=25d291e1-958b-4cd7-907f-157d8bce50d9",
     "themes": [
       "안정",
       "자연"
@@ -1841,8 +1758,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "041-1175-3522",
     "categoryId": 2
@@ -1853,7 +1769,7 @@
     "location": "경기도 이천시 평화로 460",
     "area": "경기",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=85",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FCalm_lake_surrounded_by_mountains_202606101707.jpeg?alt=media&token=bb495b08-1ec8-4a0b-b73c-6b3d5c209ab2",
     "themes": [
       "안정",
       "자연"
@@ -1863,8 +1779,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "031-9574-4110",
     "categoryId": 2
@@ -1875,7 +1790,7 @@
     "location": "제주특별자치도 서귀포시 평화로 968",
     "area": "제주",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=86",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FPerson_sitting_in_tea_room_202606101707.jpeg?alt=media&token=c4e3d33e-d469-4c58-b191-890bd50d596a",
     "themes": [
       "안정",
       "자연"
@@ -1885,8 +1800,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "064-3642-2469",
     "categoryId": 2
@@ -1897,7 +1811,7 @@
     "location": "경기도 이천시 퇴계로 214",
     "area": "경기",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=87",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FTangerine_orchard_in_sunlight_202606101707.jpeg?alt=media&token=25d291e1-958b-4cd7-907f-157d8bce50d9",
     "themes": [
       "안정",
       "자연"
@@ -1907,8 +1821,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "싱잉볼 명상",
-      "다도 체험"
+      "싱잉볼 명상 및 다도 체험"
     ],
     "contact": "031-683-3558",
     "categoryId": 2
@@ -1919,7 +1832,7 @@
     "location": "경상북도 영주시 수목원로 817",
     "area": "경상",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=88",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FTangerine_orchard_in_sunlight_202606101707.jpeg?alt=media&token=25d291e1-958b-4cd7-907f-157d8bce50d9",
     "themes": [
       "안정",
       "자연"
@@ -1929,8 +1842,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "054-7841-7296",
     "categoryId": 2
@@ -1941,7 +1853,7 @@
     "location": "강원도 강릉시 수목원로 674",
     "area": "강원",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=89",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FPerson_sitting_in_tea_room_202606101707.jpeg?alt=media&token=c4e3d33e-d469-4c58-b191-890bd50d596a",
     "themes": [
       "안정",
       "자연"
@@ -1951,8 +1863,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "번아웃 극복 요가",
-      "감귤 수확"
+      "번아웃 극복 요가 및 감귤 수확"
     ],
     "contact": "033-1802-2430",
     "categoryId": 2
@@ -1963,7 +1874,7 @@
     "location": "충청남도 아산시 산림로 801",
     "area": "충청",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=90",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FTangerine_orchard_in_sunlight_202606101707.jpeg?alt=media&token=25d291e1-958b-4cd7-907f-157d8bce50d9",
     "themes": [
       "안정",
       "자연"
@@ -1973,8 +1884,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "041-9663-5947",
     "categoryId": 2
@@ -1985,7 +1895,7 @@
     "location": "경상북도 영주시 수목원로 865",
     "area": "경상",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=91",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FPerson_sitting_in_tea_room_202606101707.jpeg?alt=media&token=c4e3d33e-d469-4c58-b191-890bd50d596a",
     "themes": [
       "안정",
       "자연"
@@ -1995,8 +1905,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "싱잉볼 명상",
-      "다도 체험"
+      "싱잉볼 명상 및 다도 체험"
     ],
     "contact": "054-3115-9741",
     "categoryId": 2
@@ -2007,7 +1916,7 @@
     "location": "경상북도 영주시 산림로 533",
     "area": "경상",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=92",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FWooden_cabin_in_Korean_forest_202606101707.jpeg?alt=media&token=b82dd082-1554-4470-aa20-9146f19da410",
     "themes": [
       "안정",
       "자연"
@@ -2017,8 +1926,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "054-9878-2656",
     "categoryId": 2
@@ -2029,7 +1937,7 @@
     "location": "충청남도 아산시 퇴계로 381",
     "area": "충청",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=93",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FWooden_cabin_in_Korean_forest_202606101707.jpeg?alt=media&token=b82dd082-1554-4470-aa20-9146f19da410",
     "themes": [
       "안정",
       "자연"
@@ -2039,8 +1947,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "041-4953-8625",
     "categoryId": 2
@@ -2051,7 +1958,7 @@
     "location": "충청북도 청주시 힐링로 204",
     "area": "충청",
     "description": "[40대 맞춤] 고요한 자연 속에서의 완전한 고립과 깊은 휴식을 통해 무거운 짐을 내려놓고 재충전의 시간을 가집니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=94",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F40s%2FTangerine_orchard_in_sunlight_202606101707.jpeg?alt=media&token=25d291e1-958b-4cd7-907f-157d8bce50d9",
     "themes": [
       "안정",
       "자연"
@@ -2061,8 +1968,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "디지털 디톡스",
-      "숲속 멍때리기"
+      "디지털 디톡스 및 숲속 멍때리기"
     ],
     "contact": "043-2871-1650",
     "categoryId": 2
@@ -2073,7 +1979,7 @@
     "location": "경기도 이천시 힐링로 773",
     "area": "경기",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=95",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FKorean_country_house_blooming_ga%E2%80%A6_202606101708.jpeg?alt=media&token=6eda870e-e9f9-4e24-8df6-12b0a33809f3",
     "themes": [
       "자연",
       "활동"
@@ -2083,8 +1989,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "귀농귀촌 기초 교육",
-      "텃밭 가꾸기"
+      "귀농귀촌 기초 교육 및 텃밭 가꾸기"
     ],
     "contact": "031-7003-3903",
     "categoryId": 3
@@ -2095,7 +2000,7 @@
     "location": "제주특별자치도 서귀포시 수목원로 999",
     "area": "제주",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=96",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FRustic_woodworking_studio_rural_%E2%80%A6_202606101708.jpeg?alt=media&token=847fa6e0-241b-42b7-ab50-c0a5a87e9a6b",
     "themes": [
       "자연",
       "활동"
@@ -2105,8 +2010,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "064-2324-9298",
     "categoryId": 3
@@ -2117,7 +2021,7 @@
     "location": "경기도 안성시 청정로 901",
     "area": "경기",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=97",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FPerson_tending_vegetable_garden_202606101707.jpeg?alt=media&token=f04cfc54-3fb0-48d1-904c-8b277338d4c6",
     "themes": [
       "자연",
       "활동"
@@ -2127,8 +2031,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "031-8705-9151",
     "categoryId": 3
@@ -2139,7 +2042,7 @@
     "location": "전라남도 나주시 수목원로 805",
     "area": "전라",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=98",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FRustic_woodworking_studio_rural_%E2%80%A6_202606101708.jpeg?alt=media&token=847fa6e0-241b-42b7-ab50-c0a5a87e9a6b",
     "themes": [
       "자연",
       "활동"
@@ -2149,8 +2052,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "061-4481-6535",
     "categoryId": 3
@@ -2161,7 +2063,7 @@
     "location": "경상북도 안동시 퇴계로 708",
     "area": "경상",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=99",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -2171,8 +2073,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "054-8550-3354",
     "categoryId": 3
@@ -2183,7 +2084,7 @@
     "location": "경기도 이천시 산림로 702",
     "area": "경기",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=100",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -2193,8 +2094,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "031-6643-3929",
     "categoryId": 3
@@ -2205,7 +2105,7 @@
     "location": "충청남도 아산시 별빛로 513",
     "area": "충청",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=101",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -2215,8 +2115,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "귀농귀촌 기초 교육",
-      "텃밭 가꾸기"
+      "귀농귀촌 기초 교육 및 텃밭 가꾸기"
     ],
     "contact": "041-185-8710",
     "categoryId": 3
@@ -2227,7 +2126,7 @@
     "location": "충청북도 청주시 별빛로 231",
     "area": "충청",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=102",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FRustic_woodworking_studio_rural_%E2%80%A6_202606101708.jpeg?alt=media&token=847fa6e0-241b-42b7-ab50-c0a5a87e9a6b",
     "themes": [
       "자연",
       "활동"
@@ -2237,8 +2136,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "043-1195-7993",
     "categoryId": 3
@@ -2249,7 +2147,7 @@
     "location": "경상북도 안동시 수목원로 886",
     "area": "경상",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=103",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -2259,8 +2157,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "054-6922-2445",
     "categoryId": 3
@@ -2271,7 +2168,7 @@
     "location": "경상북도 안동시 퇴계로 731",
     "area": "경상",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=104",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FRustic_woodworking_studio_rural_%E2%80%A6_202606101708.jpeg?alt=media&token=847fa6e0-241b-42b7-ab50-c0a5a87e9a6b",
     "themes": [
       "자연",
       "활동"
@@ -2281,8 +2178,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "054-5878-6982",
     "categoryId": 3
@@ -2293,7 +2189,7 @@
     "location": "충청남도 아산시 별빛로 747",
     "area": "충청",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=105",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -2303,8 +2199,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "041-9743-6589",
     "categoryId": 3
@@ -2315,7 +2210,7 @@
     "location": "충청남도 아산시 별빛로 208",
     "area": "충청",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=106",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -2325,8 +2220,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "041-7782-8021",
     "categoryId": 3
@@ -2337,7 +2231,7 @@
     "location": "경기도 이천시 자연로 978",
     "area": "경기",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=107",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -2347,8 +2241,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "031-5940-9919",
     "categoryId": 3
@@ -2359,7 +2252,7 @@
     "location": "경기도 안성시 퇴계로 121",
     "area": "경기",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=108",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FPerson_tending_vegetable_garden_202606101707.jpeg?alt=media&token=f04cfc54-3fb0-48d1-904c-8b277338d4c6",
     "themes": [
       "자연",
       "활동"
@@ -2369,8 +2262,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "031-9248-3105",
     "categoryId": 3
@@ -2381,7 +2273,7 @@
     "location": "경기도 이천시 수목원로 410",
     "area": "경기",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=109",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FKorean_country_house_blooming_ga%E2%80%A6_202606101708.jpeg?alt=media&token=6eda870e-e9f9-4e24-8df6-12b0a33809f3",
     "themes": [
       "자연",
       "활동"
@@ -2391,8 +2283,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "귀농귀촌 기초 교육",
-      "텃밭 가꾸기"
+      "귀농귀촌 기초 교육 및 텃밭 가꾸기"
     ],
     "contact": "031-8284-2050",
     "categoryId": 3
@@ -2403,7 +2294,7 @@
     "location": "강원도 강릉시 수목원로 755",
     "area": "강원",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=110",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FPerson_tending_vegetable_garden_202606101707.jpeg?alt=media&token=f04cfc54-3fb0-48d1-904c-8b277338d4c6",
     "themes": [
       "자연",
       "활동"
@@ -2413,8 +2304,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "033-8100-2916",
     "categoryId": 3
@@ -2425,7 +2315,7 @@
     "location": "경기도 안성시 평화로 201",
     "area": "경기",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=111",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FRustic_woodworking_studio_rural_%E2%80%A6_202606101708.jpeg?alt=media&token=847fa6e0-241b-42b7-ab50-c0a5a87e9a6b",
     "themes": [
       "자연",
       "활동"
@@ -2435,8 +2325,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "031-4313-2468",
     "categoryId": 3
@@ -2447,7 +2336,7 @@
     "location": "경기도 안성시 평화로 887",
     "area": "경기",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=112",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FRustic_woodworking_studio_rural_%E2%80%A6_202606101708.jpeg?alt=media&token=847fa6e0-241b-42b7-ab50-c0a5a87e9a6b",
     "themes": [
       "자연",
       "활동"
@@ -2457,8 +2346,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "031-1171-7918",
     "categoryId": 3
@@ -2469,7 +2357,7 @@
     "location": "경상북도 안동시 퇴계로 425",
     "area": "경상",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=113",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FPerson_tending_vegetable_garden_202606101707.jpeg?alt=media&token=f04cfc54-3fb0-48d1-904c-8b277338d4c6",
     "themes": [
       "자연",
       "활동"
@@ -2479,8 +2367,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "054-944-2538",
     "categoryId": 3
@@ -2491,7 +2378,7 @@
     "location": "경상북도 영주시 힐링로 377",
     "area": "경상",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=114",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -2501,8 +2388,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "054-5820-2033",
     "categoryId": 3
@@ -2513,7 +2399,7 @@
     "location": "제주특별자치도 서귀포시 별빛로 402",
     "area": "제주",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=115",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FKorean_country_house_blooming_ga%E2%80%A6_202606101708.jpeg?alt=media&token=6eda870e-e9f9-4e24-8df6-12b0a33809f3",
     "themes": [
       "자연",
       "활동"
@@ -2523,8 +2409,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "귀농귀촌 기초 교육",
-      "텃밭 가꾸기"
+      "귀농귀촌 기초 교육 및 텃밭 가꾸기"
     ],
     "contact": "064-8293-6265",
     "categoryId": 3
@@ -2535,7 +2420,7 @@
     "location": "충청남도 아산시 자연로 156",
     "area": "충청",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=116",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FKorean_country_house_blooming_ga%E2%80%A6_202606101708.jpeg?alt=media&token=6eda870e-e9f9-4e24-8df6-12b0a33809f3",
     "themes": [
       "자연",
       "활동"
@@ -2545,8 +2430,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "041-5339-8728",
     "categoryId": 3
@@ -2557,7 +2441,7 @@
     "location": "충청남도 아산시 별빛로 859",
     "area": "충청",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=117",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -2567,8 +2451,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "041-2651-4407",
     "categoryId": 3
@@ -2579,7 +2462,7 @@
     "location": "충청남도 아산시 자연로 933",
     "area": "충청",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=118",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -2589,8 +2472,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "041-2765-4225",
     "categoryId": 3
@@ -2601,7 +2483,7 @@
     "location": "경상북도 안동시 별빛로 475",
     "area": "경상",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=119",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FPerson_tending_vegetable_garden_202606101707.jpeg?alt=media&token=f04cfc54-3fb0-48d1-904c-8b277338d4c6",
     "themes": [
       "자연",
       "활동"
@@ -2611,8 +2493,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "054-4518-8149",
     "categoryId": 3
@@ -2623,7 +2504,7 @@
     "location": "충청북도 청주시 별빛로 101",
     "area": "충청",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=120",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FRustic_woodworking_studio_rural_%E2%80%A6_202606101708.jpeg?alt=media&token=847fa6e0-241b-42b7-ab50-c0a5a87e9a6b",
     "themes": [
       "자연",
       "활동"
@@ -2633,8 +2514,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "043-5377-7271",
     "categoryId": 3
@@ -2645,7 +2525,7 @@
     "location": "제주특별자치도 서귀포시 청정로 793",
     "area": "제주",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=121",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -2655,8 +2535,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "목공예 체험",
-      "전원생활 실습"
+      "목공예 체험 및 전원생활 실습"
     ],
     "contact": "064-1039-3638",
     "categoryId": 3
@@ -2667,7 +2546,7 @@
     "location": "전라북도 전주시 자연로 622",
     "area": "전라",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=122",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FRustic_woodworking_studio_rural_%E2%80%A6_202606101708.jpeg?alt=media&token=847fa6e0-241b-42b7-ab50-c0a5a87e9a6b",
     "themes": [
       "자연",
       "활동"
@@ -2677,8 +2556,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "귀농귀촌 기초 교육",
-      "텃밭 가꾸기"
+      "귀농귀촌 기초 교육 및 텃밭 가꾸기"
     ],
     "contact": "063-3951-5760",
     "categoryId": 3
@@ -2689,7 +2567,7 @@
     "location": "경상북도 영주시 평화로 598",
     "area": "경상",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=123",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -2699,8 +2577,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "귀농귀촌 기초 교육",
-      "텃밭 가꾸기"
+      "귀농귀촌 기초 교육 및 텃밭 가꾸기"
     ],
     "contact": "054-6417-9973",
     "categoryId": 3
@@ -2711,7 +2588,7 @@
     "location": "전라남도 나주시 산림로 353",
     "area": "전라",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=124",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FPerson_tending_vegetable_garden_202606101707.jpeg?alt=media&token=f04cfc54-3fb0-48d1-904c-8b277338d4c6",
     "themes": [
       "자연",
       "활동"
@@ -2721,8 +2598,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "귀농귀촌 기초 교육",
-      "텃밭 가꾸기"
+      "귀농귀촌 기초 교육 및 텃밭 가꾸기"
     ],
     "contact": "061-9732-3102",
     "categoryId": 3
@@ -2733,7 +2609,7 @@
     "location": "충청북도 청주시 별빛로 275",
     "area": "충청",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=125",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FKorean_country_house_blooming_ga%E2%80%A6_202606101708.jpeg?alt=media&token=6eda870e-e9f9-4e24-8df6-12b0a33809f3",
     "themes": [
       "자연",
       "활동"
@@ -2743,8 +2619,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "자연 밥상 요리 교실",
-      "산책"
+      "자연 밥상 요리 교실 및 산책"
     ],
     "contact": "043-3901-4214",
     "categoryId": 3
@@ -2755,7 +2630,7 @@
     "location": "충청남도 아산시 자연로 952",
     "area": "충청",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=126",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FRustic_woodworking_studio_rural_%E2%80%A6_202606101708.jpeg?alt=media&token=847fa6e0-241b-42b7-ab50-c0a5a87e9a6b",
     "themes": [
       "자연",
       "활동"
@@ -2765,8 +2640,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "귀농귀촌 기초 교육",
-      "텃밭 가꾸기"
+      "귀농귀촌 기초 교육 및 텃밭 가꾸기"
     ],
     "contact": "041-3242-8329",
     "categoryId": 3
@@ -2777,7 +2651,7 @@
     "location": "강원도 강릉시 산림로 334",
     "area": "강원",
     "description": "[50대 맞춤] 농촌 생활을 미리 경험해보고 흙을 만지며 마음의 평안과 새로운 삶의 방향성을 탐색해 봅니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=127",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F50s%2FOutdoor_dining_table_Korean_food_202606101708.jpeg?alt=media&token=08ea7124-68bf-4102-9fd6-0980b450dbc7",
     "themes": [
       "자연",
       "활동"
@@ -2787,8 +2661,7 @@
     ],
     "waveType": "theta",
     "programs": [
-      "귀농귀촌 기초 교육",
-      "텃밭 가꾸기"
+      "귀농귀촌 기초 교육 및 텃밭 가꾸기"
     ],
     "contact": "033-747-2647",
     "categoryId": 3
@@ -2799,7 +2672,7 @@
     "location": "경기도 이천시 산림로 935",
     "area": "경기",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=128",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FSunny_backyard_Hanok_house_Jangd%E2%80%A6_202606101708.jpeg?alt=media&token=54f1b3f6-46e5-4f3b-a3f1-a6d9599bfa26",
     "themes": [
       "안정",
       "자연"
@@ -2809,8 +2682,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "시니어 건강 증진 산책",
-      "원예 치료"
+      "시니어 건강 증진 산책 및 원예 치료"
     ],
     "contact": "031-7666-8129",
     "categoryId": 4
@@ -2821,7 +2693,7 @@
     "location": "경기도 안성시 청정로 671",
     "area": "경기",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=129",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FWalking_path_through_autumn_forest_202606101708.jpeg?alt=media&token=850af6f3-0c87-4047-aada-07c41037ef7a",
     "themes": [
       "안정",
       "자연"
@@ -2831,8 +2703,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "시니어 건강 증진 산책",
-      "원예 치료"
+      "시니어 건강 증진 산책 및 원예 치료"
     ],
     "contact": "031-1771-7790",
     "categoryId": 4
@@ -2843,7 +2714,7 @@
     "location": "충청남도 아산시 별빛로 784",
     "area": "충청",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=130",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FOutdoor_foot_spa_healing_garden_202606101708.jpeg?alt=media&token=e28fc6a7-e349-459c-80f2-8be6ce66b013",
     "themes": [
       "안정",
       "자연"
@@ -2853,8 +2724,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "041-2194-7042",
     "categoryId": 4
@@ -2865,7 +2735,7 @@
     "location": "전라북도 전주시 자연로 444",
     "area": "전라",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=131",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FWalking_path_through_autumn_forest_202606101708.jpeg?alt=media&token=850af6f3-0c87-4047-aada-07c41037ef7a",
     "themes": [
       "안정",
       "자연"
@@ -2875,8 +2745,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "063-7175-3616",
     "categoryId": 4
@@ -2887,7 +2756,7 @@
     "location": "강원도 강릉시 별빛로 518",
     "area": "강원",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=132",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FSunny_backyard_Hanok_house_Jangd%E2%80%A6_202606101708.jpeg?alt=media&token=54f1b3f6-46e5-4f3b-a3f1-a6d9599bfa26",
     "themes": [
       "안정",
       "자연"
@@ -2897,8 +2766,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "시니어 건강 증진 산책",
-      "원예 치료"
+      "시니어 건강 증진 산책 및 원예 치료"
     ],
     "contact": "033-2496-4233",
     "categoryId": 4
@@ -2909,7 +2777,7 @@
     "location": "경상북도 영주시 평화로 97",
     "area": "경상",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=133",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FOutdoor_foot_spa_healing_garden_202606101708.jpeg?alt=media&token=e28fc6a7-e349-459c-80f2-8be6ce66b013",
     "themes": [
       "안정",
       "자연"
@@ -2919,8 +2787,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "054-5058-3903",
     "categoryId": 4
@@ -2931,7 +2798,7 @@
     "location": "경기도 이천시 수목원로 237",
     "area": "경기",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=134",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FWalking_path_through_autumn_forest_202606101708.jpeg?alt=media&token=850af6f3-0c87-4047-aada-07c41037ef7a",
     "themes": [
       "안정",
       "자연"
@@ -2941,8 +2808,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "031-9152-4796",
     "categoryId": 4
@@ -2953,7 +2819,7 @@
     "location": "전라북도 전주시 자연로 273",
     "area": "전라",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=135",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -2963,8 +2829,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "063-3967-3481",
     "categoryId": 4
@@ -2975,7 +2840,7 @@
     "location": "충청남도 아산시 평화로 420",
     "area": "충청",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=136",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -2985,8 +2850,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "전통 장 담그기",
-      "한방 족욕"
+      "전통 장 담그기 및 한방 족욕"
     ],
     "contact": "041-8503-5956",
     "categoryId": 4
@@ -2997,7 +2861,7 @@
     "location": "경기도 안성시 평화로 447",
     "area": "경기",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=137",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FWalking_path_through_autumn_forest_202606101708.jpeg?alt=media&token=850af6f3-0c87-4047-aada-07c41037ef7a",
     "themes": [
       "안정",
       "자연"
@@ -3007,8 +2871,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "시니어 건강 증진 산책",
-      "원예 치료"
+      "시니어 건강 증진 산책 및 원예 치료"
     ],
     "contact": "031-9021-6081",
     "categoryId": 4
@@ -3019,7 +2882,7 @@
     "location": "경상북도 안동시 자연로 343",
     "area": "경상",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=138",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FWalking_path_through_autumn_forest_202606101708.jpeg?alt=media&token=850af6f3-0c87-4047-aada-07c41037ef7a",
     "themes": [
       "안정",
       "자연"
@@ -3029,8 +2892,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "054-2184-8226",
     "categoryId": 4
@@ -3041,7 +2903,7 @@
     "location": "경상북도 안동시 별빛로 492",
     "area": "경상",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=139",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FWalking_path_through_autumn_forest_202606101708.jpeg?alt=media&token=850af6f3-0c87-4047-aada-07c41037ef7a",
     "themes": [
       "안정",
       "자연"
@@ -3051,8 +2913,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "시니어 건강 증진 산책",
-      "원예 치료"
+      "시니어 건강 증진 산책 및 원예 치료"
     ],
     "contact": "054-5847-7107",
     "categoryId": 4
@@ -3063,7 +2924,7 @@
     "location": "충청남도 아산시 평화로 106",
     "area": "충청",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=140",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -3073,8 +2934,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "전통 장 담그기",
-      "한방 족욕"
+      "전통 장 담그기 및 한방 족욕"
     ],
     "contact": "041-250-6681",
     "categoryId": 4
@@ -3085,7 +2945,7 @@
     "location": "경상북도 안동시 산림로 247",
     "area": "경상",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=141",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -3095,8 +2955,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "시니어 건강 증진 산책",
-      "원예 치료"
+      "시니어 건강 증진 산책 및 원예 치료"
     ],
     "contact": "054-3039-6445",
     "categoryId": 4
@@ -3107,7 +2966,7 @@
     "location": "경상북도 안동시 청정로 755",
     "area": "경상",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=142",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -3117,8 +2976,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "전통 장 담그기",
-      "한방 족욕"
+      "전통 장 담그기 및 한방 족욕"
     ],
     "contact": "054-7117-7093",
     "categoryId": 4
@@ -3129,7 +2987,7 @@
     "location": "강원도 강릉시 수목원로 548",
     "area": "강원",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=143",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FWalking_path_through_autumn_forest_202606101708.jpeg?alt=media&token=850af6f3-0c87-4047-aada-07c41037ef7a",
     "themes": [
       "안정",
       "자연"
@@ -3139,8 +2997,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "033-7191-1092",
     "categoryId": 4
@@ -3151,7 +3008,7 @@
     "location": "충청남도 아산시 청정로 159",
     "area": "충청",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=144",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -3161,8 +3018,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "전통 장 담그기",
-      "한방 족욕"
+      "전통 장 담그기 및 한방 족욕"
     ],
     "contact": "041-9915-6634",
     "categoryId": 4
@@ -3173,7 +3029,7 @@
     "location": "제주특별자치도 서귀포시 별빛로 345",
     "area": "제주",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=145",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FWalking_path_through_autumn_forest_202606101708.jpeg?alt=media&token=850af6f3-0c87-4047-aada-07c41037ef7a",
     "themes": [
       "안정",
       "자연"
@@ -3183,8 +3039,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "시니어 건강 증진 산책",
-      "원예 치료"
+      "시니어 건강 증진 산책 및 원예 치료"
     ],
     "contact": "064-7540-1887",
     "categoryId": 4
@@ -3195,7 +3050,7 @@
     "location": "경기도 이천시 자연로 187",
     "area": "경기",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=146",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FSunny_backyard_Hanok_house_Jangd%E2%80%A6_202606101708.jpeg?alt=media&token=54f1b3f6-46e5-4f3b-a3f1-a6d9599bfa26",
     "themes": [
       "안정",
       "자연"
@@ -3205,8 +3060,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "031-8153-3986",
     "categoryId": 4
@@ -3217,7 +3071,7 @@
     "location": "강원도 강릉시 산림로 660",
     "area": "강원",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=147",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FWalking_path_through_autumn_forest_202606101708.jpeg?alt=media&token=850af6f3-0c87-4047-aada-07c41037ef7a",
     "themes": [
       "안정",
       "자연"
@@ -3227,8 +3081,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "033-4630-7575",
     "categoryId": 4
@@ -3239,7 +3092,7 @@
     "location": "경상북도 안동시 수목원로 266",
     "area": "경상",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=148",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -3249,8 +3102,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "시니어 건강 증진 산책",
-      "원예 치료"
+      "시니어 건강 증진 산책 및 원예 치료"
     ],
     "contact": "054-5425-3213",
     "categoryId": 4
@@ -3261,7 +3113,7 @@
     "location": "충청남도 아산시 평화로 931",
     "area": "충청",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=149",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FSunny_backyard_Hanok_house_Jangd%E2%80%A6_202606101708.jpeg?alt=media&token=54f1b3f6-46e5-4f3b-a3f1-a6d9599bfa26",
     "themes": [
       "안정",
       "자연"
@@ -3271,8 +3123,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "전통 장 담그기",
-      "한방 족욕"
+      "전통 장 담그기 및 한방 족욕"
     ],
     "contact": "041-6103-3751",
     "categoryId": 4
@@ -3283,7 +3134,7 @@
     "location": "충청북도 청주시 별빛로 635",
     "area": "충청",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=150",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -3293,8 +3144,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "시니어 건강 증진 산책",
-      "원예 치료"
+      "시니어 건강 증진 산책 및 원예 치료"
     ],
     "contact": "043-759-1907",
     "categoryId": 4
@@ -3305,7 +3155,7 @@
     "location": "강원도 강릉시 평화로 531",
     "area": "강원",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=151",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FOutdoor_foot_spa_healing_garden_202606101708.jpeg?alt=media&token=e28fc6a7-e349-459c-80f2-8be6ce66b013",
     "themes": [
       "안정",
       "자연"
@@ -3315,8 +3165,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "033-8199-1667",
     "categoryId": 4
@@ -3327,7 +3176,7 @@
     "location": "제주특별자치도 서귀포시 청정로 21",
     "area": "제주",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=152",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FWalking_path_through_autumn_forest_202606101708.jpeg?alt=media&token=850af6f3-0c87-4047-aada-07c41037ef7a",
     "themes": [
       "안정",
       "자연"
@@ -3337,8 +3186,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "064-1180-2186",
     "categoryId": 4
@@ -3349,7 +3197,7 @@
     "location": "경상북도 영주시 별빛로 299",
     "area": "경상",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=153",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -3359,8 +3207,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "전통 장 담그기",
-      "한방 족욕"
+      "전통 장 담그기 및 한방 족욕"
     ],
     "contact": "054-3241-6313",
     "categoryId": 4
@@ -3371,7 +3218,7 @@
     "location": "충청남도 아산시 청정로 36",
     "area": "충청",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=154",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -3381,8 +3228,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "041-8566-4177",
     "categoryId": 4
@@ -3393,7 +3239,7 @@
     "location": "충청북도 청주시 산림로 552",
     "area": "충청",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=155",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FSunny_backyard_Hanok_house_Jangd%E2%80%A6_202606101708.jpeg?alt=media&token=54f1b3f6-46e5-4f3b-a3f1-a6d9599bfa26",
     "themes": [
       "안정",
       "자연"
@@ -3403,8 +3249,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "시니어 건강 증진 산책",
-      "원예 치료"
+      "시니어 건강 증진 산책 및 원예 치료"
     ],
     "contact": "043-6507-6255",
     "categoryId": 4
@@ -3415,7 +3260,7 @@
     "location": "충청남도 아산시 청정로 981",
     "area": "충청",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=156",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -3425,8 +3270,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "041-6076-2742",
     "categoryId": 4
@@ -3437,7 +3281,7 @@
     "location": "경상북도 안동시 퇴계로 664",
     "area": "경상",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=157",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FWalking_path_through_autumn_forest_202606101708.jpeg?alt=media&token=850af6f3-0c87-4047-aada-07c41037ef7a",
     "themes": [
       "안정",
       "자연"
@@ -3447,8 +3291,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "054-6501-6555",
     "categoryId": 4
@@ -3459,7 +3302,7 @@
     "location": "경기도 안성시 자연로 658",
     "area": "경기",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=158",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -3469,8 +3312,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "전통 장 담그기",
-      "한방 족욕"
+      "전통 장 담그기 및 한방 족욕"
     ],
     "contact": "031-6849-5029",
     "categoryId": 4
@@ -3481,7 +3323,7 @@
     "location": "제주특별자치도 서귀포시 힐링로 289",
     "area": "제주",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=159",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FWalking_path_through_autumn_forest_202606101708.jpeg?alt=media&token=850af6f3-0c87-4047-aada-07c41037ef7a",
     "themes": [
       "안정",
       "자연"
@@ -3491,8 +3333,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "064-7986-5168",
     "categoryId": 4
@@ -3503,7 +3344,7 @@
     "location": "경상북도 안동시 힐링로 163",
     "area": "경상",
     "description": "[60대 맞춤] 원예 치료와 가벼운 산책을 통해 정서적 안정감과 삶의 활력을 되찾아 드립니다.",
-    "imageUrl": "https://loremflickr.com/800/600/forest,healing/all?lock=160",
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/healing-mind-2026.firebasestorage.app/o/healing-images%2F60s%2FElderly_person_planting_seeds_gr%E2%80%A6_202606101708.jpeg?alt=media&token=8c88c6ee-a1a6-4e75-bd4a-5211001fe832",
     "themes": [
       "안정",
       "자연"
@@ -3513,8 +3354,7 @@
     ],
     "waveType": "alpha",
     "programs": [
-      "반려식물 키우기",
-      "미술 치료"
+      "반려식물 키우기 및 미술 치료"
     ],
     "contact": "054-7591-9143",
     "categoryId": 4

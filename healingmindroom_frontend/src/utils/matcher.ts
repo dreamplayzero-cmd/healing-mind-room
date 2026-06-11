@@ -48,10 +48,19 @@ export function matchFarms(farms: Farm[], input: MatcherInput): Farm[] {
     return { farm, score };
   });
 
-  // 점수가 높은 순으로 정렬하고 상위 3개 농장 추출
+  // 점수가 높은 순으로 정렬하고 상위 3개 농장 추출 (중복 제거)
   const sortedFarms = scoredFarms
     .sort((a, b) => b.score - a.score)
     .map((sf) => sf.farm);
 
-  return sortedFarms.slice(0, 3);
+  const uniqueFarms: Farm[] = [];
+  const seenNames = new Set<string>();
+  for (const farm of sortedFarms) {
+    if (!seenNames.has(farm.name)) {
+      seenNames.add(farm.name);
+      uniqueFarms.push(farm);
+    }
+  }
+
+  return uniqueFarms.slice(0, 3);
 }

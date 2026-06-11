@@ -25,7 +25,7 @@ interface FlowContextType {
   messages: Message[];
   isTyping: boolean;
   
-  login: (provider: 'kakao' | 'google') => Promise<void>;
+  login: (provider: 'kakao' | 'google', personaId?: 'jungwoo' | 'jiyeon') => Promise<void>;
   logout: () => void;
   selectAge: (age: '30s' | '40s' | '50s' | '60s') => Promise<void>;
   selectWorryCategory: (category: string) => Promise<void>;
@@ -130,44 +130,82 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   // 공통 로그인 성공 완료 처리 함수
-  const completeLoginFlow = (loggedInUser: User, provider: 'kakao' | 'google') => {
+  const completeLoginFlow = (loggedInUser: User, provider: 'kakao' | 'google', personaId?: 'jungwoo' | 'jiyeon') => {
     setUser(loggedInUser);
     localStorage.setItem('healing_session', JSON.stringify(loggedInUser));
     
-    // 로그인 카드 메시지를 제거하고 텍스트 메시지로 교체
-    setMessages((prev) => [
-      ...prev.filter(m => m.type !== 'login'),
-      {
-        id: createId(),
-        sender: 'user',
-        type: 'text',
-        content: `${provider === 'kakao' ? '카카오' : '구글'} 간편 로그인 완료`,
-        timestamp: new Date()
-      },
-      {
-        id: createId(),
-        sender: 'bot',
-        type: 'text',
-        content: `반갑습니다, ${loggedInUser.name} 님! 🌿\n오늘 마음의 짐을 정리해 줄 어울리는 치유농장을 찾아드리겠습니다.`,
-        timestamp: new Date()
-      },
-      {
-        id: createId(),
-        sender: 'bot',
-        type: 'text',
-        content: `먼저 ${loggedInUser.name} 님의 연령대를 알려주시겠어요?`,
-        timestamp: new Date()
-      },
-      {
-        id: createId(),
-        sender: 'bot',
-        type: 'age',
-        content: '',
-        timestamp: new Date()
-      }
-    ]);
-    
     setStep('step1');
+
+    if (personaId) {
+      // 페르소나 로그인 시 연령대 선택 생략
+      const personaAge = personaId === 'jungwoo' ? '40s' : '30s';
+      setSelectedAge(personaAge as any);
+
+      setMessages((prev) => [
+        ...prev.filter(m => m.type !== 'login'),
+        {
+          id: createId(),
+          sender: 'user',
+          type: 'text',
+          content: `${personaId === 'jungwoo' ? '이정우 (40대 남성)' : '최지연 (30대 여성)'} 페르소나 시작`,
+          timestamp: new Date()
+        },
+        {
+          id: createId(),
+          sender: 'bot',
+          type: 'text',
+          content: `반갑습니다, ${loggedInUser.name} 님! 🌿\n오늘 마음의 짐을 정리해 줄 어울리는 치유농장을 찾아드리겠습니다.`,
+          timestamp: new Date()
+        },
+        {
+          id: createId(),
+          sender: 'bot',
+          type: 'text',
+          content: `어떤 고민이 있으신가요? 솔직한 마음을 들려주세요. 함께 돌보아 드릴게요.`,
+          timestamp: new Date()
+        },
+        {
+          id: createId(),
+          sender: 'bot',
+          type: 'worryCategory',
+          content: '',
+          timestamp: new Date()
+        }
+      ]);
+    } else {
+      // 일반 소셜 로그인 시 기존 흐름 유지
+      setMessages((prev) => [
+        ...prev.filter(m => m.type !== 'login'),
+        {
+          id: createId(),
+          sender: 'user',
+          type: 'text',
+          content: `${provider === 'kakao' ? '카카오' : '구글'} 간편 로그인 완료`,
+          timestamp: new Date()
+        },
+        {
+          id: createId(),
+          sender: 'bot',
+          type: 'text',
+          content: `반갑습니다, ${loggedInUser.name} 님! 🌿\n오늘 마음의 짐을 정리해 줄 어울리는 치유농장을 찾아드리겠습니다.`,
+          timestamp: new Date()
+        },
+        {
+          id: createId(),
+          sender: 'bot',
+          type: 'text',
+          content: `먼저 ${loggedInUser.name} 님의 연령대를 알려주시겠어요?`,
+          timestamp: new Date()
+        },
+        {
+          id: createId(),
+          sender: 'bot',
+          type: 'age',
+          content: '',
+          timestamp: new Date()
+        }
+      ]);
+    }
   };
 
   // 카카오 OAuth 인가 코드(?code=xxx) 감지 및 토큰 교환 처리
@@ -247,15 +285,15 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
         } catch (err: any) {
           console.error("❌ 카카오 REST API 로그인 실패, 목업으로 폴백합니다:", err);
           // 비개발자 사용자의 디버깅을 위해 구체적인 오류 원인 alert 경고창 노출
-          alert(`[카카오 로그인 연동 실패 알림]\n카카오 로그인은 성공했으나, 사용자 정보를 가져오는 도중 에러가 발생했습니다.\n\n오류 내용: ${err.message || err}\n\n*원인 분석: 백엔드 서버가 없는 정적 웹앱 환경에서는 카카오의 보안 정책(CORS)에 의해 REST API 토큰 요청이 브라우저에서 차단될 수 있습니다. 안전을 위해 가상 사용자('김은지')로 연결합니다.`);
+          alert(`[카카오 로그인 연동 실패 알림]\n카카오 로그인은 성공했으나, 사용자 정보를 가져오는 도중 에러가 발생했습니다.\n\n오류 내용: ${err.message || err}\n\n*원인 분석: 백엔드 서버가 없는 정적 웹앱 환경에서는 카카오의 보안 정책(CORS)에 의해 REST API 토큰 요청이 브라우저에서 차단될 수 있습니다. 안전을 위해 가상 사용자('최지연')로 연결합니다.`);
           // 실패 시 안전하게 Mock 유저로 폴백
           const fallbackUser: User = {
-            name: '김은지 (카카오)',
-            email: 'eunji_kakao@example.com',
-            avatarUrl: 'https://api.dicebear.com/7.x/adventurer/svg?seed=eunji',
+            name: '최지연 (30대 여성)',
+            email: 'jiyeon@example.com',
+            avatarUrl: 'https://api.dicebear.com/7.x/adventurer/svg?seed=jiyeon&skinColor=f2d3b1',
             provider: 'kakao'
           };
-          completeLoginFlow(fallbackUser, 'kakao');
+          completeLoginFlow(fallbackUser, 'kakao', 'jiyeon');
         } finally {
           // URL 파라미터에서 code 제거하여 깨끗하게 정돈
           const cleanUrl = window.location.pathname + window.location.hash;
@@ -268,7 +306,7 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
   }, []);
 
   // 2. 소셜 로그인 연동 (실제 Kakao REST API 연동 및 Mock 폴백)
-  const login = async (provider: 'kakao' | 'google') => {
+  const login = async (provider: 'kakao' | 'google', personaId?: 'jungwoo' | 'jiyeon') => {
     const enableRealSocial = import.meta.env.VITE_ENABLE_REAL_SOCIAL === 'true';
     const kakaoClientId = import.meta.env.VITE_KAKAO_CLIENT_ID || "";
     
@@ -284,21 +322,21 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     // 구글 로그인 또는 실제 모드 꺼짐 / 키 누락 시 Mock 로그인 처리
     await new Promise((resolve) => setTimeout(resolve, 1000));
-    const loggedInUser: User = provider === 'kakao' 
+    const loggedInUser: User = personaId === 'jiyeon' 
       ? {
-          name: '김은지 (카카오)',
-          email: 'eunji_kakao@example.com',
-          avatarUrl: 'https://api.dicebear.com/7.x/adventurer/svg?seed=eunji',
-          provider: 'kakao'
+          name: '최지연 (30대 여성)',
+          email: 'jiyeon@example.com',
+          avatarUrl: 'https://api.dicebear.com/7.x/adventurer/svg?seed=jiyeon&skinColor=f2d3b1',
+          provider: provider
         }
       : {
-          name: '이정우 (구글)',
-          email: 'jungwoo_google@example.com',
+          name: '이정우 (40대 남성)',
+          email: 'jungwoo@example.com',
           avatarUrl: 'https://api.dicebear.com/7.x/adventurer/svg?seed=jungwoo',
-          provider: 'google'
+          provider: provider
         };
 
-    completeLoginFlow(loggedInUser, provider);
+    completeLoginFlow(loggedInUser, provider, personaId);
   };
 
   // 3. 로그아웃
@@ -584,6 +622,7 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     try {
       const ageLabelMap: Record<string, string> = {
+        '20s': '30대',
         '30s': '30대',
         '40s': '40대',
         '50s': '50대',

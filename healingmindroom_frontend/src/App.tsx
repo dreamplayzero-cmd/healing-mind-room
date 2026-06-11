@@ -81,7 +81,7 @@ const FarmDetailModal: React.FC<{ farm: Farm; onClose: () => void }> = ({ farm, 
             textAlign: 'left'
           }}>
             <span style={{ fontSize: '10px', background: 'rgba(0,0,0,0.5)', padding: '2px 6px', borderRadius: '8px', fontWeight: 700 }}>
-              Flow AI 공간 원화 시각화
+              AI 맞춤 치유농장 추천
             </span>
             <h3 style={{ fontSize: '18px', fontWeight: 900, marginTop: '2px' }}>{farm.name}</h3>
           </div>
@@ -120,13 +120,25 @@ const FarmDetailModal: React.FC<{ farm: Farm; onClose: () => void }> = ({ farm, 
             <div>📞 <b>전화문의</b>: {farm.contact}</div>
           </div>
 
-          <button
-            className="btn-healing"
-            onClick={onClose}
-            style={{ marginTop: '20px', height: '40px', fontSize: '13px' }}
-          >
-            닫고 돌아가기
-          </button>
+          <div style={{ display: 'flex', gap: '8px', marginTop: '20px' }}>
+            <button
+              className="btn-healing"
+              onClick={() => {
+                onClose();
+                window.location.hash = 'result';
+              }}
+              style={{ flex: 1, height: '40px', fontSize: '13px' }}
+            >
+              마음 처방전으로 이동 💌
+            </button>
+            <button
+              className="btn-healing"
+              onClick={onClose}
+              style={{ flex: 1, height: '40px', fontSize: '13px', background: 'white', color: 'var(--green-dark)', border: '1.5px solid var(--green-mid)' }}
+            >
+              닫고 돌아가기
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -548,174 +560,122 @@ const JournalTab: React.FC = () => {
 };
 
 
-// 마이 프로필 및 최근 마음진단 요약 컴포넌트
-const ProfileTab: React.FC<{ onSelectFarm: (farm: Farm) => void }> = ({ onSelectFarm }) => {
+// 최종 마음 처방전 컴포넌트
+const ResultTab: React.FC<{ onSelectFarm: (farm: Farm) => void }> = ({ onSelectFarm }) => {
   const {
     user,
     logout,
-    selectedAge,
     selectedWorryCategory,
-    fatigueScore,
-    sleepStatus,
-    tensionLevel,
     waves,
     matchedFarms,
     resetFlow
   } = useFlow();
 
-  if (!user) {
+  if (!user || !waves) {
     return (
       <div className="profile-container" style={{ justifyContent: 'center', alignItems: 'center', textAlign: 'center' }}>
-        <div style={{ fontSize: '48px', marginBottom: '16px' }}>🌱</div>
-        <div style={{ fontSize: '15px', fontWeight: 700, color: 'var(--green-dark)', marginBottom: '8px' }}>로그인이 필요합니다</div>
+        <div style={{ fontSize: '48px', marginBottom: '16px' }}>💌</div>
+        <div style={{ fontSize: '15px', fontWeight: 700, color: 'var(--green-dark)', marginBottom: '8px' }}>마음 처방전이 아직 준비되지 않았어요</div>
         <div style={{ fontSize: '13px', color: 'var(--text-muted)', marginBottom: '20px' }}>
-          마음 치유의 방 서비스를 이용하시려면<br />먼저 AI 치유방 탭에서 로그인을 완료해 주세요.
+          AI 치유방에서 대화를 나누고 진단을 완료하시면<br />나만을 위한 맞춤 처방전이 발급됩니다. 🌱
         </div>
       </div>
     );
   }
 
-  const ageLabels: Record<string, string> = {
-    '30s': '30대',
-    '40s': '40대',
-    '50s': '50대',
-    '60s': '60대 이상'
-  };
-
   return (
-    <div className="profile-container">
-      {/* 사용자 카드 */}
-      <div className="profile-card">
-        <img src={user.avatarUrl} alt="Avatar" className="profile-avatar" />
-        <div className="profile-info">
-          <div className="profile-name">{user.name}</div>
-          <div className="profile-email">{user.email}</div>
-          <span className="profile-provider">
-            {user.provider === 'kakao' ? '💬 카카오 로그인' : '🌐 구글 로그인'}
-          </span>
+    <div className="profile-container" style={{ padding: '20px 16px', background: '#f8fafc' }}>
+      <div style={{ textAlign: 'center', marginBottom: '24px', animation: 'fadeIn 0.8s ease-out' }}>
+        <div style={{ fontSize: '12px', fontWeight: 800, color: 'var(--green-mid)', marginBottom: '8px' }}>나만을 위한 위로의 메시지</div>
+        <h2 style={{ fontSize: '22px', fontWeight: 900, color: 'var(--text-main)', marginBottom: '16px' }}>
+          {user.name} 님의 마음 처방전 💌
+        </h2>
+        <div style={{
+          width: '100%',
+          height: '200px',
+          borderRadius: 'var(--radius-md)',
+          backgroundImage: waves.dominant === "alpha" 
+            ? "url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=600&auto=format&fit=crop')"
+            : "url('https://images.unsplash.com/photo-1506744626753-1fa28f67e40d?q=80&w=600&auto=format&fit=crop')",
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          boxShadow: '0 8px 24px rgba(0,0,0,0.1)',
+          marginBottom: '20px',
+          position: 'relative',
+          overflow: 'hidden'
+        }}>
+          <div style={{
+            position: 'absolute',
+            top: 0, left: 0, right: 0, bottom: 0,
+            background: 'linear-gradient(to bottom, rgba(0,0,0,0.2) 0%, rgba(0,0,0,0.6) 100%)',
+            display: 'flex',
+            alignItems: 'flex-end',
+            padding: '16px',
+            textAlign: 'left'
+          }}>
+            <p style={{ color: 'white', fontSize: '13px', lineHeight: '1.6', fontWeight: 600, textShadow: '1px 1px 4px rgba(0,0,0,0.8)' }}>
+              "바람이 나뭇가지를 흔들 듯,<br/>때로는 시련이 우리의 마음을 흔들지만<br/>그 흔들림 속에서 우리는 더 깊이 뿌리내립니다."
+            </p>
+          </div>
         </div>
       </div>
 
-      {/* 최근 자가진단 리포트 */}
-      <div className="section-card">
-        <div className="section-title">📊 최근 마음 진단 리포트</div>
-        {waves ? (
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-            <div className="diag-summary-grid">
-              <div className="diag-summary-item">
-                <span className="diag-label">연령대</span>
-                <span className="diag-value">{selectedAge ? ageLabels[selectedAge] : '미입력'}</span>
-              </div>
-              <div className="diag-summary-item">
-                <span className="diag-label">고민 카테고리</span>
-                <span className="diag-value">{selectedWorryCategory || '미선택'}</span>
-              </div>
-              <div className="diag-summary-item">
-                <span className="diag-label">피로도</span>
-                <span className="diag-value">🔥 {fatigueScore}점</span>
-              </div>
-              <div className="diag-summary-item">
-                <span className="diag-label">수면 / 긴장</span>
-                <span className="diag-value">
-                  {['🌧', '⛅', '🌤', '🌤', '☀️'][sleepStatus - 1] || '⛅'} {sleepStatus}점 / {['🌱', '🌿', '🍃', '⚡', '🔥'][tensionLevel - 1] || '🌿'} {tensionLevel}점
-                </span>
-              </div>
-            </div>
-
-            {/* 뇌파 분석 바 */}
-            <div style={{ background: '#f8fafc', padding: '12px', borderRadius: 'var(--radius-sm)', border: '1px solid var(--glass-border)', marginTop: '4px' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '11px', fontWeight: 700, marginBottom: '6px' }}>
-                <span style={{ color: 'var(--green-mid)' }}>알파파 {Math.round(waves.alpha * 100)}%</span>
-                <span style={{ color: 'var(--purple-soft)' }}>세타파 {Math.round(waves.theta * 100)}%</span>
-              </div>
-              <div style={{ height: '10px', width: '100%', background: '#e2e8f0', borderRadius: '5px', overflow: 'hidden', display: 'flex' }}>
-                <div style={{ width: `${waves.alpha * 100}%`, background: 'var(--green-mid)' }} />
-                <div style={{ width: `${waves.theta * 100}%`, background: 'var(--purple-soft)' }} />
-              </div>
-              <div style={{ fontSize: '11px', color: 'var(--text-muted)', marginTop: '8px', lineHeight: '1.4' }}>
-                우세 뇌파: <b>{waves.dominant === 'alpha' ? '알파파 (안정 필요)' : '세타파 (피로 해소 필요)'}</b>
-              </div>
-            </div>
-          </div>
-        ) : (
-          <div style={{ padding: '16px 0', textAlign: 'center', color: 'var(--text-muted)', fontSize: '12px' }}>
-            아직 완료된 진단이 없습니다.<br />AI 치유방에서 첫 진단을 완료해 주세요. 🌱
-          </div>
-        )}
+      <div className="section-card" style={{ animation: 'fadeIn 1s ease-out', borderLeft: '4px solid var(--green-mid)' }}>
+        <p style={{ fontSize: '14px', color: 'var(--text-main)', lineHeight: '1.7', fontWeight: 600 }}>
+          {user.name} 님, 최근 <b>{selectedWorryCategory || '여러 가지 일들'}</b>로 인해 많이 지치셨죠.<br/><br/>
+          당신의 뇌파는 현재 <b>{waves.dominant === 'alpha' ? '알파파(휴식)' : '세타파(치유)'}</b> 상태의 안정이 가장 필요하다고 말하고 있습니다.<br/>
+          잠시 모든 짐을 내려놓고, 흐르는 물소리와 푸른 나무들이 있는 곳으로 떠나보는 건 어떨까요?<br/><br/>
+          자연은 언제나 당신을 있는 그대로 품어줄 준비가 되어 있습니다. 🌿
+        </p>
       </div>
 
-      {/* 최근 추천 치유농장 */}
-      {waves && matchedFarms.length > 0 && (
-        <div className="section-card">
-          <div className="section-title">🏕️ 추천받은 치유농장</div>
-          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px' }}>
-            {matchedFarms.slice(0, 3).map((farm) => (
-              <div
-                key={farm.id}
-                onClick={() => onSelectFarm(farm)}
-                style={{
-                  display: 'flex',
-                  alignItems: 'center',
-                  gap: '10px',
-                  padding: '8px 10px',
-                  background: '#f8fafc',
-                  borderRadius: 'var(--radius-sm)',
-                  border: '1.2px solid var(--glass-border)',
-                  cursor: 'pointer',
-                  transition: 'var(--transition-smooth)'
-                }}
-                onMouseEnter={(e) => e.currentTarget.style.borderColor = 'var(--green-mid)'}
-                onMouseLeave={(e) => e.currentTarget.style.borderColor = 'var(--glass-border)'}
-              >
-                <div style={{
-                  width: '32px',
-                  height: '32px',
-                  borderRadius: '6px',
-                  backgroundImage: `url(${farm.imageUrl})`,
-                  backgroundSize: 'cover',
-                  backgroundPosition: 'center',
-                  flexShrink: 0
-                }} />
-                <div style={{ flexGrow: 1, textAlign: 'left' }}>
-                  <div style={{ fontSize: '12px', fontWeight: 800, color: 'var(--text-main)' }}>{farm.name}</div>
-                  <div style={{ fontSize: '10px', color: 'var(--text-muted)' }}>{farm.location.split(' ')[1]} • {farm.waveType === 'alpha' ? '알파파' : '세타파'}</div>
-                </div>
-                <div style={{ fontSize: '12px' }}>➔</div>
-              </div>
-            ))}
+      {matchedFarms.length > 0 && (
+        <div className="section-card" style={{ animation: 'fadeIn 1.2s ease-out' }}>
+          <div className="section-title">🏕️ 당신에게 꼭 맞는 추천 공간</div>
+          <div
+            onClick={() => onSelectFarm(matchedFarms[0])}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '12px',
+              padding: '12px',
+              background: 'white',
+              borderRadius: 'var(--radius-sm)',
+              border: '1.2px solid var(--glass-border)',
+              cursor: 'pointer',
+              boxShadow: '0 4px 12px rgba(0,0,0,0.05)'
+            }}
+          >
+            <div style={{
+              width: '60px',
+              height: '60px',
+              borderRadius: '8px',
+              backgroundImage: `url(${matchedFarms[0].imageUrl})`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+              flexShrink: 0
+            }} />
+            <div style={{ flexGrow: 1, textAlign: 'left' }}>
+              <div style={{ fontSize: '14px', fontWeight: 800, color: 'var(--text-main)', marginBottom: '4px' }}>{matchedFarms[0].name}</div>
+              <div style={{ fontSize: '11px', color: 'var(--text-muted)' }}>{matchedFarms[0].location}</div>
+            </div>
+            <div style={{ fontSize: '16px', color: 'var(--green-mid)' }}>➔</div>
           </div>
         </div>
       )}
 
-      {/* 시스템 설정 / 계정 관리 */}
-      <div style={{ display: 'flex', gap: '10px', marginTop: 'auto', paddingTop: '16px' }}>
+      <div style={{ display: 'flex', gap: '10px', marginTop: '20px', paddingTop: '16px' }}>
         <button
           onClick={resetFlow}
           className="btn-healing"
-          style={{
-            flex: 1,
-            height: '40px',
-            background: 'white',
-            border: '1.5px solid var(--glass-border)',
-            color: 'var(--text-main)',
-            fontSize: '13px',
-            boxShadow: 'none'
-          }}
+          style={{ flex: 1, height: '44px', background: 'white', border: '1.5px solid var(--green-mid)', color: 'var(--green-dark)', fontSize: '13px' }}
         >
-          진단 초기화 🔄
+          처음부터 다시하기 🔄
         </button>
         <button
           onClick={logout}
           className="btn-healing"
-          style={{
-            flex: 1,
-            height: '40px',
-            background: '#fff0f0',
-            border: '1.5px solid #ffd1d1',
-            color: '#e53e3e',
-            fontSize: '13px',
-            boxShadow: 'none'
-          }}
+          style={{ flex: 1, height: '44px', background: '#fff0f0', border: '1.5px solid #ffd1d1', color: '#e53e3e', fontSize: '13px', boxShadow: 'none' }}
         >
           로그아웃 👤
         </button>
@@ -725,13 +685,21 @@ const ProfileTab: React.FC<{ onSelectFarm: (farm: Farm) => void }> = ({ onSelect
 };
 
 // 독립 로그인 화면 컴포넌트
-const LoginScreen: React.FC = () => {
+const LoginScreen = () => {
   const { login } = useFlow();
   const [loggingIn, setLoggingIn] = useState<'kakao' | 'google' | null>(null);
+  const [selectedProvider, setSelectedProvider] = useState<'kakao' | 'google' | null>(null);
 
   const triggerLogin = async (provider: 'kakao' | 'google') => {
     setLoggingIn(provider);
-    await login(provider);
+    await new Promise(resolve => setTimeout(resolve, 600));
+    setLoggingIn(null);
+    setSelectedProvider(provider);
+  };
+
+  const selectPersona = async (personaId: 'jungwoo' | 'jiyeon') => {
+    setLoggingIn(selectedProvider);
+    await login(selectedProvider!, personaId);
     setLoggingIn(null);
   };
 
@@ -743,56 +711,111 @@ const LoginScreen: React.FC = () => {
         <div className="login-subtitle">Cozy & Calm Mind Healing Room</div>
         <p className="login-desc">
           당신만을 위한 조용하고 평온한 치유 공간입니다.<br />
-          소셜 로그인을 통해 3초 만에 안전하게 입장하세요. 🌱
+          {selectedProvider ? '체험하실 페르소나를 선택해주세요. 🌱' : '소셜 로그인을 통해 3초 만에 안전하게 입장하세요. 🌱'}
         </p>
         
         <div className="login-buttons-container">
-          <button
-            onClick={() => triggerLogin('kakao')}
-            disabled={loggingIn !== null}
-            style={{
-              width: '100%',
-              height: '52px',
-              background: '#FEE500',
-              color: '#191919',
-              border: 'none',
-              borderRadius: 'var(--radius-md)',
-              fontSize: '15px',
-              fontWeight: 700,
-              cursor: 'pointer',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: '10px',
-              boxShadow: '0 4px 12px rgba(254, 229, 0, 0.15)',
-              transition: 'all 0.2s ease'
-            }}
-          >
-            {loggingIn === 'kakao' ? '잠시만 기다려주세요... 🌿' : '💬 카카오로 3초 간편 로그인'}
-          </button>
-          <button
-            onClick={() => triggerLogin('google')}
-            disabled={loggingIn !== null}
-            style={{
-              width: '100%',
-              height: '52px',
-              background: '#FFFFFF',
-              color: 'var(--text-main)',
-              border: '1.5px solid #e2e8f0',
-              borderRadius: 'var(--radius-md)',
-              fontSize: '15px',
-              fontWeight: 700,
-              cursor: 'pointer',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: '10px',
-              boxShadow: '0 4px 12px rgba(0, 0, 0, 0.02)',
-              transition: 'all 0.2s ease'
-            }}
-          >
-            {loggingIn === 'google' ? '잠시만 기다려주세요... 🌿' : '🌐 Google 계정으로 로그인'}
-          </button>
+          {!selectedProvider ? (
+            <>
+              <button
+                onClick={() => triggerLogin('kakao')}
+                disabled={loggingIn !== null}
+                style={{
+                  width: '100%',
+                  height: '52px',
+                  background: '#FEE500',
+                  color: '#191919',
+                  border: 'none',
+                  borderRadius: 'var(--radius-md)',
+                  fontSize: '15px',
+                  fontWeight: 700,
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '10px',
+                  boxShadow: '0 4px 12px rgba(254, 229, 0, 0.15)',
+                  transition: 'all 0.2s ease',
+                  marginBottom: '12px'
+                }}
+              >
+                {loggingIn === 'kakao' ? '인증 진행 중... 🌿' : '💬 카카오로 3초 간편 로그인'}
+              </button>
+              <button
+                onClick={() => triggerLogin('google')}
+                disabled={loggingIn !== null}
+                style={{
+                  width: '100%',
+                  height: '52px',
+                  background: '#FFFFFF',
+                  color: 'var(--text-main)',
+                  border: '1.5px solid #e2e8f0',
+                  borderRadius: 'var(--radius-md)',
+                  fontSize: '15px',
+                  fontWeight: 700,
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '10px',
+                  boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
+                  transition: 'all 0.2s ease'
+                }}
+              >
+                {loggingIn === 'google' ? '인증 진행 중... 🌿' : '🌐 Google 계정으로 로그인'}
+              </button>
+            </>
+          ) : (
+            <>
+              <button
+                onClick={() => selectPersona('jungwoo')}
+                disabled={loggingIn !== null}
+                style={{
+                  width: '100%',
+                  height: '52px',
+                  background: '#FFFFFF',
+                  color: 'var(--text-main)',
+                  border: '1.5px solid #e2e8f0',
+                  borderRadius: 'var(--radius-md)',
+                  fontSize: '15px',
+                  fontWeight: 700,
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '10px',
+                  boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
+                  transition: 'all 0.2s ease',
+                  marginBottom: '12px'
+                }}
+              >
+                {loggingIn !== null ? '입장 중... 🌿' : '👨‍💼 이정우 (40대 남성) 페르소나 시작'}
+              </button>
+              <button
+                onClick={() => selectPersona('jiyeon')}
+                disabled={loggingIn !== null}
+                style={{
+                  width: '100%',
+                  height: '52px',
+                  background: '#FFFFFF',
+                  color: 'var(--text-main)',
+                  border: '1.5px solid #e2e8f0',
+                  borderRadius: 'var(--radius-md)',
+                  fontSize: '15px',
+                  fontWeight: 700,
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '10px',
+                  boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
+                  transition: 'all 0.2s ease'
+                }}
+              >
+                {loggingIn !== null ? '입장 중... 🌿' : '👩‍💼 최지연 (30대 여성) 페르소나 시작'}
+              </button>
+            </>
+          )}
         </div>
       </div>
     </div>
@@ -983,7 +1006,30 @@ const HealingRoomApp: React.FC = () => {
     sendWorry
   } = useFlow();
 
-  const [activeTab, setActiveTab] = useState<'home' | 'chat' | 'farms' | 'profile' | 'perspective' | 'journal'>('home');
+  const [activeTab, setActiveTab] = useState<'home' | 'chat' | 'farms' | 'result' | 'perspective' | 'journal'>(() => {
+    const hash = window.location.hash.replace('#', '');
+    return ['home', 'chat', 'farms', 'result', 'perspective', 'journal'].includes(hash) ? hash as any : 'home';
+  });
+
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash.replace('#', '');
+      if (['home', 'chat', 'farms', 'result', 'perspective', 'journal'].includes(hash)) {
+        setActiveTab(hash as any);
+      } else if (!hash) {
+        setActiveTab('home');
+      }
+    };
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
+  const navigateToTab = (tab: 'home' | 'chat' | 'farms' | 'result' | 'perspective' | 'journal') => {
+    if (tab !== activeTab) {
+      window.history.pushState(null, '', `#${tab}`);
+      setActiveTab(tab);
+    }
+  };
   const [selectedFarm, setSelectedFarm] = useState<Farm | null>(null);
   const [infoModalContent, setInfoModalContent] = useState<{ title: string; desc: string; icon: string } | null>(null);
 
@@ -1031,7 +1077,7 @@ const HealingRoomApp: React.FC = () => {
         <div style={{ display: 'flex', alignItems: 'center', gap: '12px' }}>
           {activeTab !== 'home' ? (
             <button
-              onClick={() => setActiveTab('home')}
+              onClick={() => navigateToTab('home')}
               title="홈으로 돌아가기"
               style={{
                 border: 'none',
@@ -1053,7 +1099,7 @@ const HealingRoomApp: React.FC = () => {
             {activeTab === 'home' && 'Healing Mind Room'}
             {activeTab === 'chat' && '🌿 마음 치유의 방'}
             {activeTab === 'farms' && '🏕️ 치유농장 찾기'}
-            {activeTab === 'profile' && '👤 마이 프로필'}
+            {activeTab === 'result' && '👤 마이 프로필'}
             {activeTab === 'perspective' && '🔄 관점 전환 훈련'}
             {activeTab === 'journal' && '📖 인생 기록 다이어리'}
           </h1>
@@ -1094,7 +1140,7 @@ const HealingRoomApp: React.FC = () => {
       <div className="main-content-area">
         {activeTab === 'home' && (
           <HomeTab 
-            onNavigateToTab={(tab) => setActiveTab(tab)} 
+            onNavigateToTab={(tab) => navigateToTab(tab)} 
             onShowInfo={(title, desc, icon) => setInfoModalContent({ title, desc, icon })} 
           />
         )}
@@ -1154,8 +1200,8 @@ const HealingRoomApp: React.FC = () => {
           <FarmsTab onSelectFarm={(farm) => setSelectedFarm(farm)} />
         )}
 
-        {activeTab === 'profile' && (
-          <ProfileTab onSelectFarm={(farm) => setSelectedFarm(farm)} />
+        {activeTab === 'result' && (
+          <ResultTab onSelectFarm={(farm) => setSelectedFarm(farm)} />
         )}
 
         {activeTab === 'perspective' && (
@@ -1170,32 +1216,32 @@ const HealingRoomApp: React.FC = () => {
       {/* 3. 하단 네비게이션 바 */}
       <nav className="bottom-nav">
         <button 
-          onClick={() => setActiveTab('home')} 
+          onClick={() => navigateToTab('home')} 
           className={`nav-item ${activeTab === 'home' ? 'active' : ''}`}
         >
           <span className="nav-icon">🏠</span>
           <span>홈</span>
         </button>
         <button 
-          onClick={() => setActiveTab('chat')} 
+          onClick={() => navigateToTab('chat')} 
           className={`nav-item ${activeTab === 'chat' ? 'active' : ''}`}
         >
           <span className="nav-icon">💬</span>
           <span>AI 치유방</span>
         </button>
         <button 
-          onClick={() => setActiveTab('farms')} 
+          onClick={() => navigateToTab('farms')} 
           className={`nav-item ${activeTab === 'farms' ? 'active' : ''}`}
         >
           <span className="nav-icon">🏕️</span>
           <span>농장 찾기</span>
         </button>
         <button 
-          onClick={() => setActiveTab('profile')} 
-          className={`nav-item ${activeTab === 'profile' ? 'active' : ''}`}
+          onClick={() => navigateToTab('result')} 
+          className={`nav-item ${activeTab === 'result' ? 'active' : ''}`}
         >
-          <span className="nav-icon">👤</span>
-          <span>내 프로필</span>
+          <span className="nav-icon">💌</span>
+          <span>마음 처방전</span>
         </button>
       </nav>
 
