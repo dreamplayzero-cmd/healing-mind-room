@@ -615,26 +615,23 @@ button, input, textarea {
 .login-title {
   font-size: 38px;
   font-weight: 900;
-  color: #ffffff;
+  color: var(--green-dark);
   margin-bottom: 12px;
-  text-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
 }
 
 .login-subtitle {
   font-size: 18px;
-  color: var(--green-pale);
+  color: var(--green-mid);
   font-weight: 700;
   margin-bottom: 32px;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .login-desc {
   font-size: 15px;
-  color: #f8fafc;
+  color: var(--text-muted);
   line-height: 1.6;
   margin-bottom: 48px;
   max-width: 360px;
-  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .login-buttons-container {
