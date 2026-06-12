@@ -1098,7 +1098,7 @@ const HealingRoomApp: React.FC = () => {
           <h1 style={{ fontSize: activeTab === 'home' ? '18px' : '17px' }}>
             {activeTab === 'home' && 'Healing Mind Room'}
             {activeTab === 'chat' && '🌿 마음 치유의 방'}
-            {activeTab === 'farms' && '🏕️ 치유농장 찾기'}
+            {activeTab === 'farms' && '🏕️ 치유장소'}
             {activeTab === 'result' && '👤 마이 프로필'}
             {activeTab === 'perspective' && '🔄 관점 전환 훈련'}
             {activeTab === 'journal' && '📖 인생 기록 다이어리'}
@@ -1234,7 +1234,7 @@ const HealingRoomApp: React.FC = () => {
           className={`nav-item ${activeTab === 'farms' ? 'active' : ''}`}
         >
           <span className="nav-icon">🏕️</span>
-          <span>농장 찾기</span>
+          <span>치유장소</span>
         </button>
         <button 
           onClick={() => navigateToTab('result')} 

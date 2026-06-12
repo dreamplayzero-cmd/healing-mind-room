@@ -546,6 +546,7 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
         { value: '부모부양', icon: '👴' },
         { value: '번아웃', icon: '🔋' },
         { value: '자녀교육', icon: '📖' },
+        { value: '자기계발', icon: '💡' },
         { value: '건강관리', icon: '🏃' }
       ],
       '50s': [
@@ -569,7 +570,7 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
     return (
       <div style={{
         display: 'grid',
-        gridTemplateColumns: 'repeat(5, 1fr)',
+        gridTemplateColumns: 'repeat(auto-fit, minmax(74px, 1fr))',
         gap: '8px',
         marginTop: '10px',
         width: '100%',
