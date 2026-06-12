@@ -539,7 +539,8 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
         { value: '번아웃', icon: '🔋' },
         { value: '육아', icon: '👶' },
         { value: '인간관계', icon: '👥' },
-        { value: '미래불안', icon: '🔮' }
+        { value: '미래불안', icon: '🔮' },
+        { value: '자기계발', icon: '💡' }
       ],
       '40s': [
         { value: '직장스트레스', icon: '💼' },
