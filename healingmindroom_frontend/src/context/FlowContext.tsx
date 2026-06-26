@@ -6,7 +6,7 @@ import { matchFarms } from '../utils/matcher';
 import { getMatchingFarms } from '../utils/firebase';
 import counselResponses from '../data/counsel_responses.json';
 
-export type FlowStep = 'login' | 'step1' | 'step2' | 'loading' | 'step3';
+export type FlowStep = 'login' | 'step1' | 'step2' | 'loading' | 'step3' | 'followup';
 
 interface FlowContextType {
   step: FlowStep;
@@ -25,7 +25,7 @@ interface FlowContextType {
   messages: Message[];
   isTyping: boolean;
   
-  login: (provider: 'kakao' | 'google', personaId?: 'jungwoo' | 'jiyeon') => Promise<void>;
+  login: (provider: 'kakao' | 'google', personaId?: '30s' | '40s' | '50s' | '60s') => Promise<void>;
   logout: () => void;
   selectAge: (age: '30s' | '40s' | '50s' | '60s') => Promise<void>;
   selectWorryCategory: (category: string) => Promise<void>;
@@ -33,6 +33,8 @@ interface FlowContextType {
   sendDiagnostic: (fatigue: number, sleep: number, tension: number) => Promise<void>;
   resetFlow: () => void;
   selectPerspective: (target: string) => Promise<void>;
+  skipPerspective: () => Promise<void>;
+  sendFollowup: (text: string) => Promise<void>;
 }
 
 const FlowContext = createContext<FlowContextType | undefined>(undefined);
@@ -116,7 +118,7 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
         id: createId(),
         sender: 'bot',
         type: 'text',
-        content: `당신만을 위한 조용하고 평온한 치유 공간입니다. 소셜 로그인을 통해 3초 만에 안전하게 입장하세요.`,
+        content: `당신만을 위한 조용하고 평온한 치유공간입니다. 소셜 로그인을 통해 3초 만에 안전하게 입장하세요.`,
         timestamp: new Date()
       },
       {
@@ -130,7 +132,7 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
   };
 
   // 공통 로그인 성공 완료 처리 함수
-  const completeLoginFlow = (loggedInUser: User, provider: 'kakao' | 'google', personaId?: 'jungwoo' | 'jiyeon') => {
+  const completeLoginFlow = (loggedInUser: User, provider: 'kakao' | 'google', personaId?: '30s' | '40s' | '50s' | '60s') => {
     setUser(loggedInUser);
     localStorage.setItem('healing_session', JSON.stringify(loggedInUser));
     
@@ -138,8 +140,7 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     if (personaId) {
       // 페르소나 로그인 시 연령대 선택 생략
-      const personaAge = personaId === 'jungwoo' ? '40s' : '30s';
-      setSelectedAge(personaAge as any);
+      setSelectedAge(personaId as any);
 
       setMessages((prev) => [
         ...prev.filter(m => m.type !== 'login'),
@@ -147,14 +148,14 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
           id: createId(),
           sender: 'user',
           type: 'text',
-          content: `${personaId === 'jungwoo' ? '이정우 (40대 남성)' : '최지연 (30대 여성)'} 페르소나 시작`,
+          content: `${personaId === '30s' ? '최지연 (30대 여성)' : personaId === '40s' ? '이정우 (40대 남성)' : personaId === '50s' ? '전미경 (50대 여성)' : '김영수 (60대 남성)'} 페르소나 시작`,
           timestamp: new Date()
         },
         {
           id: createId(),
           sender: 'bot',
           type: 'text',
-          content: `반갑습니다, ${loggedInUser.name} 님! 🌿\n오늘 마음의 짐을 정리해 줄 어울리는 치유농장을 찾아드리겠습니다.`,
+          content: `반갑습니다, ${loggedInUser.name} 님! 🌿\n오늘 마음의 짐을 정리해 줄 어울리는 치유공간을 찾아드리겠습니다.`,
           timestamp: new Date()
         },
         {
@@ -187,7 +188,7 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
           id: createId(),
           sender: 'bot',
           type: 'text',
-          content: `반갑습니다, ${loggedInUser.name} 님! 🌿\n오늘 마음의 짐을 정리해 줄 어울리는 치유농장을 찾아드리겠습니다.`,
+          content: `반갑습니다, ${loggedInUser.name} 님! 🌿\n오늘 마음의 짐을 정리해 줄 어울리는 치유공간을 찾아드리겠습니다.`,
           timestamp: new Date()
         },
         {
@@ -288,12 +289,12 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
           alert(`[카카오 로그인 연동 실패 알림]\n카카오 로그인은 성공했으나, 사용자 정보를 가져오는 도중 에러가 발생했습니다.\n\n오류 내용: ${err.message || err}\n\n*원인 분석: 백엔드 서버가 없는 정적 웹앱 환경에서는 카카오의 보안 정책(CORS)에 의해 REST API 토큰 요청이 브라우저에서 차단될 수 있습니다. 안전을 위해 가상 사용자('최지연')로 연결합니다.`);
           // 실패 시 안전하게 Mock 유저로 폴백
           const fallbackUser: User = {
-            name: '최지연 (30대 여성)',
-            email: 'jiyeon@example.com',
-            avatarUrl: 'https://api.dicebear.com/7.x/adventurer/svg?seed=jiyeon&skinColor=f2d3b1',
+            name: '30대 사용자',
+            email: '30s@example.com',
+            avatarUrl: 'https://api.dicebear.com/7.x/adventurer/svg?seed=30s&skinColor=f2d3b1',
             provider: 'kakao'
           };
-          completeLoginFlow(fallbackUser, 'kakao', 'jiyeon');
+          completeLoginFlow(fallbackUser, 'kakao', '30s');
         } finally {
           // URL 파라미터에서 code 제거하여 깨끗하게 정돈
           const cleanUrl = window.location.pathname + window.location.hash;
@@ -306,7 +307,7 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
   }, []);
 
   // 2. 소셜 로그인 연동 (실제 Kakao REST API 연동 및 Mock 폴백)
-  const login = async (provider: 'kakao' | 'google', personaId?: 'jungwoo' | 'jiyeon') => {
+  const login = async (provider: 'kakao' | 'google', personaId?: '30s' | '40s' | '50s' | '60s') => {
     const enableRealSocial = import.meta.env.VITE_ENABLE_REAL_SOCIAL === 'true';
     const kakaoClientId = import.meta.env.VITE_KAKAO_CLIENT_ID || "";
     
@@ -322,17 +323,36 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
     // 구글 로그인 또는 실제 모드 꺼짐 / 키 누락 시 Mock 로그인 처리
     await new Promise((resolve) => setTimeout(resolve, 1000));
-    const loggedInUser: User = personaId === 'jiyeon' 
+    
+    let personaName = '테스트 사용자';
+    let personaAvatar = 'https://api.dicebear.com/7.x/adventurer/svg?seed=user';
+    
+    if (personaId === '30s') {
+      personaName = '최지연 (30대 여성)';
+      personaAvatar = 'https://api.dicebear.com/7.x/adventurer/svg?seed=jiyeon&skinColor=f2d3b1';
+    } else if (personaId === '40s') {
+      personaName = '이정우 (40대 남성)';
+      personaAvatar = 'https://api.dicebear.com/7.x/adventurer/svg?seed=jungwoo&skinColor=f2d3b1';
+    } else if (personaId === '50s') {
+      personaName = '전미경 (50대 여성)';
+      personaAvatar = 'https://api.dicebear.com/7.x/adventurer/svg?seed=mikyung_50_v9&skinColor=f2d3b1&hair=long05&hairColor=4a3123&glasses=variant04';
+    } else if (personaId === '60s') {
+      personaName = '김영수 (60대 남성)';
+      // 60대 김영수 어르신: 하얀 피부, 하얀 백발(hairColor=e6e6e6) 추가
+      personaAvatar = 'https://api.dicebear.com/7.x/adventurer/svg?seed=youngsoo&skinColor=f2d3b1&hairColor=e6e6e6,b6b6b6';
+    }
+
+    const loggedInUser: User = personaId 
       ? {
-          name: '최지연 (30대 여성)',
-          email: 'jiyeon@example.com',
-          avatarUrl: 'https://api.dicebear.com/7.x/adventurer/svg?seed=jiyeon&skinColor=f2d3b1',
+          name: personaName,
+          email: `${personaId}@example.com`,
+          avatarUrl: personaAvatar,
           provider: provider
         }
       : {
-          name: '이정우 (40대 남성)',
-          email: 'jungwoo@example.com',
-          avatarUrl: 'https://api.dicebear.com/7.x/adventurer/svg?seed=jungwoo',
+          name: '일반 로그인 사용자',
+          email: 'user@example.com',
+          avatarUrl: 'https://api.dicebear.com/7.x/adventurer/svg?seed=general',
           provider: provider
         };
 
@@ -341,6 +361,7 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
 
   // 3. 로그아웃
   const logout = () => {
+    window.location.hash = '';
     setUser(null);
     localStorage.removeItem('healing_session');
     
@@ -548,7 +569,7 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
     const thetaPercent = Math.round(waveResult.theta * 100);
     let waveMessage = "";
     if (thetaPercent >= 80) {
-      waveMessage = "정말 많이 버티셨어요. 지금 당장 쉬어도 괜찮아요. 아래 치유농장을 추천드려요 🌿";
+      waveMessage = "정말 많이 버티셨어요. 지금 당장 쉬어도 괜찮아요. 아래 치유공간을 추천드려요 🌿";
     } else if (thetaPercent >= 60) {
       waveMessage = "많이 지치셨군요. 잠깐이라도 자연 속에서 숨을 고르는 시간이 필요할 것 같아요 🌿";
     } else if (thetaPercent <= 40) {
@@ -630,9 +651,29 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
       };
       const ageLabel = ageLabelMap[selectedAge || '30s'] || '30대';
       const responsesDb = (counselResponses as any).default || counselResponses;
-      const responseData = responsesDb[ageLabel]?.[selectedWorryCategory];
+      let responseData = responsesDb[ageLabel]?.[selectedWorryCategory];
+
+      // 배열일 경우 랜덤으로 하나 선택 (3가지 변주 지원)
+      if (Array.isArray(responseData)) {
+        responseData = responseData[Math.floor(Math.random() * responseData.length)];
+      }
 
       if (responseData) {
+        // [신규] 사용자가 입력했던 고민을 5단계 답변 직전에 한 번 더 노출
+        if (worryText) {
+          setMessages((prev) => [
+            ...prev,
+            {
+              id: createId(),
+              sender: 'user',
+              type: 'text',
+              content: worryText,
+              timestamp: new Date()
+            }
+          ]);
+          await delay(500);
+        }
+
         const responseSteps = [
           { label: '감정공감', text: responseData.감정공감 },
           { label: '상황분석', text: responseData.상황분석 },
@@ -666,39 +707,25 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
       console.error("❌ 5단계 고민 상담 챗 연출 중 오류 발생:", counselError);
     }
 
-    // 최종 추천 치유농장 카드('farms' 타입) 챗 버블 출력
+    // [순서 변경] 5단계 답변 직후 → 관점 전환 버튼을 먼저 노출 (선택 사항)
+    //   · 사용자가 관점 전환을 보거나(selectPerspective) 건너뛰면(skipPerspective)
+    //     그 다음에 추가 질문 안내 → 치유농장 추천 카드(맨 마지막) 순으로 표시됩니다.
     try {
-      await delay(1000); // 최종 카드를 선정하는 1초 대기 연출
-      setIsTyping(false); // 모든 최종 출력이 완전히 준비되었을 때 비로소 로더 해제!
-
-      setMessages((prev) => [
-        ...prev,
-        {
-          id: createId(),
-          sender: 'bot',
-          type: 'farms',
-          content: '',
-          timestamp: new Date(),
-          data: {
-            farms: recommendedFarms
-          }
-        }
-      ]);
-
-      // [신규] 관점 전환 유도 버튼 버블 추가
       await delay(800);
+      setIsTyping(false); // 5단계 답변까지 모두 준비되면 로더 해제
+
       setMessages((prev) => [
         ...prev,
         {
           id: createId(),
           sender: 'bot',
           type: 'perspectiveButtons',
-          content: '혹시 이 갈등이나 스트레스를 유발하는 상대방이 있나요? 상대방의 눈으로 상황을 바라보고 세대 차이의 맥락을 이해할 수 있는 훈련을 받아보세요. 🔄',
+          content: '혹시 이 고민과 관련해 갈등이나 스트레스를 유발하는 상대방이 있나요? 원하시면 상대방의 눈으로 상황을 바라보는 관점 전환을 먼저 해볼 수 있어요. 필요 없으시면 건너뛰고 바로 추천을 받으셔도 됩니다. 🔄',
           timestamp: new Date()
         }
       ]);
-    } catch (farmsError) {
-      console.error("❌ 치유농장 챗 버블 전송 중 오류 발생:", farmsError);
+    } catch (perspError) {
+      console.error("❌ 관점 전환 버튼 버블 전송 중 오류 발생:", perspError);
       setIsTyping(false); // 에러 상황 발생 시에도 로더 해제 안전 보장
     }
 
@@ -761,40 +788,61 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
     let partnerView = "";
     let conflictAnalysis = "";
     let generationalUnderstanding = "";
+    let fact = "";
+    let positive = "";
+    let action = "";
 
     const cleanName = user ? user.name.split(' ')[0] : '사용자';
 
-    // 매칭 룰 정의
+    // 매칭 룰 정의 (전 연령 및 대상 맞춤 관점 전환 추천 로직 강화)
     if (target.includes('부모님')) {
       myView = `부모님의 과도한 간섭이나 조언이 나를 신뢰하지 못하는 불신감이나 독립성 침해로 느껴져 답답해하고 있습니다.`;
       partnerView = `험난한 세상 속에서 자녀가 시행착오나 실패 없이 안전하고 보장된 삶을 살기를 바라는 애정과 보호 본능이 있습니다. 다만 표현 방식이 과거 수직적 통제 형태로 표출되는 것입니다.`;
       conflictAnalysis = `자녀의 '자율성 욕구'와 부모의 '보장성(안전) 욕구'의 충돌입니다. 부모 입장에서는 여전히 자녀를 보호해야 할 미성숙한 존재로 파악하고 있어 의사소통 장벽이 생깁니다.`;
       generationalUnderstanding = `부모 세대(50~60대)는 고도 성장기와 외환 위기(IMF)를 거쳐 성실성과 안정성이 생존의 기본 지표였습니다. 반면 30대 자녀 세대는 저성장 시대 속에서 개인의 행복과 상호 존중을 더 지향하는 세대적 가치 차이가 존재합니다.`;
+      fact = "부모님의 참견은 나를 무시하는 것이 아니라 불안에서 기인한 서툰 사랑의 표현입니다.";
+      positive = "그 불안의 이면에는 내가 상처받지 않기를 바라는 깊은 애정이 숨어 있습니다.";
+      action = "감정적으로 맞부딪히기보다, 나의 구체적인 계획을 담담하게 공유하며 안심시켜 드리는 대화를 시도해보세요.";
     } else if (target.includes('상사') || target.includes('동료')) {
       myView = `내 업무 페이스와 자율성이 과하게 통제받거나 비효율적인 소통을 강요당하고 있다고 느끼며, 심리적 압박감을 호소합니다.`;
       partnerView = `조직 책임자로서 전체 리스크와 데드라인을 완벽히 통제해야 한다는 긴장감이 큽니다. 업무 진행 가시성이 확보되지 않으면 불안을 느끼고 과도한 개입(마이크로매니징)을 선택하게 됩니다.`;
       conflictAnalysis = `업무 모니터링 강도에 대한 수용력 차이입니다. 결과물 중심의 신뢰 위임을 바라는 실무자와 중간 과정의 철저한 추적 및 대면 피드백을 바라는 상사의 방식 차이입니다.`;
       generationalUnderstanding = `상사 세대는 수직적 군대식 기업 문화 속에서 대면 커뮤니케이션과 상사의 지시에 절대적으로 부응하며 생존해 왔습니다. 반면 20~30대 실무자는 수평적 구조와 합리적 소통 표준을 중시하기 때문에 생기는 간극입니다.`;
+      fact = "상사의 잦은 확인은 나를 불신해서가 아니라 본인의 업무 리스크 통제 불안 때문입니다.";
+      positive = "선제적으로 진행 상황을 공유하면 상사의 불안이 낮아지고 나의 자율성도 확보될 수 있습니다.";
+      action = "요청받기 전에 먼저 짤막한 중간 보고 메시지를 보내 상사에게 예측 가능성을 제공해보세요.";
     } else if (target.includes('자녀')) {
       myView = `자녀가 인생의 시행착오를 겪지 않도록 도움을 주고 싶으나, 내 조언을 잔소리로 치부하고 멀어지려 하는 모습에 섭섭함과 서운함을 느낍니다.`;
       partnerView = `자신이 온전한 성인으로 자립하여 책임을 지는 주체임을 증명하고 싶어 하며, 부모의 조언이 나의 무능력을 암시하거나 경계를 허무는 침입으로 받아들여 방어 태세를 취합니다.`;
       conflictAnalysis = `부모의 애정 어린 '개입 의지'와 자녀의 완전한 '독립 권리' 사이의 충돌입니다. 소통 방식이 쌍방 소통이 아닌 일방적 훈계 형태로 전달되어 관계의 서먹함을 증폭시킵니다.`;
       generationalUnderstanding = `조부모와 부모 밑에서 효도와 부모의 지도를 절대적 규범으로 수용하며 자란 이전 세대와 달리, 현재의 자녀 세대는 개성 존중, 수평적 대화, 개인 정보 및 사생활 영역 수호를 절대적 권리로 훈련받고 성장했습니다.`;
+      fact = "자녀의 거부는 나를 미워해서가 아니라 자신의 독립적 공간을 지키려는 건강한 성장 과정입니다.";
+      positive = "스스로 선택하고 책임지려는 자녀의 태도는 미래를 살아갈 중요한 생존 근육이 됩니다.";
+      action = "조언이나 해결책 대신, 자녀의 결정을 믿고 한 걸음 뒤에서 응원하는 지지자의 역할로 포지션을 전환해보세요.";
     } else if (target.includes('배우자')) {
       myView = `가장 든든한 동반자가 나의 일상적 고단함과 감정의 깊이를 몰라주고 회피하거나 차갑게 대하는 것 같아 정서적 고립감과 섭섭함을 느끼고 있습니다.`;
       partnerView = `배우자 또한 가정 유지와 각자 역할 수행의 누적된 스트레스로 심리 에너지가 바닥나 있습니다. 대화를 피하거나 단순 해결책만 던지는 것은 상대를 거부하는 것이 아니라 자신의 한계에서 오는 방어 기제입니다.`;
       conflictAnalysis = `정서적 위로(공감)를 기대하는 욕구와 실질적 과제 해결(논리)을 선호하는 문제 대처 방식의 어긋남입니다. 대화가 비난이나 요구로 흐르며 방어와 단절이 반복되고 있습니다.`;
       generationalUnderstanding = `가부장적 역할 분담 가치관과 동등한 동반자적 공유 가치관이 섞여 있는 과도기적 가정의 양상입니다. 일상 속 소소한 고마움을 구체적인 언어로 소통하는 훈련이 부족한 문화적 배경도 기인합니다.`;
+      fact = "배우자의 회피나 차가운 태도는 나를 무시하는 것이 아니라 스스로의 심리적 여력이 소진된 상태일 수 있습니다.";
+      positive = "서로 각자의 방식으로 책임을 다하고 있다는 점을 인정하면, 요구하기 전에 공감할 수 있는 틈이 생깁니다.";
+      action = "서운함을 토로하기 전에 오늘 하루 각자의 고단함을 인정하는 따뜻한 인사말을 먼저 건네보세요.";
     } else if (target.includes('손주')) {
       myView = `손주에게 따뜻하고 아낌없는 내리사랑을 전달하고 싶으나, 다가오지 않고 기기에만 몰두하는 냉소적 태도에 멀어짐과 섭섭함을 느낍니다.`;
       partnerView = `조부모의 사랑은 마음속으로 고맙게 생각하나, 소통 주제가 다르고 잔소리나 훈계를 들을까 봐 어색함을 피해 자신에게 가장 익숙하고 재미있는 스마트 세상으로 숨는 경향이 있습니다.`;
       conflictAnalysis = `면대면 감정 공유를 중시하는 조부모의 소통 표준과 비대면 텍스트/디지털 매체를 자연스럽게 여기는 손주 세대의 소통 표준이 충돌하는 현상입니다.`;
       generationalUnderstanding = `태어날 때부터 스마트폰과 유튜브를 공기처럼 들이마신 디지털 네이티브 세대의 절대적 특징입니다. 이들에게 기기 몰입은 무례함의 표시가 아니라, 감정을 표현하고 외부를 탐색하는 가장 친숙한 방식일 뿐입니다.`;
+      fact = "손주의 디지털 기기 몰입은 나에 대한 거부가 아니라 그들 세대의 자연스러운 기본 소통 방식입니다.";
+      positive = "손주가 흥미를 가지는 디지털 세상이나 요즘 문화를 조부모가 호기심을 가지고 물어본다면 훌륭한 대화의 연결고리가 될 수 있습니다.";
+      action = "손주가 즐겨보는 콘텐츠에 대해 가르치려 하기보다 배우려는 자세로 가벼운 질문을 던져보세요.";
     } else {
       myView = `가족이라는 가장 안전한 집단 내에서조차 나의 고통과 힘듦이 외면받거나 도구로 쓰이는 듯해 소외감과 관계 회의감을 느끼고 있습니다.`;
       partnerView = `가족 구성원 개개인도 급변하는 경쟁 사회에서 살아남기 위한 각자의 불안과 스트레스를 견뎌내느라 타인을 수용할 여유 에너지가 극도로 상실된 상태입니다.`;
       conflictAnalysis = `가족이라는 친밀함의 맹점으로 인해 최소한의 정서적 경계를 지키지 않고 말과 감정을 배설함으로써 깊은 상처를 주고받는 대화 악순환에 기여하고 있습니다.`;
       generationalUnderstanding = `과거의 '가족을 위한 개인의 전폭적 희생' 패러다임과 현대의 '개인의 자유와 권리 우선' 패러다임이 한 집안의 좁은 공간 내에서 세대 간 타협 없이 직면하고 있기 때문입니다.`;
+      fact = "나에게 상처를 주는 타인 역시 각자의 불안과 생존의 무게를 견디고 있는 불완전한 개인들입니다.";
+      positive = "가족이라는 틀에 얽매여 무조건 이해받기를 기대하기보다, 나와 타인의 심리적 경계를 분리하는 법을 배울 기회입니다.";
+      action = "상대방의 부정적 감정을 내 것으로 흡수하지 말고, 일정한 정서적 거리두기를 연습하며 나만의 치유공간을 확보하세요.";
     }
 
     setMessages((prev) => [
@@ -810,10 +858,21 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
           myView,
           partnerView,
           conflictAnalysis,
-          generationalUnderstanding
+          generationalUnderstanding,
+          fact,
+          positive,
+          action
         }
       },
-      // 다시 시작하기 버튼을 편의상 버블 뒤에 상시 노출하기 위해 추가
+      // [신규] 추가 질문 안내 — 아래 입력창(칸)이 활성화됩니다
+      {
+        id: createId(),
+        sender: 'bot',
+        type: 'text',
+        content: `여기까지 5단계 마음 처방과 관점 전환을 모두 살펴보았어요. 더 궁금한 점이 있으신가요? 아래 입력창에 자유롭게 적어 보내주시면 함께 살펴볼게요. 🌿`,
+        timestamp: new Date()
+      },
+      // 맞춤 추천 치유농장 카드 — 흐름의 맨 마지막에 표시 ('다시 시작하기' 버튼 포함)
       {
         id: createId(),
         sender: 'bot',
@@ -823,6 +882,95 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
         data: {
           farms: matchedFarms
         }
+      }
+    ]);
+
+    // 추가 질문 입력칸 활성화
+    setStep('followup');
+  };
+
+  // [신규] 관점 전환을 원치 않는 사용자: 건너뛰고 바로 추가질문 안내 + 치유농장으로 진행
+  const skipPerspective = async () => {
+    setMessages((prev) => [
+      ...prev.filter(m => m.type !== 'perspectiveButtons'),
+      {
+        id: createId(),
+        sender: 'user',
+        type: 'text',
+        content: '관점 전환은 건너뛰고 추천을 받을게요.',
+        timestamp: new Date()
+      }
+    ]);
+
+    setIsTyping(true);
+    await new Promise((resolve) => setTimeout(resolve, 700));
+    setIsTyping(false);
+
+    setMessages((prev) => [
+      ...prev,
+      {
+        id: createId(),
+        sender: 'bot',
+        type: 'text',
+        content: `여기까지 5단계 마음 처방을 모두 살펴보았어요. 더 궁금한 점이 있으신가요? 아래 입력창에 자유롭게 적어 보내주시면 함께 살펴볼게요. 🌿`,
+        timestamp: new Date()
+      },
+      {
+        id: createId(),
+        sender: 'bot',
+        type: 'farms',
+        content: '',
+        timestamp: new Date(),
+        data: {
+          farms: matchedFarms
+        }
+      }
+    ]);
+
+    setStep('followup');
+  };
+
+  // [신규] 추가 질문 처리 — 추천 이후에도 사용자가 자유롭게 더 물어볼 수 있도록 응답
+  const sendFollowup = async (text: string) => {
+    setMessages((prev) => [
+      ...prev,
+      {
+        id: createId(),
+        sender: 'user',
+        type: 'text',
+        content: text,
+        timestamp: new Date()
+      }
+    ]);
+
+    setIsTyping(true);
+    let comfort = '';
+    try {
+      const followupEmotion = await analyzeWorry(text, selectedAge || '30s');
+      comfort = followupEmotion.comfortMessage;
+    } catch (e) {
+      comfort = '';
+    }
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+    setIsTyping(false);
+
+    setMessages((prev) => [
+      ...prev,
+      {
+        id: createId(),
+        sender: 'bot',
+        type: 'text',
+        content: comfort
+          ? `말씀해 주셔서 고마워요. ${comfort}`
+          : `말씀해 주셔서 고마워요. 지금 느끼시는 마음을 천천히 들여다보며, 오늘 할 수 있는 가장 작은 한 걸음부터 함께 찾아봐요. 🌿`,
+        timestamp: new Date()
+      },
+      {
+        id: createId(),
+        sender: 'bot',
+        type: 'text',
+        content: `더 나누고 싶은 이야기가 있다면 아래 입력창에 편히 적어주세요. 새로운 진단을 원하시면 위 추천 카드의 "처음부터 다시 진단하기"를 눌러주세요. 🌱`,
+        timestamp: new Date()
       }
     ]);
   };
@@ -850,7 +998,9 @@ export const FlowProvider: React.FC<{ children: React.ReactNode }> = ({ children
         sendWorry,
         sendDiagnostic,
         resetFlow,
-        selectPerspective
+        selectPerspective,
+        skipPerspective,
+        sendFollowup
       }}
     >
       {children}

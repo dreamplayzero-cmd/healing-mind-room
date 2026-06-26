@@ -1,0 +1,19 @@
+# API Keys / Sensitive Info
+serviceAccountKey.json
+.env
+*.env
+.env.*
+
+# Local / Temp Files
+*.log
+*.sql
+*.csv
+counsel_responses*.json
+emotion_api_sample.json
+*.png
+*.jpg
+files/
+
+# Python cache / virtual envs
+__pycache__/
+*.pyc

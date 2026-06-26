@@ -15,7 +15,8 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
     resetFlow,
     selectedAge,
     step,
-    selectPerspective
+    selectPerspective,
+    skipPerspective
   } = useFlow();
 
   const [selectedFarm, setSelectedFarm] = useState<Farm | null>(null);
@@ -217,10 +218,20 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
           onClick={handleSend}
           disabled={sending}
           className="btn-healing"
-          style={{ height: '40px', borderRadius: 'var(--radius-sm)', fontSize: '13px' }}
+          style={{ height: '40px', borderRadius: 'var(--radius-sm)', fontSize: '13px', width: '100%' }}
         >
           {sending ? '자가진단 분석 중...' : '진단 결과 전송하기 🌿'}
         </button>
+
+        <div style={{ 
+          marginTop: '12px', 
+          textAlign: 'right', 
+          fontSize: '11px', 
+          color: 'var(--text-muted)', 
+          fontWeight: 600
+        }}>
+          🔬 농촌진흥청 국책연구 기반 뇌파 안정도 추정 위젯
+        </div>
       </div>
     );
   };
@@ -234,9 +245,30 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
     const alphaPct = Math.round(waves.alpha * 100);
     const thetaPct = Math.round(waves.theta * 100);
 
+    const flowerMap: Record<string, { icon: string, name: string, desc: string }> = {
+      '30s': { icon: '🌷', name: '튤립', desc: '새로운 시작과 활력을 응원하는 꽃' },
+      '40s': { icon: '🌻', name: '해바라기', desc: '따뜻한 햇살처럼 든든하고 밝은 에너지를 주는 꽃' },
+      '50s': { icon: '💮', name: '수국', desc: '풍성한 포용력과 성숙한 아름다움을 담은 꽃' },
+      '60s': { icon: '🌸', name: '난초', desc: '은은한 향기와 깊은 기품, 그리고 건강을 기원하는 꽃' }
+    };
+    const recommendedFlower = flowerMap[selectedAge || '30s'];
+
     return (
       <div className="chat-card-panel fade-in" style={{ width: '100%', maxWidth: '420px', background: '#f8fafc' }}>
         <div className="chat-card-title">📊 마음 치유 보고서 (뇌파 상태)</div>
+
+        {/* 나이대 맞춤 힐링 플라워 섹션 추가 */}
+        <div style={{ marginBottom: '16px', background: 'white', padding: '12px 16px', borderRadius: 'var(--radius-sm)', border: '1px solid var(--glass-border)', display: 'flex', alignItems: 'center', gap: '14px', boxShadow: '0 2px 8px rgba(0,0,0,0.02)' }}>
+          <div style={{ fontSize: '32px' }}>{recommendedFlower.icon}</div>
+          <div style={{ textAlign: 'left' }}>
+            <div style={{ fontSize: '13px', fontWeight: 800, color: 'var(--green-dark)', marginBottom: '4px' }}>
+              맞춤 힐링 플라워: {recommendedFlower.name}
+            </div>
+            <div style={{ fontSize: '11px', color: 'var(--text-main)', lineHeight: '1.4' }}>
+              {recommendedFlower.desc}
+            </div>
+          </div>
+        </div>
 
         <div style={{ marginBottom: '16px', background: 'white', padding: '12px', borderRadius: 'var(--radius-sm)', border: '1px solid var(--glass-border)' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '11px', fontWeight: 700, marginBottom: '6px' }}>
@@ -261,7 +293,7 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
           borderLeft: '4px solid var(--green-mid)',
           textAlign: 'left',
           boxShadow: '0 2px 8px rgba(45, 106, 79, 0.03)',
-          marginBottom: step !== 'step3' ? '12px' : '0'
+          marginBottom: (step !== 'step3' && step !== 'followup') ? '12px' : '0'
         }}>
           <div style={{ fontSize: '11px', fontWeight: 800, color: 'var(--green-dark)', marginBottom: '4px' }}>💬 뇌파 자가진단 한마디</div>
           <div style={{ fontSize: '13px', color: 'var(--text-main)', fontWeight: 700, lineHeight: '1.5' }}>
@@ -270,7 +302,7 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
         </div>
 
         {/* 대기 안내 가이드 추가 (최종 결과 도달 전까지만 노출) */}
-        {step !== 'step3' && (
+        {step !== 'step3' && step !== 'followup' && (
           <div style={{
             display: 'flex',
             alignItems: 'center',
@@ -285,7 +317,7 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
             boxShadow: '0 2px 6px rgba(45,106,79,0.02)'
           }}>
             <span style={{ fontSize: '14px', animation: 'floatLogo 1.5s infinite', display: 'inline-block' }}>⏳</span>
-            <span>AI 마음 처방(5단계)과 맞춤 추천 농장을 불러오고 있습니다...</span>
+            <span>AI 마음 처방(5단계)과 맞춤 추천 공간을 불러오고 있습니다...</span>
           </div>
         )}
       </div>
@@ -298,20 +330,38 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
 
     if (!farms) return null;
 
+    // 중복 이미지 방지를 위한 예비 자연 풍경 이미지 리스트
+    const backupImages = [
+      'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=800&q=80',
+      'https://images.unsplash.com/photo-1444312645910-ffa973656eba?auto=format&fit=crop&w=800&q=80',
+    ];
+
+    const seenImages = new Set<string>();
+    let backupIndex = 0;
+
     return (
       <div className="chat-card-panel fade-in" style={{ width: '100%', maxWidth: '420px', background: '#f8fafc' }}>
         <div style={{ marginBottom: '16px' }}>
           <div style={{ fontSize: '13px', fontWeight: 800, color: 'var(--green-dark)', marginBottom: '8px', textAlign: 'left' }}>
-            🏕️ 맞춤 추천 치유농장 (클릭 시 농장 상세 정보 확인)
+            🏕️ 맞춤 추천 치유공간 (클릭 시 공간 상세 정보 확인)
           </div>
           
           {farms.map((farm: Farm) => {
-            // 개별 카드 내에서 상태 관리를 위해 단순화된 스켈레톤 상태 적용을 위해 
-            // 별도의 로컬 상태 대신 img의 onLoad 속성을 활용하여 컨테이너 스타일 제어
+            // 똑같은 이미지가 하나라도 반복되는 현상을 막기 위해 Set으로 중복 관리
+            let finalImageUrl = farm.imageUrl || '/assets/placeholder-image.png';
+            if (seenImages.has(finalImageUrl)) {
+              finalImageUrl = backupImages[backupIndex % backupImages.length];
+              backupIndex++;
+            }
+            seenImages.add(finalImageUrl);
+
             return (
               <div
                 key={farm.id}
-                onClick={() => setSelectedFarm(farm)}
+                onClick={() => setSelectedFarm({ ...farm, imageUrl: finalImageUrl })}
                 style={{
                   background: 'white',
                   border: '1.5px solid var(--glass-border)',
@@ -339,7 +389,7 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
                   {/* 스켈레톤 애니메이션 CSS가 전역에 없으므로 인라인 애니메이션(펄스 효과) 모방 */}
                   <div style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', background: 'linear-gradient(90deg, #f1f5f9 25%, #e2e8f0 50%, #f1f5f9 75%)', backgroundSize: '200% 100%', animation: 'pulse 1.5s infinite' }} />
                   <img 
-                    src={farm.imageUrl || '/assets/placeholder-image.png'} 
+                    src={finalImageUrl} 
                     alt={farm.name} 
                     style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', objectFit: 'cover', opacity: 0, transition: 'opacity 0.3s' }}
                     onLoad={(e) => { e.currentTarget.style.opacity = '1'; }}
@@ -366,28 +416,50 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
             );
           })}
 
-          <button
-            onClick={resetFlow}
-            className="btn-healing"
-            style={{
-              marginTop: '12px',
-              height: '40px',
-              borderRadius: 'var(--radius-sm)',
-              fontSize: '13px',
-              background: 'white',
-              border: '1.5px solid var(--green-mid)',
-              color: 'var(--green-dark)',
-              fontWeight: 700,
-              cursor: 'pointer',
-              width: '100%',
-              display: 'flex',
-              alignItems: 'center',
-              justifyContent: 'center',
-              gap: '6px'
-            }}
-          >
-            🔄 처음부터 다시 진단하기
-          </button>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '8px', marginTop: '12px' }}>
+            <button
+              onClick={() => { window.location.hash = 'result'; }}
+              className="btn-healing"
+              style={{
+                height: '40px',
+                borderRadius: 'var(--radius-sm)',
+                fontSize: '13px',
+                background: 'var(--green-mid)',
+                border: 'none',
+                color: 'white',
+                fontWeight: 700,
+                cursor: 'pointer',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '6px'
+              }}
+            >
+              💌 종합 마음 처방전 확인하기
+            </button>
+            <button
+              onClick={resetFlow}
+              className="btn-healing"
+              style={{
+                height: '40px',
+                borderRadius: 'var(--radius-sm)',
+                fontSize: '13px',
+                background: 'white',
+                border: '1.5px solid var(--green-mid)',
+                color: 'var(--green-dark)',
+                fontWeight: 700,
+                cursor: 'pointer',
+                width: '100%',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                gap: '6px'
+              }}
+            >
+              🔄 처음부터 다시 진단하기
+            </button>
+          </div>
         </div>
 
         {selectedFarm && (
@@ -424,7 +496,7 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
               <div style={{
                 height: '220px',
                 width: '100%',
-                backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.65) 100%), url(${selectedFarm.imageUrl})`,
+                backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.65) 100%), url('${selectedFarm.imageUrl}')`,
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 position: 'relative',
@@ -465,7 +537,7 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
                   textAlign: 'left'
                 }}>
                   <span style={{ fontSize: '10px', background: 'rgba(0,0,0,0.5)', padding: '2px 6px', borderRadius: '8px', fontWeight: 700 }}>
-                    AI 맞춤 치유농장 추천
+                    AI 맞춤 치유공간 추천
                   </span>
                   <h3 style={{ fontSize: '18px', fontWeight: 900, marginTop: '2px' }}>{selectedFarm.name}</h3>
                 </div>
@@ -513,7 +585,7 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
                     }}
                     style={{ flex: 1, height: '40px', fontSize: '13px' }}
                   >
-                    더 많은 농장 찾아보기
+                    더 많은 공간 찾아보기
                   </button>
                   <button
                     className="btn-healing"
@@ -554,6 +626,7 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
         { value: '은퇴준비', icon: '🚜' },
         { value: '인간관계', icon: '👥' },
         { value: '건강관리', icon: '🏃' },
+        { value: '자식걱정', icon: '👪' },
         { value: '귀농탐색', icon: '🌿' },
         { value: '미래불안', icon: '🔮' }
       ],
@@ -561,6 +634,7 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
         { value: '은퇴적응', icon: '🏡' },
         { value: '외로움', icon: '🕊️' },
         { value: '건강관리', icon: '🏃' },
+        { value: '자식걱정', icon: '👪' },
         { value: '가족관계', icon: '👨‍👩‍👧‍👦' },
         { value: '삶의의미', icon: '✨' }
       ]
@@ -688,6 +762,22 @@ export const MessageItem: React.FC<MessageItemProps> = ({ message }) => {
               👁️ {btnLabel}
             </button>
           ))}
+          <button
+            onClick={() => skipPerspective()}
+            style={{
+              height: '36px',
+              fontSize: '12px',
+              background: 'transparent',
+              border: 'none',
+              color: 'var(--text-muted)',
+              fontWeight: 700,
+              cursor: 'pointer',
+              textDecoration: 'underline',
+              marginTop: '2px'
+            }}
+          >
+            관점 전환 없이 바로 추천 받기 →
+          </button>
         </div>
       </div>
     );

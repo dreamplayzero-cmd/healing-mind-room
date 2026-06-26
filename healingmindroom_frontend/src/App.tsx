@@ -40,7 +40,7 @@ const FarmDetailModal: React.FC<{ farm: Farm; onClose: () => void }> = ({ farm, 
         <div style={{
           height: '220px',
           width: '100%',
-          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.65) 100%), url(${farm.imageUrl})`,
+          backgroundImage: `linear-gradient(to bottom, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.65) 100%), url('${farm.imageUrl}')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           position: 'relative',
@@ -81,7 +81,7 @@ const FarmDetailModal: React.FC<{ farm: Farm; onClose: () => void }> = ({ farm, 
             textAlign: 'left'
           }}>
             <span style={{ fontSize: '10px', background: 'rgba(0,0,0,0.5)', padding: '2px 6px', borderRadius: '8px', fontWeight: 700 }}>
-              AI 맞춤 치유농장 추천
+              AI 맞춤 치유공간 추천
             </span>
             <h3 style={{ fontSize: '18px', fontWeight: 900, marginTop: '2px' }}>{farm.name}</h3>
           </div>
@@ -193,7 +193,7 @@ const FarmsTab: React.FC<{ onSelectFarm: (farm: Farm) => void }> = ({ onSelectFa
         <input 
           type="text" 
           className="search-box"
-          placeholder="치유농장 이름 또는 설명 검색..."
+          placeholder="치유공간 이름 또는 설명 검색..."
           value={query}
           onChange={(e) => setQuery(e.target.value)}
         />
@@ -247,38 +247,59 @@ const FarmsTab: React.FC<{ onSelectFarm: (farm: Farm) => void }> = ({ onSelectFa
       <div className="farms-grid">
         {loading ? (
           <div style={{ textAlign: 'center', padding: '60px 20px', color: 'var(--green-mid)', fontSize: '14px', fontWeight: 700 }}>
-            <span style={{ display: 'inline-block', animation: 'floatLogo 1.5s infinite', marginRight: '6px' }}>🌿</span> 치유농장 로드 중...
+            <span style={{ display: 'inline-block', animation: 'floatLogo 1.5s infinite', marginRight: '6px' }}>🌿</span> 치유공간 로드 중...
           </div>
         ) : filteredFarms.length > 0 ? (
-          filteredFarms.map(farm => (
-            <div 
-              key={farm.id}
-              className="farm-browse-card"
-              onClick={() => onSelectFarm(farm)}
-            >
-              <div 
-                className="farm-card-image"
-                style={{ backgroundImage: `url(${farm.imageUrl})` }}
-              />
-              <div className="farm-card-body">
-                <div className="farm-card-header">
-                  <span className="farm-card-name">{farm.name}</span>
-                  <span className="farm-card-area">{farm.area}</span>
+          (() => {
+            const seenImages = new Set<string>();
+            let backupIndex = 0;
+            const backupImages = [
+              'https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=80',
+              'https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80',
+              'https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800&q=80',
+              'https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=800&q=80',
+              'https://images.unsplash.com/photo-1444312645910-ffa973656eba?auto=format&fit=crop&w=800&q=80',
+            ];
+
+            return filteredFarms.map(farm => {
+              let finalImageUrl = farm.imageUrl || '/assets/placeholder-image.png';
+              if (seenImages.has(finalImageUrl)) {
+                finalImageUrl = backupImages[backupIndex % backupImages.length];
+                backupIndex++;
+              }
+              seenImages.add(finalImageUrl);
+
+              return (
+                <div 
+                  key={farm.id}
+                  className="farm-browse-card"
+                  onClick={() => onSelectFarm({ ...farm, imageUrl: finalImageUrl })}
+                >
+                  <div 
+                    className="farm-card-image"
+                    style={{ backgroundImage: `url('${finalImageUrl}')` }}
+                  />
+                  <div className="farm-card-body">
+                    <div className="farm-card-header">
+                      <span className="farm-card-name">{farm.name}</span>
+                      <span className="farm-card-area">{farm.area}</span>
+                    </div>
+                    <div className="farm-card-desc">{farm.description}</div>
+                    <div className="farm-card-tags">
+                      <span className="farm-card-tag">📍 {farm.location.split(' ')[1] || farm.area}</span>
+                      <span className="farm-card-tag">{farm.waveType === 'alpha' ? '🧠 알파파 우세' : '🧠 세타파 해소'}</span>
+                      {farm.themes.map(t => (
+                        <span key={t} className="farm-card-tag">#{t}</span>
+                      ))}
+                    </div>
+                  </div>
                 </div>
-                <div className="farm-card-desc">{farm.description}</div>
-                <div className="farm-card-tags">
-                  <span className="farm-card-tag">📍 {farm.location.split(' ')[1] || farm.area}</span>
-                  <span className="farm-card-tag">{farm.waveType === 'alpha' ? '🧠 알파파 우세' : '🧠 세타파 해소'}</span>
-                  {farm.themes.map(t => (
-                    <span key={t} className="farm-card-tag">#{t}</span>
-                  ))}
-                </div>
-              </div>
-            </div>
-          ))
+              );
+            });
+          })()
         ) : (
           <div style={{ textAlign: 'center', padding: '40px 20px', color: 'var(--text-muted)', fontSize: '13px' }}>
-            검색 결과에 맞는 치유농장이 없습니다. 🌱
+            검색 결과에 맞는 치유공간이 없습니다. 🌱
           </div>
         )}
       </div>
@@ -566,9 +587,11 @@ const ResultTab: React.FC<{ onSelectFarm: (farm: Farm) => void }> = ({ onSelectF
     user,
     logout,
     selectedWorryCategory,
+    worryText,
     waves,
     matchedFarms,
-    resetFlow
+    resetFlow,
+    selectedAge
   } = useFlow();
 
   if (!user || !waves) {
@@ -583,6 +606,21 @@ const ResultTab: React.FC<{ onSelectFarm: (farm: Farm) => void }> = ({ onSelectF
     );
   }
 
+  const getFlowerImage = (age: string) => {
+    switch (age) {
+      case '30s':
+        return "url('https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800&q=80')"; // 화사함 1
+      case '40s':
+        return "url('https://images.unsplash.com/photo-1472214103451-9374bd1c798e?auto=format&fit=crop&w=800&q=80')"; // 화사함 2
+      case '50s':
+        return "url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80')"; // 차분함 1
+      case '60s':
+        return "url('https://images.unsplash.com/photo-1518495973542-4542c06a5843?auto=format&fit=crop&w=800&q=80')"; // 차분함 2
+      default:
+        return "url('https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?auto=format&fit=crop&w=800&q=80')";
+    }
+  };
+
   return (
     <div className="profile-container" style={{ padding: '20px 16px', background: '#f8fafc' }}>
       <div style={{ textAlign: 'center', marginBottom: '24px', animation: 'fadeIn 0.8s ease-out' }}>
@@ -594,9 +632,7 @@ const ResultTab: React.FC<{ onSelectFarm: (farm: Farm) => void }> = ({ onSelectF
           width: '100%',
           height: '200px',
           borderRadius: 'var(--radius-md)',
-          backgroundImage: waves.dominant === "alpha" 
-            ? "url('https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=600&auto=format&fit=crop')"
-            : "url('https://images.unsplash.com/photo-1506744626753-1fa28f67e40d?q=80&w=600&auto=format&fit=crop')",
+          backgroundImage: getFlowerImage(selectedAge),
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           boxShadow: '0 8px 24px rgba(0,0,0,0.1)',
@@ -629,6 +665,15 @@ const ResultTab: React.FC<{ onSelectFarm: (farm: Farm) => void }> = ({ onSelectF
         </p>
       </div>
 
+      {worryText && (
+        <div className="section-card" style={{ animation: 'fadeIn 1.1s ease-out', background: '#f0fdf4', border: '1px solid #bbf7d0' }}>
+          <div style={{ fontSize: '12px', fontWeight: 800, color: 'var(--green-mid)', marginBottom: '8px' }}>📝 기록하신 고민 내용</div>
+          <p style={{ fontSize: '13px', color: 'var(--text-main)', lineHeight: '1.6', fontStyle: 'italic' }}>
+            "{worryText}"
+          </p>
+        </div>
+      )}
+
       {matchedFarms.length > 0 && (
         <div className="section-card" style={{ animation: 'fadeIn 1.2s ease-out' }}>
           <div className="section-title">🏕️ 당신에게 꼭 맞는 추천 공간</div>
@@ -650,7 +695,7 @@ const ResultTab: React.FC<{ onSelectFarm: (farm: Farm) => void }> = ({ onSelectF
               width: '60px',
               height: '60px',
               borderRadius: '8px',
-              backgroundImage: `url(${matchedFarms[0].imageUrl})`,
+              backgroundImage: `url('${matchedFarms[0].imageUrl}')`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
               flexShrink: 0
@@ -680,6 +725,16 @@ const ResultTab: React.FC<{ onSelectFarm: (farm: Farm) => void }> = ({ onSelectF
           로그아웃 👤
         </button>
       </div>
+
+      <div style={{ 
+        marginTop: '20px', 
+        textAlign: 'right', 
+        fontSize: '11px', 
+        color: 'var(--text-muted)', 
+        fontWeight: 600 
+      }}>
+        🔬 농촌진흥청 국책연구 기반 뇌파 안정도 추정 위젯
+      </div>
     </div>
   );
 };
@@ -697,21 +752,45 @@ const LoginScreen = () => {
     setSelectedProvider(provider);
   };
 
-  const selectPersona = async (personaId: 'jungwoo' | 'jiyeon') => {
+  const selectPersona = async (personaId: '30s' | '40s' | '50s' | '60s') => {
     setLoggingIn(selectedProvider);
     await login(selectedProvider!, personaId);
     setLoggingIn(null);
   };
 
+  const personaButtonStyle = {
+    width: '100%',
+    height: '52px',
+    background: '#FFFFFF',
+    color: 'var(--text-main)',
+    border: '1.5px solid #e2e8f0',
+    borderRadius: 'var(--radius-md)',
+    fontSize: '15px',
+    fontWeight: 700,
+    cursor: 'pointer',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: '10px',
+    boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
+    transition: 'all 0.2s ease',
+    marginBottom: '12px'
+  };
+
   return (
     <div className="login-screen">
       <div className="login-card">
-        <div className="login-logo">🌿</div>
-        <h1 className="login-title">마음 치유의 방</h1>
-        <div className="login-subtitle">Cozy & Calm Mind Healing Room</div>
+        {!selectedProvider && (
+          <>
+            <div className="login-logo">🌿</div>
+            <h1 className="login-title">마음 치유의 방</h1>
+            <div className="login-subtitle">Cozy & Calm Mind Healing Room</div>
+          </>
+        )}
         <p className="login-desc">
-          당신만을 위한 조용하고 평온한 치유 공간입니다.<br />
-          {selectedProvider ? '체험하실 페르소나를 선택해주세요. 🌱' : '소셜 로그인을 통해 3초 만에 안전하게 입장하세요. 🌱'}
+          {selectedProvider ? '체험하실 페르소나를 선택해주세요. 🌱' : (
+            <>당신만을 위한 조용하고 평온한 치유공간입니다.<br />소셜 로그인을 통해 3초 만에 안전하게 입장하세요. 🌱</>
+          )}
         </p>
         
         <div className="login-buttons-container">
@@ -745,21 +824,8 @@ const LoginScreen = () => {
                 onClick={() => triggerLogin('google')}
                 disabled={loggingIn !== null}
                 style={{
-                  width: '100%',
-                  height: '52px',
-                  background: '#FFFFFF',
-                  color: 'var(--text-main)',
-                  border: '1.5px solid #e2e8f0',
-                  borderRadius: 'var(--radius-md)',
-                  fontSize: '15px',
-                  fontWeight: 700,
-                  cursor: 'pointer',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  gap: '10px',
-                  boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
-                  transition: 'all 0.2s ease'
+                  ...personaButtonStyle,
+                  marginBottom: '0'
                 }}
               >
                 {loggingIn === 'google' ? '인증 진행 중... 🌿' : '🌐 Google 계정으로 로그인'}
@@ -767,52 +833,17 @@ const LoginScreen = () => {
             </>
           ) : (
             <>
-              <button
-                onClick={() => selectPersona('jungwoo')}
-                disabled={loggingIn !== null}
-                style={{
-                  width: '100%',
-                  height: '52px',
-                  background: '#FFFFFF',
-                  color: 'var(--text-main)',
-                  border: '1.5px solid #e2e8f0',
-                  borderRadius: 'var(--radius-md)',
-                  fontSize: '15px',
-                  fontWeight: 700,
-                  cursor: 'pointer',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  gap: '10px',
-                  boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
-                  transition: 'all 0.2s ease',
-                  marginBottom: '12px'
-                }}
-              >
-                {loggingIn !== null ? '입장 중... 🌿' : '👨‍💼 이정우 (40대 남성) 페르소나 시작'}
+              <button onClick={() => selectPersona('30s')} disabled={loggingIn !== null} style={personaButtonStyle}>
+                {loggingIn !== null ? '입장 중... 🌿' : '👩🏻‍🦰 최지연 (30대 여성) 페르소나 시작'}
               </button>
-              <button
-                onClick={() => selectPersona('jiyeon')}
-                disabled={loggingIn !== null}
-                style={{
-                  width: '100%',
-                  height: '52px',
-                  background: '#FFFFFF',
-                  color: 'var(--text-main)',
-                  border: '1.5px solid #e2e8f0',
-                  borderRadius: 'var(--radius-md)',
-                  fontSize: '15px',
-                  fontWeight: 700,
-                  cursor: 'pointer',
-                  display: 'flex',
-                  alignItems: 'center',
-                  justifyContent: 'center',
-                  gap: '10px',
-                  boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)',
-                  transition: 'all 0.2s ease'
-                }}
-              >
-                {loggingIn !== null ? '입장 중... 🌿' : '👩‍💼 최지연 (30대 여성) 페르소나 시작'}
+              <button onClick={() => selectPersona('40s')} disabled={loggingIn !== null} style={personaButtonStyle}>
+                {loggingIn !== null ? '입장 중... 🌿' : '👨🏻 이정우 (40대 남성) 페르소나 시작'}
+              </button>
+              <button onClick={() => selectPersona('50s')} disabled={loggingIn !== null} style={personaButtonStyle}>
+                {loggingIn !== null ? '입장 중... 🌿' : '👩🏻 전미경 (50대 여성) 페르소나 시작'}
+              </button>
+              <button onClick={() => selectPersona('60s')} disabled={loggingIn !== null} style={{ ...personaButtonStyle, marginBottom: '0' }}>
+                {loggingIn !== null ? '입장 중... 🌿' : '👨🏻‍🦳 김영수 (60대 남성) 페르소나 시작'}
               </button>
             </>
           )}
@@ -1003,7 +1034,8 @@ const HealingRoomApp: React.FC = () => {
     step,
     user,
     logout,
-    sendWorry
+    sendWorry,
+    sendFollowup
   } = useFlow();
 
   const [activeTab, setActiveTab] = useState<'home' | 'chat' | 'farms' | 'result' | 'perspective' | 'journal'>(() => {
@@ -1044,9 +1076,14 @@ const HealingRoomApp: React.FC = () => {
 
   const handleSend = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (inputWorry.trim().length >= 10 && !sending) {
+    const minLen = step === 'followup' ? 2 : 10;
+    if (inputWorry.trim().length >= minLen && !sending) {
       setSending(true);
-      await sendWorry(inputWorry);
+      if (step === 'followup') {
+        await sendFollowup(inputWorry);
+      } else {
+        await sendWorry(inputWorry);
+      }
       setInputWorry('');
       setSending(false);
     }
@@ -1055,14 +1092,15 @@ const HealingRoomApp: React.FC = () => {
   const handleKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
-      if (inputWorry.trim().length >= 10) {
+      const minLen = step === 'followup' ? 2 : 10;
+      if (inputWorry.trim().length >= minLen) {
         handleSend(e);
       }
     }
   };
 
-  // 고민 입력 필드 활성화 여부
-  const isInputActive = step === 'step1';
+  // 고민 입력 필드 활성화 여부 (최초 고민 입력 step1 + 추천 이후 추가질문 followup)
+  const isInputActive = step === 'step1' || step === 'followup';
 
   // 비로그인 사용자에게는 전용 로그인 화면 노출
   if (!user) {
@@ -1119,7 +1157,11 @@ const HealingRoomApp: React.FC = () => {
             />
             <span style={{ color: 'var(--green-dark)' }}>{user.name}</span>
             <button 
-              onClick={logout}
+              onClick={(e) => {
+                e.stopPropagation();
+                window.location.hash = '';
+                logout();
+              }}
               style={{
                 border: 'none',
                 background: 'none',
@@ -1127,7 +1169,11 @@ const HealingRoomApp: React.FC = () => {
                 cursor: 'pointer',
                 fontWeight: 700,
                 fontSize: '11px',
-                marginLeft: '4px'
+                marginLeft: '4px',
+                position: 'relative',
+                zIndex: 50,
+                pointerEvents: 'auto',
+                padding: '4px 8px'
               }}
             >
               로그아웃
@@ -1180,6 +1226,8 @@ const HealingRoomApp: React.FC = () => {
                 placeholder={
                   step === 'login'
                     ? "소셜 로그인을 대기 중입니다..."
+                    : step === 'followup'
+                    ? "더 궁금한 점이 있으면 자유롭게 물어보세요 🌿"
                     : isInputActive 
                     ? "여기에 마음속 고민을 10자 이상 적어주세요..." 
                     : "대화창 내의 가이드에 맞춰 진행해 주세요 💚"
@@ -1188,7 +1236,7 @@ const HealingRoomApp: React.FC = () => {
               <button
                 type="submit"
                 className="btn-send"
-                disabled={!isInputActive || inputWorry.trim().length < 10 || sending}
+                disabled={!isInputActive || inputWorry.trim().length < (step === 'followup' ? 2 : 10) || sending}
               >
                 {sending ? '...' : '➔'}
               </button>
