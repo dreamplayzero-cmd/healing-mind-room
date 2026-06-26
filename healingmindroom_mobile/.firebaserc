@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "healing-mind-2026"
+  },
+  "targets": {
+    "healing-mind-2026": {
+      "hosting": {
+        "mobile": [
+          "healing-time-mobile-2026"
+        ]
+      }
+    }
+  }
+}
